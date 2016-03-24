@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 19 Feb 2015 03:28:54 PM EET
+
+BeginCmp
+TimeStamp = /5391BFC5;
+Reference = C1;
+ValeurCmp = 470uF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD7F0A;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C166;
+Reference = C3;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C16C;
+Reference = C4;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391D31D;
+Reference = C5;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391D323;
+Reference = C6;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5C938;
+Reference = C7;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C804;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391BFB6;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391D8EB;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C15A;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C160;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C2A6;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C2A0;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391D311;
+Reference = P7;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391D329;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AD7F04;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5C93E;
+Reference = P10;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391D145;
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C901;
+Reference = Q2;
+ValeurCmp = IRF4905;
+IdModule  = TO220GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391C828;
+Reference = R1;
+ValeurCmp = 680R / 0.5W;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391D152;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5391CF90;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+EndListe

@@ -1,0 +1,285 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:power_split-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "5 aug 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_2 12V_IN1
+U 1 1 5391BFB6
+P 1450 1150
+F 0 "12V_IN1" V 1400 1150 40  0000 C CNN
+F 1 "CONN_2" V 1500 1150 40  0000 C CNN
+F 2 "~" H 1450 1150 60  0000 C CNN
+F 3 "~" H 1450 1150 60  0000 C CNN
+	1    1450 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 5391BFC5
+P 5750 4300
+F 0 "C1" H 5800 4400 50  0000 L CNN
+F 1 "4700uF" V 5550 4200 50  0000 L CNN
+F 2 "~" H 5750 4300 60  0000 C CNN
+F 3 "~" H 5750 4300 60  0000 C CNN
+	1    5750 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1500 1350 1700
+Wire Wire Line
+	1350 1700 1250 1700
+Wire Wire Line
+	1250 1700 1250 2300
+Wire Wire Line
+	1550 1500 1550 1700
+Wire Wire Line
+	1550 1700 1650 1700
+Wire Wire Line
+	1650 1700 1650 2300
+Connection ~ 1250 1950
+Connection ~ 1650 1950
+$Comp
+L GND #PWR01
+U 1 1 5391BFEC
+P 1650 2300
+F 0 "#PWR01" H 1650 2300 30  0001 C CNN
+F 1 "GND" H 1650 2230 30  0001 C CNN
+F 2 "" H 1650 2300 60  0000 C CNN
+F 3 "" H 1650 2300 60  0000 C CNN
+	1    1650 2300
+	1    0    0    -1  
+$EndComp
+Text Label 1250 2300 2    60   ~ 0
+12V
+$Comp
+L GND #PWR02
+U 1 1 5391C33C
+P 3250 1350
+F 0 "#PWR02" H 3250 1350 30  0001 C CNN
+F 1 "GND" H 3250 1280 30  0001 C CNN
+F 2 "" H 3250 1350 60  0000 C CNN
+F 3 "" H 3250 1350 60  0000 C CNN
+	1    3250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5391C804
+P 1500 4050
+F 0 "D1" H 1500 4150 50  0000 C CNN
+F 1 "LED" H 1500 3950 50  0000 C CNN
+F 2 "~" H 1500 4050 60  0000 C CNN
+F 3 "~" H 1500 4050 60  0000 C CNN
+	1    1500 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5391C828
+P 1500 3450
+F 0 "R1" V 1580 3450 40  0000 C CNN
+F 1 "680R / 0.5W" V 1400 3450 40  0000 C CNN
+F 2 "~" V 1430 3450 30  0000 C CNN
+F 3 "~" H 1500 3450 30  0000 C CNN
+	1    1500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5391C841
+P 1500 4400
+F 0 "#PWR03" H 1500 4400 30  0001 C CNN
+F 1 "GND" H 1500 4330 30  0001 C CNN
+F 2 "" H 1500 4400 60  0000 C CNN
+F 3 "" H 1500 4400 60  0000 C CNN
+	1    1500 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3050 1500 3200
+Wire Wire Line
+	1500 3700 1500 3850
+Wire Wire Line
+	1500 4250 1500 4400
+$Comp
+L FET_P Q2
+U 1 1 5391C901
+P 4350 3800
+F 0 "Q2" H 4253 4050 70  0000 C CNN
+F 1 "IRF4905" H 4203 3553 60  0000 C CNN
+F 2 "~" H 4350 3800 60  0000 C CNN
+F 3 "~" H 4350 3800 60  0000 C CNN
+	1    4350 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L R R3
+U 1 1 5391CF90
+P 3700 3400
+F 0 "R3" V 3780 3400 40  0000 C CNN
+F 1 "10K" V 3707 3401 40  0000 C CNN
+F 2 "~" V 3630 3400 30  0000 C CNN
+F 3 "~" H 3700 3400 30  0000 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3050 3700 3150
+Wire Wire Line
+	3700 3800 4050 3800
+Connection ~ 3700 3800
+Text Label 3700 3050 0    60   ~ 0
+12V
+Text Label 4500 3050 0    60   ~ 0
+12V
+Wire Wire Line
+	4500 3450 4500 3050
+Wire Wire Line
+	3700 3650 3700 3950
+$Comp
+L BC547 Q1
+U 1 1 5391D145
+P 3600 4150
+F 0 "Q1" H 3600 4001 40  0000 R CNN
+F 1 "BC547" H 3600 4300 40  0000 R CNN
+F 2 "TO92" H 3500 4252 29  0000 C CNN
+F 3 "" H 3600 4150 60  0000 C CNN
+	1    3600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5391D152
+P 3050 4150
+F 0 "R2" V 3130 4150 40  0000 C CNN
+F 1 "1K" V 3057 4151 40  0000 C CNN
+F 2 "~" V 2980 4150 30  0000 C CNN
+F 3 "~" H 3050 4150 30  0000 C CNN
+	1    3050 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 4150 4500 4400
+Wire Wire Line
+	3700 4350 3700 4550
+$Comp
+L GND #PWR04
+U 1 1 5391D1B9
+P 3700 4550
+F 0 "#PWR04" H 3700 4550 30  0001 C CNN
+F 1 "GND" H 3700 4480 30  0001 C CNN
+F 2 "" H 3700 4550 60  0000 C CNN
+F 3 "" H 3700 4550 60  0000 C CNN
+	1    3700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4150 3400 4150
+Wire Wire Line
+	2800 4150 2600 4150
+Text Label 4500 4400 0    60   ~ 0
+12V_SW
+Text Label 2600 4150 2    60   ~ 0
+12V_EN
+$Comp
+L CONN_2 12V_SW1
+U 1 1 5391D329
+P 5750 3500
+F 0 "12V_SW1" V 5700 3500 40  0000 C CNN
+F 1 "CONN_2" V 5800 3500 40  0000 C CNN
+F 2 "~" H 5750 3500 60  0000 C CNN
+F 3 "~" H 5750 3500 60  0000 C CNN
+	1    5750 3500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5950 3850 5850 3850
+Wire Wire Line
+	5550 3850 5650 3850
+Text Label 6150 4650 0    60   ~ 0
+12V_SW
+$Comp
+L GND #PWR05
+U 1 1 5391D5D5
+P 5550 4550
+F 0 "#PWR05" H 5550 4550 30  0001 C CNN
+F 1 "GND" H 5550 4480 30  0001 C CNN
+F 2 "" H 5550 4550 60  0000 C CNN
+F 3 "" H 5550 4550 60  0000 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+Text Label 3450 1500 3    60   ~ 0
+12V_EN
+Text Label 1500 3050 0    60   ~ 0
+12V_SW
+Wire Wire Line
+	5950 4650 6150 4650
+Wire Wire Line
+	5550 3850 5550 4550
+Connection ~ 5550 4300
+Wire Wire Line
+	5950 3850 5950 4650
+Connection ~ 5950 4300
+$Comp
+L CONN_3 K1
+U 1 1 55C0D6E7
+P 3350 900
+F 0 "K1" V 3300 900 50  0000 C CNN
+F 1 "CONN_3" V 3400 900 40  0000 C CNN
+F 2 "" H 3350 900 60  0000 C CNN
+F 3 "" H 3350 900 60  0000 C CNN
+	1    3350 900 
+	0    -1   -1   0   
+$EndComp
+Text Label 3350 1500 3    60   ~ 0
+12V
+Wire Wire Line
+	3450 1250 3450 1500
+Wire Wire Line
+	3350 1250 3350 1500
+Wire Wire Line
+	3250 1250 3250 1350
+$EndSCHEMATC

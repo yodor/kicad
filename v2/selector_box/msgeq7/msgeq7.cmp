@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 17 Nov 2015 12:02:38 PM EET
+
+BeginCmp
+TimeStamp = /53274D44;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53274D6C;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53274D57;
+Reference = C4;
+ValeurCmp = 33pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53274D51;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /56485B03;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /56485B15;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /56485B09;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /56485B0F;
+Reference = C10;
+ValeurCmp = 33pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /564AF623;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5616B953;
+Reference = FB2;
+ValeurCmp = FILTER;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53274D25;
+Reference = P1;
+ValeurCmp = Msgeq7_1;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /56485AFD;
+Reference = P2;
+ValeurCmp = Msgeq7_1;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /56485B25;
+Reference = R1;
+ValeurCmp = 200K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53274E5A;
+Reference = R2;
+ValeurCmp = 200K;
+IdModule  = R4;
+EndCmp
+
+EndListe

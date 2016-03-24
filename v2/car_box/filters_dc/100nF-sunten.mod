@@ -1,0 +1,46 @@
+PCBNEW-LibModule-V1  Sat 20 Sep 2014 03:28:51 PM EEST
+# encoding utf-8
+Units mm
+$INDEX
+CP6
+$EndINDEX
+$MODULE CP6
+Po 0 0 0 15 541D71AC 00000000 ~~
+Li CP6
+Cd Condensateur polarise
+Kw CP
+Sc 0
+AR /52626311
+Op 0 0 0
+T0 -0.508 0 1.524 1.524 0 0.3048 N V 21 N "C14"
+T1 0.635 0 1.524 1.524 0 0.3048 N I 21 N "100nF"
+DS 9.1 0 9.1 3 0.15 21
+DS 9.1 3 8.9 3 0.15 21
+DS 9.1 0 9.1 -3 0.15 21
+DS 9.1 -3 8.9 -3 0.15 21
+DS -9.1 0 -9.1 3 0.15 21
+DS -9.1 0 -9.1 -3 0.15 21
+DS 8.9 -3 -9.2 -3 0.15 21
+DS 8.9 3 -9.2 3 0.15 21
+$PAD
+Sh "1" R 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 1 "N-000004"
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "2" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000005"
+Po 7.62 0
+$EndPAD
+$SHAPE3D
+Na "discret/c_pol.wrl"
+Sc 0.6 0.6 0.6
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE CP6
+$EndLIBRARY

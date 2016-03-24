@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 08 Jun 2014 04:40:01 PM EEST
+
+BeginCmp
+TimeStamp = /5394565C;
+Reference = C1;
+ValeurCmp = 470uF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394563E;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945643;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53946C43;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDV;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945AAE;
+Reference = EXT1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394564A;
+Reference = EXT2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945914;
+Reference = IR_SENSOR1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394563A;
+Reference = J1;
+ValeurCmp = ATMEGA328P;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394684B;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945649;
+Reference = PWR_IN1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945647;
+Reference = R1;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945644;
+Reference = R2;
+ValeurCmp = 100R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945DAC;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53946C3B;
+Reference = R4;
+ValeurCmp = 680R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5394700D;
+Reference = RELAY_OUT1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53947005;
+Reference = RELAY_PWR1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53945646;
+Reference = RS1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+EndListe

@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 09 Oct 2014 03:22:37 PM EEST
+
+BeginCmp
+TimeStamp = /52497DB4;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497D8D;
+Reference = C8;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497DBA;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497D9A;
+Reference = C10;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52626317;
+Reference = C11;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52626331;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5262630B;
+Reference = C13;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52626311;
+Reference = C14;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497BBA;
+Reference = DC_IN1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5249832A;
+Reference = DC_OUT1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52507074;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = FUSE5-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /52507087;
+Reference = F3;
+ValeurCmp = FUSE;
+IdModule  = FUSE5-20;
+EndCmp
+
+EndListe

@@ -1,0 +1,211 @@
+
+(session pot_board.ses
+  (base_design pot_board.dsn)
+  (placement
+    (resolution um 10)
+    (component "DIP-16__300"
+      (place IC1 952500 -571500 front 180)
+    )
+    (component bornier3
+      (place Audio_OUT1 660400 -1270000 front 90)
+      (place Audio_In1 660400 -1066800 front 90)
+      (place Pot_control1 622300 -609600 front 90)
+    )
+    (component bornier2
+      (place Power1 635000 -457200 front 180)
+    )
+    (component "ALPS Motorized"
+      (place U1 838200 -1295400 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2013-may-18)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_889:635_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_889:0_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net 5V
+        (wire
+          (path B.Cu 10000
+            863600 -533400
+            787400 -457200
+            660400 -457200
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path B.Cu 10000
+            609600 -457200
+            717790 -565390
+            901364 -565390
+            939800 -603826
+            939800 -609600
+          )
+        )
+        (wire
+          (path B.Cu 10000
+            965200 -609600
+            939800 -609600
+          )
+        )
+      )
+      (net "N-0000016"
+        (wire
+          (path B.Cu 10000
+            1092200 -711200
+            1085908 -711200
+            990600 -615892
+            990600 -609600
+          )
+        )
+      )
+      (net "N-0000017"
+        (wire
+          (path B.Cu 10000
+            914400 -711200
+            914400 -609600
+          )
+        )
+      )
+      (net "N-0000019"
+        (wire
+          (path B.Cu 10000
+            660400 -1320800
+            688103 -1320800
+            711199 -1297700
+            891304 -1297700
+            914400 -1320800
+          )
+          (type protect)
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path B.Cu 10000
+            914400 -1219200
+            891742 -1241860
+            683058 -1241860
+            660400 -1219200
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000020"
+        (wire
+          (path B.Cu 10000
+            965200 -1270000
+            965200 -1320800
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 10000
+            965200 -1219200
+            965200 -1270000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 10000
+            965200 -1270000
+            660400 -1270000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 10000
+            660400 -1270000
+            632697 -1242300
+            632697 -1207680
+            688104 -1152270
+            688104 -1094500
+            660400 -1066800
+          )
+          (type protect)
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path B.Cu 10000
+            863600 -1219200
+            660400 -1016000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path B.Cu 10000
+            660400 -1117600
+            660400 -1145300
+            612459 -1193240
+            612459 -1319480
+            641486 -1348500
+            835896 -1348500
+            863600 -1320800
+          )
+          (type protect)
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path B.Cu 10000
+            622300 -609600
+            581731 -569031
+            581731 -445840
+            598247 -429324
+            972681 -429324
+            1063389 -520032
+            1063389 -546895
+            1016000 -594284
+            1016000 -609600
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path B.Cu 10000
+            622300 -660400
+            812800 -660400
+            863600 -609600
+          )
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path B.Cu 10000
+            622300 -558800
+            650866 -587366
+            872554 -587366
+            889000 -603812
+            889000 -609600
+          )
+        )
+      )
+    )
+  )
+)

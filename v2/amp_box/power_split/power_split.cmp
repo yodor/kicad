@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 09 Oct 2015 11:21:56 AM EEST
+
+BeginCmp
+TimeStamp = /53F49E5E;
+Reference = +45IN1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F49F02;
+Reference = +45OUT1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F49E64;
+Reference = -45IN1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F49F08;
+Reference = -45OUT1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /537D0C6D;
+Reference = 12VIN1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F4A26E;
+Reference = 12VOUT1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F49E6A;
+Reference = AGND_IN1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F49F0E;
+Reference = AGND_OUT1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F4A1F8;
+Reference = DGND_IN1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F4A274;
+Reference = DGND_OUT1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+EndListe

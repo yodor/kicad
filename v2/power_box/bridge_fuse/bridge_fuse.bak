@@ -1,0 +1,222 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bridge_fuse-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "29 jun 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_3 AC1
+U 1 1 52497BBA
+P 10700 3600
+F 0 "AC1" V 10650 3600 50  0000 C CNN
+F 1 "CONN_3" V 10750 3600 40  0000 C CNN
+F 2 "~" H 10700 3600 60  0000 C CNN
+F 3 "~" H 10700 3600 60  0000 C CNN
+	1    10700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 52497C07
+P 8800 3350
+F 0 "C1" H 8800 3450 40  0000 L CNN
+F 1 "470nF" H 8806 3265 40  0000 L CNN
+F 2 "~" H 8838 3200 30  0000 C CNN
+F 3 "~" H 8800 3350 60  0000 C CNN
+	1    8800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 52497C14
+P 8800 3850
+F 0 "C2" H 8800 3950 40  0000 L CNN
+F 1 "470nF" H 8806 3765 40  0000 L CNN
+F 2 "~" H 8838 3700 30  0000 C CNN
+F 3 "~" H 8800 3850 60  0000 C CNN
+	1    8800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 52497C74
+P 6300 3250
+F 0 "C3" H 6300 3350 40  0000 L CNN
+F 1 "100nF" H 6306 3165 40  0000 L CNN
+F 2 "~" H 6338 3100 30  0000 C CNN
+F 3 "~" H 6300 3250 60  0000 C CNN
+	1    6300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 52497C7E
+P 6300 4200
+F 0 "C4" H 6300 4300 40  0000 L CNN
+F 1 "100nF" H 6306 4115 40  0000 L CNN
+F 2 "~" H 6338 4050 30  0000 C CNN
+F 3 "~" H 6300 4200 60  0000 C CNN
+	1    6300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 52497C84
+P 4600 4200
+F 0 "C5" H 4600 4300 40  0000 L CNN
+F 1 "100nF" H 4606 4115 40  0000 L CNN
+F 2 "~" H 4638 4050 30  0000 C CNN
+F 3 "~" H 4600 4200 60  0000 C CNN
+	1    4600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 52497C8D
+P 4600 3250
+F 0 "C6" H 4600 3350 40  0000 L CNN
+F 1 "100nF" H 4606 3165 40  0000 L CNN
+F 2 "~" H 4638 3100 30  0000 C CNN
+F 3 "~" H 4600 3250 60  0000 C CNN
+	1    4600 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3550 8800 3650
+Connection ~ 8800 3600
+Connection ~ 8800 4050
+Wire Wire Line
+	6650 3800 6650 2600
+Wire Wire Line
+	5450 2750 8600 2750
+Connection ~ 8800 3150
+Wire Wire Line
+	10350 3150 10350 3500
+Wire Wire Line
+	8050 3600 10350 3600
+Wire Wire Line
+	10350 4050 10350 3700
+Wire Wire Line
+	8600 2750 8600 3150
+Wire Wire Line
+	5450 4750 8600 4750
+Wire Wire Line
+	8600 4750 8600 4050
+Wire Wire Line
+	8050 5100 8050 3600
+Wire Wire Line
+	3100 5100 8050 5100
+Connection ~ 4600 3800
+Connection ~ 6300 3800
+Wire Wire Line
+	4600 3450 4600 4000
+Wire Wire Line
+	4600 4400 4600 4650
+Connection ~ 1100 3750
+$Comp
+L BRIDGE D1
+U 1 1 5491B5FD
+P 5450 3800
+F 0 "D1" H 5450 3850 70  0000 C CNN
+F 1 "BRIDGE" H 5450 3750 70  0000 C CNN
+F 2 "~" H 5450 3800 60  0000 C CNN
+F 3 "~" H 5450 3800 60  0000 C CNN
+	1    5450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4650 6300 4650
+Wire Wire Line
+	6300 4650 6300 4400
+Connection ~ 5450 4650
+Wire Wire Line
+	5450 4750 5450 4650
+Wire Wire Line
+	1600 3800 4600 3800
+Wire Wire Line
+	6300 3800 6650 3800
+Wire Wire Line
+	8600 3150 10350 3150
+Wire Wire Line
+	8600 4050 10350 4050
+Wire Wire Line
+	5450 2750 5450 2950
+Connection ~ 5450 2950
+Wire Wire Line
+	4600 2950 6300 2950
+Wire Wire Line
+	6300 3450 6300 4000
+Wire Wire Line
+	6300 2950 6300 3050
+Wire Wire Line
+	4600 2950 4600 3050
+Wire Wire Line
+	1600 3800 1600 4050
+Wire Wire Line
+	1600 4050 1100 4050
+Wire Wire Line
+	1100 3750 3100 3750
+Wire Wire Line
+	3100 3750 3100 5100
+Wire Wire Line
+	1100 3500 3100 3500
+Wire Wire Line
+	3100 3500 3100 2600
+Wire Wire Line
+	3100 2600 6650 2600
+$Comp
+L CONN_3 K1
+U 1 1 54921C45
+P 750 3750
+F 0 "K1" V 700 3750 50  0000 C CNN
+F 1 "CONN_3" V 800 3750 40  0000 C CNN
+F 2 "~" H 750 3750 60  0000 C CNN
+F 3 "~" H 750 3750 60  0000 C CNN
+	1    750  3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 4050 1100 3850
+Wire Wire Line
+	1100 3500 1100 3650
+$EndSCHEMATC

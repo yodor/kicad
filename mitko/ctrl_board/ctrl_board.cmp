@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 17 Sep 2014 11:26:40 AM EEST
+
+BeginCmp
+TimeStamp = /533C403E;
+Reference = AIO1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380B35E;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C3B9C;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C439A;
+Reference = C6;
+ValeurCmp = 470uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD3BF7;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380B486;
+Reference = I2C1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD458E;
+Reference = IO1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54194541;
+Reference = IO2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5419453B;
+Reference = IO3;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C3994;
+Reference = J1;
+ValeurCmp = Atmega328;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AC271D;
+Reference = K1;
+ValeurCmp = IO5;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AC272C;
+Reference = P1;
+ValeurCmp = IO4;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD3F1A;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C3949;
+Reference = PwrIn1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD3950;
+Reference = PwrOut1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD457F;
+Reference = PwrOut2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD42A7;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C4AD8;
+Reference = R2;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD4625;
+Reference = RS232;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+EndListe

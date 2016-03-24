@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 26 Jun 2015 03:51:30 PM EEST
+
+BeginCmp
+TimeStamp = /5477349B;
+Reference = C1;
+ValeurCmp = 470uF;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /547734A0;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547734A2;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547734A1;
+Reference = C10;
+ValeurCmp = 10uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54772D2C;
+Reference = C13;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477349F;
+Reference = C16;
+ValeurCmp = 10uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477293E;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477284F;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54773479;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477349A;
+Reference = PowerIn1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547747D9;
+Reference = PowerOut1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54839FB8;
+Reference = PowerOut2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5483A362;
+Reference = PowerOut3;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54772B42;
+Reference = R1;
+ValeurCmp = FB;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54773478;
+Reference = R4;
+ValeurCmp = 680R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477349D;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = LM78XXV;
+EndCmp
+
+EndListe

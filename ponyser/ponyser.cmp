@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 02 Jul 2015 02:09:30 PM EEST
+
+BeginCmp
+TimeStamp = /523C4E2F;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C51C1;
+Reference = C4;
+ValeurCmp = 4.7uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4E3E;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4DC8;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4DD5;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4DDB;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4F5B;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C5443;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4E04;
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4DA0;
+Reference = R1;
+ValeurCmp = 15K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4D9A;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4D70;
+Reference = R4;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4D8E;
+Reference = R5;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4D94;
+Reference = R6;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4E71;
+Reference = U3;
+ValeurCmp = LM2936Z-5;
+IdModule  = LM2931;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4DAD;
+Reference = Z1;
+ValeurCmp = 5.1V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4DBA;
+Reference = Z2;
+ValeurCmp = 5.1V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4DC0;
+Reference = Z3;
+ValeurCmp = 5.1V;
+IdModule  = D3;
+EndCmp
+
+EndListe

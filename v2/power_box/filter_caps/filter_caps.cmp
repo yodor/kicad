@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Thu 18 Dec 2014 02:25:42 AM EET
+
+BeginCmp
+TimeStamp = /52497BBA;
+Reference = AC1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497DB4;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497D8D;
+Reference = C8;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497DBA;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497D9A;
+Reference = C10;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52626317;
+Reference = C11;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52626331;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5262630B;
+Reference = C13;
+ValeurCmp = 10000uF;
+IdModule  = capacitor_big;
+EndCmp
+
+BeginCmp
+TimeStamp = /52626311;
+Reference = C14;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5491B403;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5491B410;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+EndListe

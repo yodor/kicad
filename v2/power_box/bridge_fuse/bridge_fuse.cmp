@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 29 Jun 2015 04:24:02 PM EEST
+
+BeginCmp
+TimeStamp = /52497BBA;
+Reference = AC1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497C07;
+Reference = C1;
+ValeurCmp = 470nF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497C14;
+Reference = C2;
+ValeurCmp = 470nF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497C74;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497C7E;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497C84;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52497C8D;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = CP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5491B5FD;
+Reference = D1;
+ValeurCmp = BRIDGE;
+IdModule  = bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54921C45;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+EndListe

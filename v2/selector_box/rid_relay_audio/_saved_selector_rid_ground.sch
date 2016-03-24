@@ -1,0 +1,644 @@
+EESchema Schematic File Version 2
+LIBS:selector_rid_ground-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:selector_rid_ground-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "17 nov 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC547 Q1
+U 1 1 537C7A2D
+P 2700 2650
+F 0 "Q1" H 2700 2501 40  0000 R CNN
+F 1 "BC547" H 2700 2800 40  0000 R CNN
+F 2 "TO92" H 2600 2752 29  0000 C CNN
+F 3 "" H 2700 2650 60  0000 C CNN
+	1    2700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIL14 P1
+U 1 1 537C7ABA
+P 3650 2200
+F 0 "P1" H 3650 2600 60  0000 C CNN
+F 1 "DIP05-2A72-21L" V 3650 2200 50  0000 C CNN
+F 2 "~" H 3650 2200 60  0000 C CNN
+F 3 "~" H 3650 2200 60  0000 C CNN
+	1    3650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 537C7AE2
+P 3000 2200
+F 0 "D1" H 3000 2300 40  0000 C CNN
+F 1 "DIODE" H 3000 2100 40  0000 C CNN
+F 2 "~" H 3000 2200 60  0000 C CNN
+F 3 "~" H 3000 2200 60  0000 C CNN
+	1    3000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_3 K3
+U 1 1 537C7B53
+P 3650 3350
+F 0 "K3" V 3600 3350 50  0000 C CNN
+F 1 "CONN_3" V 3700 3350 40  0000 C CNN
+F 2 "~" H 3650 3350 60  0000 C CNN
+F 3 "~" H 3650 3350 60  0000 C CNN
+	1    3650 3350
+	0    1    1    0   
+$EndComp
+Text Label 1850 -1000 3    60   ~ 0
+G_IN3
+Text Label 3300 1350 2    60   ~ 0
+L_IN1
+Text Label 4000 1500 0    60   ~ 0
+R_IN1
+Text Label 3300 3000 2    60   ~ 0
+L_OUT
+Text Label 4000 3000 0    60   ~ 0
+R_OUT
+NoConn ~ 4000 2000
+NoConn ~ 4000 2100
+NoConn ~ 4000 2200
+NoConn ~ 4000 2300
+NoConn ~ 4000 2400
+NoConn ~ 3300 2300
+NoConn ~ 3300 2200
+NoConn ~ 3300 2100
+$Comp
+L GND-RESCUE-selector_rid_ground #PWR01
+U 1 1 537C7C39
+P 2800 3000
+F 0 "#PWR01" H 2800 3000 30  0001 C CNN
+F 1 "GND" H 2800 2930 30  0001 C CNN
+F 2 "" H 2800 3000 60  0000 C CNN
+F 3 "" H 2800 3000 60  0000 C CNN
+	1    2800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-selector_rid_ground R1
+U 1 1 537C7C41
+P 2100 2650
+F 0 "R1" V 2180 2650 40  0000 C CNN
+F 1 "12K" V 2107 2651 40  0000 C CNN
+F 2 "~" V 2030 2650 30  0000 C CNN
+F 3 "~" H 2100 2650 30  0000 C CNN
+	1    2100 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 537C7CF0
+P -2250 100
+F 0 "P2" V -2300 100 40  0000 C CNN
+F 1 "CONN_2" V -2200 100 40  0000 C CNN
+F 2 "~" H -2250 100 60  0000 C CNN
+F 3 "~" H -2250 100 60  0000 C CNN
+	1    -2250 100 
+	0    -1   -1   0   
+$EndComp
+Text Label 3000 1950 1    60   ~ 0
+VCC
+Text Label -2550 700  2    60   ~ 0
+VCC
+Text Label 1700 2650 2    60   ~ 0
+EN1
+$Comp
+L GND-RESCUE-selector_rid_ground #PWR03
+U 1 1 537DC454
+P -2050 850
+F 0 "#PWR03" H -2050 850 30  0001 C CNN
+F 1 "GND" H -2050 780 30  0001 C CNN
+F 2 "" H -2050 850 60  0000 C CNN
+F 3 "" H -2050 850 60  0000 C CNN
+	1    -2050 850 
+	1    0    0    -1  
+$EndComp
+Text Label -1000 150  0    60   ~ 0
+EN1
+Text Label -1000 -50  0    60   ~ 0
+EN2
+Wire Wire Line
+	3300 1350 3300 1900
+Wire Wire Line
+	3300 2000 3000 2000
+Wire Wire Line
+	3000 2000 3000 1950
+Wire Wire Line
+	2800 2400 2800 2450
+Connection ~ 3000 2400
+Wire Wire Line
+	3300 2500 3300 3000
+Wire Wire Line
+	4000 2500 4000 3000
+Wire Wire Line
+	3300 3000 3550 3000
+Wire Wire Line
+	4000 3000 3750 3000
+Wire Wire Line
+	3650 3000 3650 2850
+Wire Wire Line
+	2800 2850 2800 3000
+Wire Wire Line
+	2350 2650 2500 2650
+Wire Wire Line
+	2800 2400 3300 2400
+Wire Wire Line
+	1850 2650 1700 2650
+Wire Wire Line
+	-1200 -50  -1000 -50 
+Wire Wire Line
+	-1200 150  -1000 150 
+$Comp
+L DIL14 P7
+U 1 1 5382156C
+P 5300 2200
+F 0 "P7" H 5300 2600 60  0000 C CNN
+F 1 "DIP05-1A72-12L" V 5300 2200 50  0000 C CNN
+F 2 "~" H 5300 2200 60  0000 C CNN
+F 3 "~" H 5300 2200 60  0000 C CNN
+	1    5300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2000 4950 2000
+Wire Wire Line
+	4700 2400 4950 2400
+Wire Wire Line
+	3000 2400 3000 3500
+Wire Wire Line
+	3000 3500 4700 3500
+Wire Wire Line
+	4700 2000 4700 1850
+Text Label 4700 1850 1    60   ~ 0
+VCC
+Text Label 4950 1550 1    60   ~ 0
+G_IN1
+NoConn ~ 5650 2000
+NoConn ~ 5650 2100
+NoConn ~ 5650 2200
+NoConn ~ 5650 2300
+NoConn ~ 5650 2400
+NoConn ~ 4950 2300
+NoConn ~ 4950 2200
+NoConn ~ 4950 2100
+Text Label 3650 2850 0    60   ~ 0
+G_OUT
+Text Label 5650 2650 3    60   ~ 0
+G_OUT
+Wire Wire Line
+	5650 2650 5650 2500
+NoConn ~ 4950 2500
+Wire Wire Line
+	4000 1500 4000 1900
+$Comp
+L CONN_2 P3
+U 1 1 53830038
+P -1550 50
+F 0 "P3" V -1600 50  40  0000 C CNN
+F 1 "CONN_2" V -1500 50  40  0000 C CNN
+F 2 "~" H -1550 50  60  0000 C CNN
+F 3 "~" H -1550 50  60  0000 C CNN
+	1    -1550 50  
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1-RESCUE-selector_rid_ground C1
+U 1 1 538301F0
+P -2250 700
+F 0 "C1" H -2200 800 50  0000 L CNN
+F 1 "47uF" H -2200 600 50  0000 L CNN
+F 2 "~" H -2250 700 60  0000 C CNN
+F 3 "~" H -2250 700 60  0000 C CNN
+	1    -2250 700 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2350 450  -2450 450 
+Wire Wire Line
+	-2450 450  -2450 700 
+Wire Wire Line
+	-2150 450  -2050 450 
+Wire Wire Line
+	-2050 450  -2050 850 
+Connection ~ -2050 700 
+Wire Wire Line
+	-2450 700  -2550 700 
+Text Label -1000 850  0    60   ~ 0
+EN3
+Text Label -1000 650  0    60   ~ 0
+EN4
+Wire Wire Line
+	-1200 650  -1000 650 
+Wire Wire Line
+	-1200 850  -1000 850 
+$Comp
+L CONN_2 P4
+U 1 1 545CDC8E
+P -1550 750
+F 0 "P4" V -1600 750 40  0000 C CNN
+F 1 "CONN_2" V -1500 750 40  0000 C CNN
+F 2 "~" H -1550 750 60  0000 C CNN
+F 3 "~" H -1550 750 60  0000 C CNN
+	1    -1550 750 
+	-1   0    0    1   
+$EndComp
+Text Label 1700 -1000 3    60   ~ 0
+L_IN3
+Text Label 2000 -1000 3    60   ~ 0
+R_IN3
+Text Notes 600  700  0    60   ~ 0
+Relay DIP05-2A72-21L Coil Resistance typ 210 Ohm (180-220)\nRelay DIP05-1A72-12L Coil Resistance typ 505 Ohm (450-550)
+$Comp
+L BC547 Q5
+U 1 1 55802790
+P 14250 2300
+F 0 "Q5" H 14250 2151 40  0000 R CNN
+F 1 "BC547" H 14250 2450 40  0000 R CNN
+F 2 "TO92" H 14150 2402 29  0000 C CNN
+F 3 "" H 14250 2300 60  0000 C CNN
+	1    14250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIL14 P12
+U 1 1 55802796
+P 15200 1850
+F 0 "P12" H 15200 2250 60  0000 C CNN
+F 1 "DIP05-2A72-21L" V 15200 1850 50  0000 C CNN
+F 2 "~" H 15200 1850 60  0000 C CNN
+F 3 "~" H 15200 1850 60  0000 C CNN
+	1    15200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D9
+U 1 1 5580279C
+P 14550 1850
+F 0 "D9" H 14550 1950 40  0000 C CNN
+F 1 "DIODE" H 14550 1750 40  0000 C CNN
+F 2 "~" H 14550 1850 60  0000 C CNN
+F 3 "~" H 14550 1850 60  0000 C CNN
+	1    14550 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_3 K7
+U 1 1 558027A2
+P 15200 3000
+F 0 "K7" V 15150 3000 50  0000 C CNN
+F 1 "CONN_3" V 15250 3000 40  0000 C CNN
+F 2 "~" H 15200 3000 60  0000 C CNN
+F 3 "~" H 15200 3000 60  0000 C CNN
+	1    15200 3000
+	0    1    1    0   
+$EndComp
+Text Label 15550 2650 3    60   ~ 0
+L_OUT
+Text Label 14850 2650 3    60   ~ 0
+R_OUT
+NoConn ~ 15550 1650
+NoConn ~ 15550 1750
+NoConn ~ 15550 1850
+NoConn ~ 15550 1950
+NoConn ~ 15550 2050
+NoConn ~ 14850 1950
+NoConn ~ 14850 1850
+NoConn ~ 14850 1750
+$Comp
+L GND-RESCUE-selector_rid_ground #PWR06
+U 1 1 558027B4
+P 14350 2650
+F 0 "#PWR06" H 14350 2650 30  0001 C CNN
+F 1 "GND" H 14350 2580 30  0001 C CNN
+F 2 "" H 14350 2650 60  0000 C CNN
+F 3 "" H 14350 2650 60  0000 C CNN
+	1    14350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-selector_rid_ground R5
+U 1 1 558027BA
+P 13650 2300
+F 0 "R5" V 13730 2300 40  0000 C CNN
+F 1 "12K" V 13657 2301 40  0000 C CNN
+F 2 "~" V 13580 2300 30  0000 C CNN
+F 3 "~" H 13650 2300 30  0000 C CNN
+	1    13650 2300
+	0    1    1    0   
+$EndComp
+Text Label 14550 1600 1    60   ~ 0
+VCC
+Text Label 13250 2300 2    60   ~ 0
+EN_MUTE
+Wire Wire Line
+	14850 1650 14550 1650
+Wire Wire Line
+	14550 1650 14550 1600
+Wire Wire Line
+	14350 2050 14350 2100
+Connection ~ 14550 2050
+Wire Wire Line
+	14850 2150 14850 2650
+Wire Wire Line
+	15550 2150 15550 2650
+Wire Wire Line
+	14850 2650 15100 2650
+Wire Wire Line
+	15550 2650 15300 2650
+Wire Wire Line
+	15200 2650 15200 2500
+Wire Wire Line
+	14350 2500 14350 2650
+Wire Wire Line
+	13900 2300 14050 2300
+Wire Wire Line
+	14350 2050 14850 2050
+Wire Wire Line
+	13400 2300 13250 2300
+Text Label 15200 2500 0    60   ~ 0
+G_OUT
+Wire Wire Line
+	15550 1150 15550 1550
+$Comp
+L CONN_3 K6
+U 1 1 55802A0B
+P 13800 3350
+F 0 "K6" V 13750 3350 50  0000 C CNN
+F 1 "CONN_3" V 13850 3350 40  0000 C CNN
+F 2 "~" H 13800 3350 60  0000 C CNN
+F 3 "~" H 13800 3350 60  0000 C CNN
+	1    13800 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13700 3900 13700 3700
+Wire Wire Line
+	13900 3900 13900 3700
+Wire Wire Line
+	13800 3700 13800 4300
+$Comp
+L GND-RESCUE-selector_rid_ground #PWR07
+U 1 1 55802A26
+P 13900 4400
+F 0 "#PWR07" H 13900 4400 30  0001 C CNN
+F 1 "GND" H 13900 4330 30  0001 C CNN
+F 2 "" H 13900 4400 60  0000 C CNN
+F 3 "" H 13900 4400 60  0000 C CNN
+	1    13900 4400
+	1    0    0    -1  
+$EndComp
+Text Label 14050 3900 0    60   ~ 0
+VCC
+$Comp
+L CONN_3 K8
+U 1 1 55802A84
+P 15200 3350
+F 0 "K8" V 15150 3350 50  0000 C CNN
+F 1 "CONN_3" V 15250 3350 40  0000 C CNN
+F 2 "~" H 15200 3350 60  0000 C CNN
+F 3 "~" H 15200 3350 60  0000 C CNN
+	1    15200 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14100 1150 15550 1150
+Wire Wire Line
+	14850 1150 14850 1550
+Wire Wire Line
+	14100 1150 14100 1400
+Connection ~ 14850 1150
+Text Label 14950 4500 3    60   ~ 0
+L_OUT
+Text Label 15200 4500 3    60   ~ 0
+G_OUT
+Text Label 15450 4500 3    60   ~ 0
+R_OUT
+$Comp
+L FILTER FB2
+U 1 1 55802E55
+P 15450 4050
+F 0 "FB2" H 15450 4200 60  0000 C CNN
+F 1 "FILTER" H 15450 3950 60  0000 C CNN
+F 2 "~" H 15450 4050 60  0000 C CNN
+F 3 "~" H 15450 4050 60  0000 C CNN
+	1    15450 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FILTER FB1
+U 1 1 55802E62
+P 14950 4050
+F 0 "FB1" H 14950 4200 60  0000 C CNN
+F 1 "FILTER" H 14950 3950 60  0000 C CNN
+F 2 "~" H 14950 4050 60  0000 C CNN
+F 3 "~" H 14950 4050 60  0000 C CNN
+	1    14950 4050
+	0    -1   -1   0   
+$EndComp
+Text Label 13700 3900 2    60   ~ 0
+EN_MUTE
+Wire Wire Line
+	15300 3700 15450 3700
+Wire Wire Line
+	14950 3700 15100 3700
+Wire Wire Line
+	14950 4500 14950 4400
+Wire Wire Line
+	15450 4500 15450 4400
+Wire Wire Line
+	15200 3700 15200 4500
+Text Label 14100 1400 3    60   ~ 0
+G_OUT
+$Comp
+L CP1-RESCUE-selector_rid_ground C10
+U 1 1 55803EDA
+P 13900 4100
+F 0 "C10" H 13950 4200 50  0000 L CNN
+F 1 "47uF" H 13950 4000 50  0000 L CNN
+F 2 "~" H 13900 4100 60  0000 C CNN
+F 3 "~" H 13900 4100 60  0000 C CNN
+	1    13900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 3900 14050 3900
+Wire Wire Line
+	13800 4300 13900 4300
+Wire Wire Line
+	13900 4300 13900 4400
+$Comp
+L CONN_3 K9
+U 1 1 55816BD1
+P 16650 3000
+F 0 "K9" V 16600 3000 50  0000 C CNN
+F 1 "CONN_3" V 16700 3000 40  0000 C CNN
+F 2 "~" H 16650 3000 60  0000 C CNN
+F 3 "~" H 16650 3000 60  0000 C CNN
+	1    16650 3000
+	0    1    1    0   
+$EndComp
+Text Label 16300 2650 2    60   ~ 0
+L_OUT
+Text Label 17000 2650 0    60   ~ 0
+R_OUT
+Wire Wire Line
+	16300 2650 16550 2650
+Wire Wire Line
+	17000 2650 16750 2650
+Wire Wire Line
+	16650 2650 16650 2500
+Text Label 16650 2500 0    60   ~ 0
+G_OUT
+Wire Wire Line
+	4700 3500 4700 2400
+$Comp
+L CONN_4 P15
+U 1 1 564B2868
+P 1850 -1450
+F 0 "P15" V 1800 -1450 50  0000 C CNN
+F 1 "CONN_4" V 1900 -1450 50  0000 C CNN
+F 2 "~" H 1850 -1450 60  0000 C CNN
+F 3 "~" H 1850 -1450 60  0000 C CNN
+	1    1850 -1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 -1000 1850 -1100
+Wire Wire Line
+	1800 -1100 1900 -1100
+Connection ~ 1850 -1100
+Wire Wire Line
+	2000 -1000 2000 -1100
+Wire Wire Line
+	1700 -1000 1700 -1100
+Text Label 2400 -1000 3    60   ~ 0
+G_IN4
+Text Label 2250 -1000 3    60   ~ 0
+L_IN4
+Text Label 2550 -1000 3    60   ~ 0
+R_IN4
+$Comp
+L CONN_4 P16
+U 1 1 564B2CD7
+P 2400 -1450
+F 0 "P16" V 2350 -1450 50  0000 C CNN
+F 1 "CONN_4" V 2450 -1450 50  0000 C CNN
+F 2 "~" H 2400 -1450 60  0000 C CNN
+F 3 "~" H 2400 -1450 60  0000 C CNN
+	1    2400 -1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 -1000 2400 -1100
+Wire Wire Line
+	2350 -1100 2450 -1100
+Connection ~ 2400 -1100
+Wire Wire Line
+	2550 -1000 2550 -1100
+Wire Wire Line
+	2250 -1000 2250 -1100
+Text Label 750  -1000 3    60   ~ 0
+G_IN1
+Text Label 600  -1000 3    60   ~ 0
+L_IN1
+Text Label 900  -1000 3    60   ~ 0
+R_IN1
+$Comp
+L CONN_4 P13
+U 1 1 564B2CE5
+P 750 -1450
+F 0 "P13" V 700 -1450 50  0000 C CNN
+F 1 "CONN_4" V 800 -1450 50  0000 C CNN
+F 2 "~" H 750 -1450 60  0000 C CNN
+F 3 "~" H 750 -1450 60  0000 C CNN
+	1    750  -1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	750  -1000 750  -1100
+Wire Wire Line
+	700  -1100 800  -1100
+Connection ~ 750  -1100
+Wire Wire Line
+	900  -1000 900  -1100
+Wire Wire Line
+	600  -1000 600  -1100
+Text Label 1300 -1000 3    60   ~ 0
+G_IN2
+Text Label 1150 -1000 3    60   ~ 0
+L_IN2
+Text Label 1450 -1000 3    60   ~ 0
+R_IN2
+$Comp
+L CONN_4 P14
+U 1 1 564B2CF3
+P 1300 -1450
+F 0 "P14" V 1250 -1450 50  0000 C CNN
+F 1 "CONN_4" V 1350 -1450 50  0000 C CNN
+F 2 "~" H 1300 -1450 60  0000 C CNN
+F 3 "~" H 1300 -1450 60  0000 C CNN
+	1    1300 -1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 -1000 1300 -1100
+Wire Wire Line
+	1250 -1100 1350 -1100
+Connection ~ 1300 -1100
+Wire Wire Line
+	1450 -1000 1450 -1100
+Wire Wire Line
+	1150 -1000 1150 -1100
+Wire Wire Line
+	5650 1900 5650 1650
+Wire Wire Line
+	5650 1650 4950 1650
+Connection ~ 4950 1650
+Wire Wire Line
+	4950 1650 4950 1550
+NoConn ~ 4950 1900
+$EndSCHEMATC

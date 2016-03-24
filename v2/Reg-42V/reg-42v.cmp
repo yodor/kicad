@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 21 Jun 2015 08:42:06 PM EEST
+
+BeginCmp
+TimeStamp = /5586F3E3;
+Reference = D1;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F3D6;
+Reference = D2;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F412;
+Reference = D3;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F40C;
+Reference = D4;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F50D;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F51A;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F6C5;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F6D2;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F8C1;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F8C7;
+Reference = K4;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F3F0;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F3FF;
+Reference = Q2;
+ValeurCmp = PNP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F3B4;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F3C1;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F505;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586F520;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+EndListe

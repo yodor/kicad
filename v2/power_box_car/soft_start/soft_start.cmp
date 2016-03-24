@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 08 Jun 2014 02:27:08 PM EEST
+
+BeginCmp
+TimeStamp = /53943EA7;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53943E9A;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /539443E8;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53944432;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /539444AC;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53944615;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53943EBF;
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53943ECC;
+Reference = Q2;
+ValeurCmp = BC547;
+IdModule  = TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53944164;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53944171;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53943E62;
+Reference = RLY1;
+ValeurCmp = RELAY_HJR-3FF_Z;
+IdModule  = RAS-0515;
+EndCmp
+
+BeginCmp
+TimeStamp = /53943E92;
+Reference = RLY2;
+ValeurCmp = RELAY_HJR-3FF_Z;
+IdModule  = RAS-0515;
+EndCmp
+
+EndListe

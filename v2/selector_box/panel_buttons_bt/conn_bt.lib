@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3  Date: Mon 02 Jun 2014 08:22:41 PM EEST
+#encoding utf-8
+#
+# CONN_BT
+#
+DEF CONN_BT CONN 0 40 Y Y 1 F N
+F0 "CONN" -750 50 60 H V C CNN
+F1 "CONN_BT" -100 50 60 H V C CNN
+F2 "~" -50 550 60 H V C CNN
+F3 "~" -50 550 60 H V C CNN
+DRAW
+S -900 1200 900 550 0 1 0 N
+X pin_fwd fwd -450 250 300 U 50 50 1 1 I
+X 1V81 1V81 -300 250 300 U 50 50 1 1 w
+X pwr1 pwr1 -750 250 300 U 50 50 1 1 I
+X 1V82 1V82 0 250 300 U 50 50 1 1 w
+X pwr2 pwr2 -600 250 300 U 50 50 1 1 I
+X 1V83 1V83 300 250 300 U 50 50 1 1 w
+X 1V84 1V84 600 250 300 U 50 50 1 1 w
+X pin_back back -150 250 300 U 50 50 1 1 I
+X pin_vol_dn v_dn 450 250 300 U 50 50 1 1 I
+X pin_vol_up v_up 150 250 300 U 50 50 1 1 I
+X pin_play_pause play 750 250 300 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

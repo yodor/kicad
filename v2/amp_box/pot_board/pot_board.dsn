@@ -1,0 +1,235 @@
+(pcb /home/yodor/kicad_projects/pot_board/pot_board.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-may-18)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  114300 -36830  114300 -137160  50800 -137160  50800 -36830
+            114300 -36830)
+    )
+    (keepout "" (polygon F.Cu 0  118110 -76200  111760 -76200  111760 -101600  101600 -101600
+            101600 -139700  76200 -139700  76200 -138430  57150 -138430
+            57150 -95250  76200 -91440  76200 -86360  86360 -76200  52070 -76200
+            52070 -21590  118110 -21590  118110 -76200))
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (rule
+      (width 1000)
+      (clearance 1000.1)
+      (clearance 1000.1 (type default_smd))
+      (clearance 250 (type smd_smd))
+    )
+  )
+  (placement
+    (component "DIP-16__300"
+      (place IC1 95250 -57150 front 180 (PN L293D))
+    )
+    (component bornier3
+      (place Audio_OUT1 66040 -127000 front 90 (PN Audio_OUT))
+      (place Audio_In1 66040 -106680 front 90 (PN Audio_In))
+      (place Pot_control1 62230 -60960 front 90 (PN Pot_control))
+    )
+    (component bornier2
+      (place Power1 63500 -45720 front 180 (PN Power))
+    )
+    (component "ALPS Motorized"
+      (place U1 83820 -129540 front 180 (PN ALPS_POT))
+    )
+  )
+  (library
+    (image "DIP-16__300"
+      (outline (path signal 381  -11430 1270  -11430 1270))
+      (outline (path signal 381  -11430 1270  -10160 1270))
+      (outline (path signal 381  -10160 1270  -10160 -1270))
+      (outline (path signal 381  -10160 -1270  -11430 -1270))
+      (outline (path signal 381  -11430 2540  11430 2540))
+      (outline (path signal 381  11430 2540  11430 -2540))
+      (outline (path signal 381  11430 -2540  -11430 -2540))
+      (outline (path signal 381  -11430 -2540  -11430 2540))
+      (pin Rect[A]Pad_1397x1397_um 1 -8890 -3810)
+      (pin Round[A]Pad_1397_um 2 -6350 -3810)
+      (pin Round[A]Pad_1397_um 3 -3810 -3810)
+      (pin Round[A]Pad_1397_um 4 -1270 -3810)
+      (pin Round[A]Pad_1397_um 5 1270 -3810)
+      (pin Round[A]Pad_1397_um 6 3810 -3810)
+      (pin Round[A]Pad_1397_um 7 6350 -3810)
+      (pin Round[A]Pad_1397_um 8 8890 -3810)
+      (pin Round[A]Pad_1397_um 9 8890 3810)
+      (pin Round[A]Pad_1397_um 10 6350 3810)
+      (pin Round[A]Pad_1397_um 11 3810 3810)
+      (pin Round[A]Pad_1397_um 12 1270 3810)
+      (pin Round[A]Pad_1397_um 13 -1270 3810)
+      (pin Round[A]Pad_1397_um 14 -3810 3810)
+      (pin Round[A]Pad_1397_um 15 -6350 3810)
+      (pin Round[A]Pad_1397_um 16 -8890 3810)
+    )
+    (image bornier3
+      (outline (path signal 304.8  -7620 -3810  -7620 3810))
+      (outline (path signal 304.8  7620 -3810  7620 3810))
+      (outline (path signal 304.8  -7620 -2540  7620 -2540))
+      (outline (path signal 304.8  -7620 3810  7620 3810))
+      (outline (path signal 304.8  -7620 -3810  7620 -3810))
+      (pin Rect[A]Pad_2540x2540_um 1 -5080 0)
+      (pin Round[A]Pad_2540_um 2 0 0)
+      (pin Round[A]Pad_2540_um 3 5080 0)
+    )
+    (image bornier2
+      (outline (path signal 304.8  5080 -2540  -5080 -2540))
+      (outline (path signal 304.8  5080 -3810  5080 3810))
+      (outline (path signal 304.8  5080 3810  -5080 3810))
+      (outline (path signal 304.8  -5080 3810  -5080 -3810))
+      (outline (path signal 304.8  -5080 -3810  5080 -3810))
+      (pin Rect[A]Pad_2540x2540_um 1 -2540 0)
+      (pin Round[A]Pad_2540_um 2 2540 0)
+    )
+    (image "ALPS Motorized"
+      (outline (path signal 150  0 -35560  2540 -35560))
+      (outline (path signal 150  2540 -35560  2540 -40640))
+      (outline (path signal 150  2540 -40640  -2540 -40640))
+      (outline (path signal 150  -2540 -40640  -2540 -35560))
+      (outline (path signal 150  -2540 -35560  0 -35560))
+      (outline (path signal 150  -17780 -35560  -15240 -35560))
+      (outline (path signal 150  -15240 -35560  -15240 -40640))
+      (outline (path signal 150  -15240 -40640  -20320 -40640))
+      (outline (path signal 150  -20320 -40640  -20320 -35560))
+      (outline (path signal 150  -20320 -35560  -17780 -35560))
+      (pin Round[A]Pad_1500_um 1 -2540 2540)
+      (pin Round[A]Pad_1500_um 2 -7620 2540)
+      (pin Round[A]Pad_1500_um 3 -12700 2540)
+      (pin Round[A]Pad_1500_um 4 -2540 -7620)
+      (pin Round[A]Pad_1500_um 5 -7620 -7620)
+      (pin Round[A]Pad_1500_um 6 -12700 -7620)
+      (pin Round[A]Pad_1500_um 7 -7620 -58420)
+      (pin Round[A]Pad_1500_um 8 -25400 -58420)
+      (pin Rect[A]Pad_1500x1500_um @1 -17780 -38100)
+      (pin Rect[A]Pad_1500x1500_um @2 0 -38100)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1500_um
+      (shape (circle F.Cu 1500))
+      (shape (circle B.Cu 1500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2540_um
+      (shape (circle F.Cu 2540))
+      (shape (circle B.Cu 2540))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2540x2540_um
+      (shape (rect F.Cu -1270 -1270 1270 1270))
+      (shape (rect B.Cu -1270 -1270 1270 1270))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1500x1500_um
+      (shape (rect F.Cu -750 -750 750 750))
+      (shape (rect B.Cu -750 -750 750 750))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net 5V
+      (pins IC1-8 Power1-1)
+    )
+    (net GND
+      (pins IC1-12 IC1-13 Power1-2)
+    )
+    (net "N-0000016"
+      (pins IC1-14 U1-8)
+    )
+    (net "N-0000017"
+      (pins IC1-11 U1-7)
+    )
+    (net "N-0000019"
+      (pins Audio_OUT1-1 U1-2)
+    )
+    (net "N-000002"
+      (pins Audio_OUT1-3 U1-5)
+    )
+    (net "N-0000020"
+      (pins Audio_OUT1-2 Audio_In1-2 U1-3 U1-6)
+    )
+    (net "N-000003"
+      (pins Audio_In1-3 U1-4)
+    )
+    (net "N-000004"
+      (pins Audio_In1-1 U1-1)
+    )
+    (net "N-000007"
+      (pins IC1-15 Pot_control1-2)
+    )
+    (net "N-000008"
+      (pins IC1-9 Pot_control1-1)
+    )
+    (net "N-000009"
+      (pins IC1-10 Pot_control1-3)
+    )
+    (class kicad_default "" 5V GND "N-0000016" "N-0000017" "N-0000019" "N-000002"
+      "N-0000020" "N-000003" "N-000004" "N-000007" "N-000008" "N-000009"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 1000.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 1000  71119.9 -129770  68810.3 -132080)(net "N-0000019")(type protect))
+    (wire (path B.Cu 1000  89130.4 -129770  71119.9 -129770)(net "N-0000019")(type protect))
+    (wire (path B.Cu 1000  91440 -132080  89130.4 -129770)(net "N-0000019")(type protect))
+    (wire (path B.Cu 1000  66040 -132080  68810.3 -132080)(net "N-0000019")(type protect))
+    (wire (path B.Cu 1000  68305.8 -124186  66040 -121920)(net "N-000002")(type protect))
+    (wire (path B.Cu 1000  89174.2 -124186  68305.8 -124186)(net "N-000002")(type protect))
+    (wire (path B.Cu 1000  91440 -121920  89174.2 -124186)(net "N-000002")(type protect))
+    (wire (path B.Cu 1000  68810.4 -109450  66040 -106680)(net "N-0000020")(type protect))
+    (wire (path B.Cu 1000  68810.4 -115227  68810.4 -109450)(net "N-0000020")(type protect))
+    (wire (path B.Cu 1000  63269.7 -120768  68810.4 -115227)(net "N-0000020")(type protect))
+    (wire (path B.Cu 1000  63269.7 -124230  63269.7 -120768)(net "N-0000020")(type protect))
+    (wire (path B.Cu 1000  66040 -127000  63269.7 -124230)(net "N-0000020")(type protect))
+    (wire (path B.Cu 1000  96520 -127000  66040 -127000)(net "N-0000020")(type protect))
+    (wire (path B.Cu 1000  96520 -121920  96520 -127000  96520 -132080)(net "N-0000020")(type protect))
+    (wire (path B.Cu 1000  86360 -121920  66040 -101600)(net "N-000003")(type protect))
+    (wire (path B.Cu 1000  61245.9 -119324  66040 -114530)(net "N-000004")(type protect))
+    (wire (path B.Cu 1000  61245.9 -131948  61245.9 -119324)(net "N-000004")(type protect))
+    (wire (path B.Cu 1000  64148.6 -134850  61245.9 -131948)(net "N-000004")(type protect))
+    (wire (path B.Cu 1000  83589.6 -134850  64148.6 -134850)(net "N-000004")(type protect))
+    (wire (path B.Cu 1000  86360 -132080  83589.6 -134850)(net "N-000004")(type protect))
+    (wire (path B.Cu 1000  66040 -111760  66040 -114530)(net "N-000004")(type protect))
+  )
+)
