@@ -1,0 +1,414 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:filter_caps-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CP C1
+U 1 1 5710E6EA
+P 3150 2250
+F 0 "C1" H 3175 2350 50  0000 L CNN
+F 1 "CP" H 3175 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3188 2100 50  0001 C CNN
+F 3 "" H 3150 2250 50  0000 C CNN
+	1    3150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 5710E74A
+P 3400 2250
+F 0 "C3" H 3425 2350 50  0000 L CNN
+F 1 "CP" H 3425 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3438 2100 50  0001 C CNN
+F 3 "" H 3400 2250 50  0000 C CNN
+	1    3400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C5
+U 1 1 5710E768
+P 3650 2250
+F 0 "C5" H 3675 2350 50  0000 L CNN
+F 1 "CP" H 3675 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3688 2100 50  0001 C CNN
+F 3 "" H 3650 2250 50  0000 C CNN
+	1    3650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C7
+U 1 1 5710E78F
+P 3900 2250
+F 0 "C7" H 3925 2350 50  0000 L CNN
+F 1 "CP" H 3925 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3938 2100 50  0001 C CNN
+F 3 "" H 3900 2250 50  0000 C CNN
+	1    3900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C9
+U 1 1 5710E7DC
+P 4150 2250
+F 0 "C9" H 4175 2350 50  0000 L CNN
+F 1 "CP" H 4175 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4188 2100 50  0001 C CNN
+F 3 "" H 4150 2250 50  0000 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C11
+U 1 1 5710E9D5
+P 4400 2250
+F 0 "C11" H 4425 2350 50  0000 L CNN
+F 1 "CP" H 4425 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4438 2100 50  0001 C CNN
+F 3 "" H 4400 2250 50  0000 C CNN
+	1    4400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C13
+U 1 1 5710E9DB
+P 4650 2250
+F 0 "C13" H 4675 2350 50  0000 L CNN
+F 1 "CP" H 4675 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4688 2100 50  0001 C CNN
+F 3 "" H 4650 2250 50  0000 C CNN
+	1    4650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C15
+U 1 1 5710E9E1
+P 4900 2250
+F 0 "C15" H 4925 2350 50  0000 L CNN
+F 1 "CP" H 4925 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4938 2100 50  0001 C CNN
+F 3 "" H 4900 2250 50  0000 C CNN
+	1    4900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C17
+U 1 1 5710E9E7
+P 5150 2250
+F 0 "C17" H 5175 2350 50  0000 L CNN
+F 1 "CP" H 5175 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 5188 2100 50  0001 C CNN
+F 3 "" H 5150 2250 50  0000 C CNN
+	1    5150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C19
+U 1 1 5710E9ED
+P 5400 2250
+F 0 "C19" H 5425 2350 50  0000 L CNN
+F 1 "CP" H 5425 2150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 5438 2100 50  0001 C CNN
+F 3 "" H 5400 2250 50  0000 C CNN
+	1    5400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5710EAE3
+P 3150 2650
+F 0 "C2" H 3175 2750 50  0000 L CNN
+F 1 "CP" H 3175 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3188 2500 50  0001 C CNN
+F 3 "" H 3150 2650 50  0000 C CNN
+	1    3150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C4
+U 1 1 5710EAE9
+P 3400 2650
+F 0 "C4" H 3425 2750 50  0000 L CNN
+F 1 "CP" H 3425 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3438 2500 50  0001 C CNN
+F 3 "" H 3400 2650 50  0000 C CNN
+	1    3400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C6
+U 1 1 5710EAEF
+P 3650 2650
+F 0 "C6" H 3675 2750 50  0000 L CNN
+F 1 "CP" H 3675 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3688 2500 50  0001 C CNN
+F 3 "" H 3650 2650 50  0000 C CNN
+	1    3650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C8
+U 1 1 5710EAF5
+P 3900 2650
+F 0 "C8" H 3925 2750 50  0000 L CNN
+F 1 "CP" H 3925 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3938 2500 50  0001 C CNN
+F 3 "" H 3900 2650 50  0000 C CNN
+	1    3900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C10
+U 1 1 5710EAFB
+P 4150 2650
+F 0 "C10" H 4175 2750 50  0000 L CNN
+F 1 "CP" H 4175 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4188 2500 50  0001 C CNN
+F 3 "" H 4150 2650 50  0000 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C12
+U 1 1 5710EB01
+P 4400 2650
+F 0 "C12" H 4425 2750 50  0000 L CNN
+F 1 "CP" H 4425 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4438 2500 50  0001 C CNN
+F 3 "" H 4400 2650 50  0000 C CNN
+	1    4400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C14
+U 1 1 5710EB07
+P 4650 2650
+F 0 "C14" H 4675 2750 50  0000 L CNN
+F 1 "CP" H 4675 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4688 2500 50  0001 C CNN
+F 3 "" H 4650 2650 50  0000 C CNN
+	1    4650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C16
+U 1 1 5710EB0D
+P 4900 2650
+F 0 "C16" H 4925 2750 50  0000 L CNN
+F 1 "CP" H 4925 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 4938 2500 50  0001 C CNN
+F 3 "" H 4900 2650 50  0000 C CNN
+	1    4900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C18
+U 1 1 5710EB13
+P 5150 2650
+F 0 "C18" H 5175 2750 50  0000 L CNN
+F 1 "CP" H 5175 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 5188 2500 50  0001 C CNN
+F 3 "" H 5150 2650 50  0000 C CNN
+	1    5150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C20
+U 1 1 5710EB19
+P 5400 2650
+F 0 "C20" H 5425 2750 50  0000 L CNN
+F 1 "CP" H 5425 2550 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 5438 2500 50  0001 C CNN
+F 3 "" H 5400 2650 50  0000 C CNN
+	1    5400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2100 5850 2100
+Connection ~ 3400 2100
+Connection ~ 3650 2100
+Connection ~ 3900 2100
+Connection ~ 4150 2100
+Connection ~ 4400 2100
+Connection ~ 4650 2100
+Connection ~ 4900 2100
+Connection ~ 5150 2100
+Wire Wire Line
+	3000 2400 5650 2400
+Connection ~ 3400 2400
+Connection ~ 3650 2400
+Connection ~ 3900 2400
+Connection ~ 4150 2400
+Connection ~ 4400 2400
+Connection ~ 4650 2400
+Connection ~ 4900 2400
+Connection ~ 5150 2400
+Wire Wire Line
+	3000 2500 5650 2500
+Connection ~ 3400 2500
+Connection ~ 3650 2500
+Connection ~ 3900 2500
+Connection ~ 4150 2500
+Connection ~ 4400 2500
+Connection ~ 4650 2500
+Connection ~ 4900 2500
+Connection ~ 5150 2500
+Connection ~ 5400 2500
+Connection ~ 5400 2100
+Connection ~ 5400 2400
+Wire Wire Line
+	2900 2800 5850 2800
+Connection ~ 3400 2800
+Connection ~ 3650 2800
+Connection ~ 3900 2800
+Connection ~ 4150 2800
+Connection ~ 4400 2800
+Connection ~ 4650 2800
+Connection ~ 4900 2800
+Connection ~ 5150 2800
+Connection ~ 5400 2800
+Connection ~ 3150 2100
+Connection ~ 3150 2500
+Connection ~ 3150 2400
+Connection ~ 3150 2800
+Wire Wire Line
+	3000 2400 3000 2500
+Wire Wire Line
+	5650 2500 5650 2400
+Wire Wire Line
+	5650 2450 5850 2450
+Connection ~ 5650 2450
+Wire Wire Line
+	2900 2450 3000 2450
+Connection ~ 3000 2450
+Text Label 5650 2100 0    60   ~ 0
+V+
+Text Label 5650 2800 0    60   ~ 0
+V-
+Text Label 5700 2450 0    60   ~ 0
+0
+$Comp
+L CONN_01X02 P4
+U 1 1 5710FB19
+P 6050 2100
+F 0 "P4" H 6050 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 6150 2100 50  0000 C CNN
+F 2 "Connect:bornier2" H 6050 2100 50  0001 C CNN
+F 3 "" H 6050 2100 50  0000 C CNN
+	1    6050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 5710FC23
+P 6050 2800
+F 0 "P6" H 6050 2950 50  0000 C CNN
+F 1 "CONN_01X02" V 6150 2800 50  0000 C CNN
+F 2 "Connect:bornier2" H 6050 2800 50  0001 C CNN
+F 3 "" H 6050 2800 50  0000 C CNN
+	1    6050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 5710FD36
+P 2700 2100
+F 0 "P1" H 2700 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 2800 2100 50  0000 C CNN
+F 2 "Connect:bornier2" H 2700 2100 50  0001 C CNN
+F 3 "" H 2700 2100 50  0000 C CNN
+	1    2700 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P3
+U 1 1 5710FE6F
+P 2700 2800
+F 0 "P3" H 2700 2950 50  0000 C CNN
+F 1 "CONN_01X02" V 2800 2800 50  0000 C CNN
+F 2 "Connect:bornier2" H 2700 2800 50  0001 C CNN
+F 3 "" H 2700 2800 50  0000 C CNN
+	1    2700 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 2050 2900 2150
+Connection ~ 2900 2100
+Wire Wire Line
+	2900 2350 2900 2550
+Connection ~ 2900 2450
+Wire Wire Line
+	2900 2750 2900 2850
+Connection ~ 2900 2800
+Wire Wire Line
+	5850 2050 5850 2150
+Connection ~ 5850 2100
+Wire Wire Line
+	5850 2350 5850 2550
+Connection ~ 5850 2450
+Wire Wire Line
+	5850 2750 5850 2850
+Connection ~ 5850 2800
+$Comp
+L CONN_01X03 P5
+U 1 1 57110BEE
+P 6050 2450
+F 0 "P5" H 6050 2650 50  0000 C CNN
+F 1 "CONN_01X03" V 6150 2450 50  0000 C CNN
+F 2 "Connect:bornier3" H 6050 2450 50  0001 C CNN
+F 3 "" H 6050 2450 50  0000 C CNN
+	1    6050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 57110CBB
+P 2700 2450
+F 0 "P2" H 2700 2650 50  0000 C CNN
+F 1 "CONN_01X03" V 2800 2450 50  0000 C CNN
+F 2 "Connect:bornier3" H 2700 2450 50  0001 C CNN
+F 3 "" H 2700 2450 50  0000 C CNN
+	1    2700 2450
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

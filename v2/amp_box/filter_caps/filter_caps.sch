@@ -1,0 +1,378 @@
+EESchema Schematic File Version 2
+LIBS:filter_caps-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:filter_caps-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "28 jun 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_3 AC2
+U 1 1 52497BBA
+P 8150 3900
+F 0 "AC2" V 8100 3900 50  0000 C CNN
+F 1 "CONN_3" V 8200 3900 40  0000 C CNN
+F 2 "Connect:bornier3" H 8150 3900 60  0000 C CNN
+F 3 "~" H 8150 3900 60  0000 C CNN
+	1    8150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-filter_caps C1
+U 1 1 52497D8D
+P 5300 3350
+F 0 "C1" H 5350 3450 50  0000 L CNN
+F 1 "10000uF" V 5150 3150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D30_L51_P10" H 5300 3350 60  0000 C CNN
+F 3 "~" H 5300 3350 60  0000 C CNN
+	1    5300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-filter_caps C4
+U 1 1 52497D9A
+P 6150 4450
+F 0 "C4" H 6200 4550 50  0000 L CNN
+F 1 "10000uF" V 6000 4350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D30_L51_P10" H 6150 4450 60  0000 C CNN
+F 3 "~" H 6150 4450 60  0000 C CNN
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-filter_caps C3
+U 1 1 5262630B
+P 6150 3350
+F 0 "C3" H 6200 3450 50  0000 L CNN
+F 1 "10000uF" V 6000 3150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D30_L51_P10" H 6150 3350 60  0000 C CNN
+F 3 "~" H 6150 3350 60  0000 C CNN
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-filter_caps C2
+U 1 1 52626317
+P 5300 4450
+F 0 "C2" H 5350 4550 50  0000 L CNN
+F 1 "10000uF" V 5150 4350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D30_L51_P10" H 5300 4450 60  0000 C CNN
+F 3 "~" H 5300 4450 60  0000 C CNN
+	1    5300 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3150
+Connection ~ 6150 3150
+Connection ~ 6150 3550
+Connection ~ 6150 4650
+Connection ~ 6150 4250
+Connection ~ 5300 4250
+Connection ~ 5300 4650
+Connection ~ 5300 3550
+Wire Wire Line
+	6150 3550 6150 4250
+Wire Wire Line
+	5300 3550 5300 4250
+Connection ~ 6150 3900
+Connection ~ 5300 3900
+Wire Wire Line
+	6150 2550 6150 3150
+Connection ~ 6150 2750
+Wire Wire Line
+	5300 2750 5300 3150
+Connection ~ 5300 2750
+Wire Wire Line
+	5300 5000 5300 4650
+Wire Wire Line
+	6150 4650 6150 5200
+Connection ~ 5300 5000
+Connection ~ 6150 5000
+$Comp
+L CONN_2 P1
+U 1 1 5491B403
+P 4300 2750
+F 0 "P1" V 4250 2750 40  0000 C CNN
+F 1 "CONN_2" V 4350 2750 40  0000 C CNN
+F 2 "Connect:bornier2" H 4300 2750 60  0000 C CNN
+F 3 "~" H 4300 2750 60  0000 C CNN
+	1    4300 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 5491B410
+P 4300 5000
+F 0 "P2" V 4250 5000 40  0000 C CNN
+F 1 "CONN_2" V 4350 5000 40  0000 C CNN
+F 2 "Connect:bornier2" H 4300 5000 60  0000 C CNN
+F 3 "~" H 4300 5000 60  0000 C CNN
+	1    4300 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1-RESCUE-filter_caps C6
+U 1 1 571F2CD4
+P 7000 4450
+F 0 "C6" H 7050 4550 50  0000 L CNN
+F 1 "10000uF" V 6850 4350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D30_L51_P10" H 7000 4450 60  0000 C CNN
+F 3 "~" H 7000 4450 60  0000 C CNN
+	1    7000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-filter_caps C5
+U 1 1 571F2CDA
+P 7000 3350
+F 0 "C5" H 7050 3450 50  0000 L CNN
+F 1 "10000uF" V 6850 3150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D30_L51_P10" H 7000 3350 60  0000 C CNN
+F 3 "~" H 7000 3350 60  0000 C CNN
+	1    7000 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 3150
+Connection ~ 7000 3550
+Connection ~ 7000 4650
+Connection ~ 7000 4250
+Wire Wire Line
+	7000 3550 7000 4250
+Connection ~ 7000 3900
+Wire Wire Line
+	7000 3150 7000 2750
+Connection ~ 7000 2750
+Wire Wire Line
+	7000 5000 7000 4650
+Connection ~ 7000 5000
+$Comp
+L R R1
+U 1 1 571F2E05
+P 5750 2750
+F 0 "R1" V 5830 2750 50  0000 C CNN
+F 1 "0.1R 5W" V 5750 2750 50  0000 C CNN
+F 2 "Discret:R7" V 5680 2750 50  0001 C CNN
+F 3 "" H 5750 2750 50  0000 C CNN
+	1    5750 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 571F3045
+P 6600 2750
+F 0 "R5" V 6680 2750 50  0000 C CNN
+F 1 "0.1R 5W" V 6600 2750 50  0000 C CNN
+F 2 "Discret:R7" V 6530 2750 50  0001 C CNN
+F 3 "" H 6600 2750 50  0000 C CNN
+	1    6600 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 571F3094
+P 6600 5000
+F 0 "R6" V 6680 5000 50  0000 C CNN
+F 1 "0.1R 5W" V 6600 5000 50  0000 C CNN
+F 2 "Discret:R7" V 6530 5000 50  0001 C CNN
+F 3 "" H 6600 5000 50  0000 C CNN
+	1    6600 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 571F312E
+P 5750 5000
+F 0 "R4" V 5830 5000 50  0000 C CNN
+F 1 "0.1R 5W" V 5750 5000 50  0000 C CNN
+F 2 "Discret:R7" V 5680 5000 50  0001 C CNN
+F 3 "" H 5750 5000 50  0000 C CNN
+	1    5750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_2 P4
+U 1 1 571F318F
+P 6150 5550
+F 0 "P4" V 6100 5550 40  0000 C CNN
+F 1 "CONN_2" V 6200 5550 40  0000 C CNN
+F 2 "Connect:bornier2" H 6150 5550 60  0000 C CNN
+F 3 "~" H 6150 5550 60  0000 C CNN
+	1    6150 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 571F327B
+P 6150 2200
+F 0 "P3" V 6100 2200 40  0000 C CNN
+F 1 "CONN_2" V 6200 2200 40  0000 C CNN
+F 2 "Connect:bornier2" H 6150 2200 60  0000 C CNN
+F 3 "~" H 6150 2200 60  0000 C CNN
+	1    6150 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 571F330A
+P 5750 4450
+F 0 "R3" V 5830 4450 50  0000 C CNN
+F 1 "10K" V 5750 4450 50  0000 C CNN
+F 2 "Discret:R4" V 5680 4450 50  0001 C CNN
+F 3 "" H 5750 4450 50  0000 C CNN
+	1    5750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5000 6150 5000
+Wire Wire Line
+	6050 5000 6050 4700
+Wire Wire Line
+	6050 4700 5750 4700
+Wire Wire Line
+	5750 4700 5750 4600
+Wire Wire Line
+	6050 5000 6450 5000
+Connection ~ 6050 5000
+Wire Wire Line
+	6750 5000 7800 5000
+Wire Wire Line
+	4650 5000 5600 5000
+Wire Wire Line
+	5750 4300 5750 4000
+Wire Wire Line
+	5750 4000 6050 4000
+Wire Wire Line
+	6050 4000 6050 3800
+Connection ~ 6050 3900
+$Comp
+L R R2
+U 1 1 571F39AD
+P 5750 3300
+F 0 "R2" V 5830 3300 50  0000 C CNN
+F 1 "10K" V 5750 3300 50  0000 C CNN
+F 2 "Discret:R4" V 5680 3300 50  0001 C CNN
+F 3 "" H 5750 3300 50  0000 C CNN
+	1    5750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3450 5750 3800
+Wire Wire Line
+	5750 3800 6050 3800
+Wire Wire Line
+	5750 3150 5750 3000
+Wire Wire Line
+	5750 3000 6050 3000
+Wire Wire Line
+	6050 3000 6050 2750
+Wire Wire Line
+	4650 2750 5600 2750
+Wire Wire Line
+	5900 2750 6450 2750
+Connection ~ 6050 2750
+Wire Wire Line
+	6750 2750 7800 2750
+Wire Wire Line
+	6250 2550 6050 2550
+Connection ~ 6150 2550
+Connection ~ 6150 5200
+Wire Wire Line
+	6250 5200 6050 5200
+$Comp
+L CONN_2 P5
+U 1 1 571F41E7
+P 8150 2750
+F 0 "P5" V 8100 2750 40  0000 C CNN
+F 1 "CONN_2" V 8200 2750 40  0000 C CNN
+F 2 "Connect:bornier2" H 8150 2750 60  0000 C CNN
+F 3 "~" H 8150 2750 60  0000 C CNN
+	1    8150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P6
+U 1 1 571F429F
+P 8150 5000
+F 0 "P6" V 8100 5000 40  0000 C CNN
+F 1 "CONN_2" V 8200 5000 40  0000 C CNN
+F 2 "Connect:bornier2" H 8150 5000 60  0000 C CNN
+F 3 "~" H 8150 5000 60  0000 C CNN
+	1    8150 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4900 7800 5100
+Connection ~ 7800 5000
+$Comp
+L CONN_3 AC1
+U 1 1 571F468F
+P 4300 3900
+F 0 "AC1" V 4250 3900 50  0000 C CNN
+F 1 "CONN_3" V 4350 3900 40  0000 C CNN
+F 2 "Connect:bornier3" H 4300 3900 60  0000 C CNN
+F 3 "~" H 4300 3900 60  0000 C CNN
+	1    4300 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 3900 4650 3900
+Wire Wire Line
+	4650 3800 4650 4000
+Connection ~ 4650 3900
+Wire Wire Line
+	7800 3800 7800 4000
+Connection ~ 7800 3900
+Wire Wire Line
+	4650 2650 4650 2850
+Connection ~ 4650 2750
+Wire Wire Line
+	4650 4900 4650 5100
+Connection ~ 4650 5000
+Wire Wire Line
+	7800 2650 7800 2850
+Connection ~ 7800 2750
+Text Label 6150 2650 0    60   ~ 0
+Vcc
+Text Label 6150 5100 0    60   ~ 0
+Vee
+Text Label 6150 4000 0    60   ~ 0
+GND
+$EndSCHEMATC

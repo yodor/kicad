@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pot_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:pot_board-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -224,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 1900 7750 2150
 $Comp
-L GND #PWR2
+L GND-RESCUE-pot_board #PWR2
 U 1 1 55D48102
 P 7550 2000
 F 0 "#PWR2" H 7550 2000 30  0001 C CNN
@@ -237,7 +238,7 @@ $EndComp
 Wire Wire Line
 	7650 1900 7550 1900
 $Comp
-L C C1
+L C-RESCUE-pot_board C1
 U 1 1 56177CF4
 P 7250 2050
 F 0 "C1" H 7250 2150 40  0000 L CNN
@@ -248,7 +249,7 @@ F 3 "~" H 7250 2050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-pot_board C2
 U 1 1 56177D01
 P 7950 2050
 F 0 "C2" H 7950 2150 40  0000 L CNN
@@ -263,7 +264,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2050 8150 2150
 $Comp
-L GND #PWR1
+L GND-RESCUE-pot_board #PWR1
 U 1 1 56177D58
 P 7050 2150
 F 0 "#PWR1" H 7050 2150 30  0001 C CNN
@@ -274,7 +275,7 @@ F 3 "" H 7050 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND-RESCUE-pot_board #PWR3
 U 1 1 56177D5E
 P 8150 2150
 F 0 "#PWR3" H 8150 2150 30  0001 C CNN
