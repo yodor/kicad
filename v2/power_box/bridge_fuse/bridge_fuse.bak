@@ -219,4 +219,10 @@ Wire Wire Line
 	1100 4050 1100 3850
 Wire Wire Line
 	1100 3500 1100 3650
+Text Label 9450 3600 1    60   ~ 0
+AGND
+Text Label 6650 3800 0    60   ~ 0
+V+
+Text Label 4250 3800 3    60   ~ 0
+V-
 $EndSCHEMATC

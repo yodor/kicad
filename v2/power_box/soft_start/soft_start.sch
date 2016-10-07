@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:soft_start-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +32,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:w_relay
 LIBS:soft_start-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -115,7 +116,7 @@ F 3 "" H 3250 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND-RESCUE-soft_start #PWR2
 U 1 1 53943F3B
 P 3150 2650
 F 0 "#PWR2" H 3150 2650 30  0001 C CNN
@@ -126,7 +127,7 @@ F 3 "" H 3150 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND-RESCUE-soft_start #PWR3
 U 1 1 53943F48
 P 3150 4100
 F 0 "#PWR3" H 3150 4100 30  0001 C CNN
@@ -157,7 +158,7 @@ EN_1
 Text Label 4250 3800 0    60   ~ 0
 EN_2
 $Comp
-L R R1
+L R-RESCUE-soft_start R1
 U 1 1 53944164
 P 3850 2350
 F 0 "R1" V 3930 2350 40  0000 C CNN
@@ -168,7 +169,7 @@ F 3 "~" H 3850 2350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-soft_start R2
 U 1 1 53944171
 P 3850 3800
 F 0 "R2" V 3930 3800 40  0000 C CNN
@@ -245,7 +246,7 @@ EN_2
 Text Label 4550 4800 3    60   ~ 0
 5V
 $Comp
-L GND #PWR5
+L GND-RESCUE-soft_start #PWR5
 U 1 1 5394462F
 P 4950 4950
 F 0 "#PWR5" H 4950 4950 30  0001 C CNN
@@ -300,7 +301,7 @@ F 3 "" H 2750 5650 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND-RESCUE-soft_start #PWR1
 U 1 1 53FC7314
 P 2650 5950
 F 0 "#PWR1" H 2650 5950 30  0001 C CNN
@@ -320,7 +321,7 @@ Text Label 2850 4950 0    60   ~ 0
 Text Label 3750 5650 0    60   ~ 0
 EN_3
 $Comp
-L R R3
+L R-RESCUE-soft_start R3
 U 1 1 53FC7320
 P 3350 5650
 F 0 "R3" V 3430 5650 40  0000 C CNN
@@ -426,7 +427,7 @@ Connection ~ 4650 1600
 Text Label 5600 2900 3    60   ~ 0
 5V
 $Comp
-L GND #PWR6
+L GND-RESCUE-soft_start #PWR6
 U 1 1 53FC8FA5
 P 5800 2900
 F 0 "#PWR6" H 5800 2900 30  0001 C CNN
@@ -465,7 +466,7 @@ $EndComp
 Text Label 4700 2900 3    60   ~ 0
 5V
 $Comp
-L GND #PWR4
+L GND-RESCUE-soft_start #PWR4
 U 1 1 53FC8FC7
 P 4800 2900
 F 0 "#PWR4" H 4800 2900 30  0001 C CNN
@@ -497,7 +498,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2650 2750 2650
 $Comp
-L R R4
+L R-RESCUE-soft_start R4
 U 1 1 53FC9A1C
 P 8550 2250
 F 0 "R4" V 8630 2250 40  0000 C CNN
@@ -508,7 +509,7 @@ F 3 "~" H 8550 2250 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-soft_start R5
 U 1 1 53FC9A29
 P 8550 2500
 F 0 "R5" V 8630 2500 40  0000 C CNN
@@ -519,7 +520,7 @@ F 3 "~" H 8550 2500 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-soft_start R6
 U 1 1 53FC9A2F
 P 8550 2750
 F 0 "R6" V 8630 2750 40  0000 C CNN

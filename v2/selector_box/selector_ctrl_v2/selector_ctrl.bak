@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:selector_ctrl-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +31,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:selector_ctrl-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "20 nov 2015"
+Date "21 nov 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -56,7 +57,7 @@ F 3 "~" H 5600 -11700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1
+L CP1-RESCUE-selector_ctrl C1
 U 1 1 564ED6D5
 P 2100 -14500
 F 0 "C1" H 2150 -14400 50  0000 L CNN
@@ -67,7 +68,7 @@ F 3 "~" H 2100 -14500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-selector_ctrl C2
 U 1 1 564ED6D6
 P 4200 -11550
 F 0 "C2" H 4200 -11450 40  0000 L CNN
@@ -122,7 +123,6 @@ Wire Wire Line
 	6650 -11350 6200 -11350
 Wire Wire Line
 	6200 -11250 6650 -11250
-NoConn ~ 6200 -11650
 NoConn ~ 6200 -12150
 Text Label 1750 -14150 2    60   ~ 0
 5V
@@ -161,7 +161,7 @@ F 3 "" H 4050 -11250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C3
+L CP1-RESCUE-selector_ctrl C3
 U 1 1 564ED6DA
 P 5350 -14800
 F 0 "C3" H 5400 -14700 50  0000 L CNN
@@ -176,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 -15150 5650 -14450
 $Comp
-L R R3
+L R-RESCUE-selector_ctrl R3
 U 1 1 564ED6DB
 P 5550 -15250
 F 0 "R3" V 5450 -15250 40  0000 C CNN
@@ -243,11 +243,9 @@ CH3
 Text Label 4700 -12050 2    60   ~ 0
 CH2
 Wire Wire Line
-	4850 -11150 5000 -11150
-Wire Wire Line
 	4800 -11050 5000 -11050
 $Comp
-L C C12
+L C-RESCUE-selector_ctrl C12
 U 1 1 564ED6E0
 P 7500 -11800
 F 0 "C12" H 7500 -11700 40  0000 L CNN
@@ -424,7 +422,7 @@ F 3 "~" H 6400 -8000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-selector_ctrl C5
 U 1 1 564ED6EE
 P 5700 -8250
 F 0 "C5" H 5700 -8150 40  0000 L CNN
@@ -435,7 +433,7 @@ F 3 "~" H 5700 -8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-selector_ctrl C9
 U 1 1 564ED6EF
 P 7200 -7750
 F 0 "C9" H 7200 -7650 40  0000 L CNN
@@ -446,7 +444,7 @@ F 3 "~" H 7200 -7750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L C-RESCUE-selector_ctrl C11
 U 1 1 564ED6F0
 P 7400 -8150
 F 0 "C11" H 7400 -8050 40  0000 L CNN
@@ -457,7 +455,7 @@ F 3 "~" H 7400 -8150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-selector_ctrl C7
 U 1 1 564ED6F1
 P 6850 -7450
 F 0 "C7" H 6850 -7350 40  0000 L CNN
@@ -484,7 +482,7 @@ Wire Wire Line
 Connection ~ 5700 -8450
 Connection ~ 5700 -8050
 $Comp
-L R R5
+L R-RESCUE-selector_ctrl R5
 U 1 1 564ED6F2
 P 6550 -8400
 F 0 "R5" V 6630 -8400 40  0000 C CNN
@@ -568,7 +566,7 @@ F 3 "~" H 6250 -5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-selector_ctrl C4
 U 1 1 564ED6F7
 P 5550 -5850
 F 0 "C4" H 5550 -5750 40  0000 L CNN
@@ -579,7 +577,7 @@ F 3 "~" H 5550 -5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-selector_ctrl C8
 U 1 1 564ED6F8
 P 7050 -5350
 F 0 "C8" H 7050 -5250 40  0000 L CNN
@@ -590,7 +588,7 @@ F 3 "~" H 7050 -5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L C-RESCUE-selector_ctrl C10
 U 1 1 564ED6F9
 P 7250 -5750
 F 0 "C10" H 7250 -5650 40  0000 L CNN
@@ -601,7 +599,7 @@ F 3 "~" H 7250 -5750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-selector_ctrl C6
 U 1 1 564ED6FA
 P 6700 -5050
 F 0 "C6" H 6700 -4950 40  0000 L CNN
@@ -622,7 +620,7 @@ Wire Wire Line
 Connection ~ 5550 -6050
 Connection ~ 5550 -5650
 $Comp
-L R R4
+L R-RESCUE-selector_ctrl R4
 U 1 1 564ED6FB
 P 6400 -6000
 F 0 "R4" V 6480 -6000 40  0000 C CNN
@@ -778,7 +776,7 @@ F 3 "" H 2800 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-selector_ctrl R1
 U 1 1 564ED704
 P 2100 2650
 F 0 "R1" V 2180 2650 40  0000 C CNN
@@ -851,7 +849,7 @@ F 3 "" H 7700 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-selector_ctrl R6
 U 1 1 564ED70A
 P 7000 6050
 F 0 "R6" V 7080 6050 40  0000 C CNN
@@ -1057,7 +1055,7 @@ F 3 "" H 2900 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-selector_ctrl R2
 U 1 1 564ED714
 P 2200 6100
 F 0 "R2" V 2280 6100 40  0000 C CNN
@@ -1130,7 +1128,7 @@ F 3 "" H 7500 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-selector_ctrl R7
 U 1 1 564ED719
 P 6800 2800
 F 0 "R7" V 6880 2800 40  0000 C CNN
@@ -1338,7 +1336,7 @@ F 3 "" H 14350 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-selector_ctrl R8
 U 1 1 564ED722
 P 13650 2300
 F 0 "R8" V 13730 2300 40  0000 C CNN
@@ -1635,4 +1633,6 @@ Text Label 3100 5400 2    60   ~ 0
 5V
 Text Label 14550 1600 2    60   ~ 0
 5V
+Wire Wire Line
+	6200 -11650 6200 -11550
 $EndSCHEMATC

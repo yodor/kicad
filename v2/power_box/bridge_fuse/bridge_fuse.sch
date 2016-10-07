@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:bridge_fuse-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:bridge_fuse-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -56,7 +57,7 @@ F 3 "~" H 10700 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-bridge_fuse C1
 U 1 1 52497C07
 P 8800 3350
 F 0 "C1" H 8800 3450 40  0000 L CNN
@@ -67,7 +68,7 @@ F 3 "~" H 8800 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-bridge_fuse C2
 U 1 1 52497C14
 P 8800 3850
 F 0 "C2" H 8800 3950 40  0000 L CNN
@@ -78,7 +79,7 @@ F 3 "~" H 8800 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-bridge_fuse C3
 U 1 1 52497C74
 P 6300 3250
 F 0 "C3" H 6300 3350 40  0000 L CNN
@@ -89,7 +90,7 @@ F 3 "~" H 6300 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-bridge_fuse C4
 U 1 1 52497C7E
 P 6300 4200
 F 0 "C4" H 6300 4300 40  0000 L CNN
@@ -100,7 +101,7 @@ F 3 "~" H 6300 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-bridge_fuse C5
 U 1 1 52497C84
 P 4600 4200
 F 0 "C5" H 4600 4300 40  0000 L CNN
@@ -111,7 +112,7 @@ F 3 "~" H 4600 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-bridge_fuse C6
 U 1 1 52497C8D
 P 4600 3250
 F 0 "C6" H 4600 3350 40  0000 L CNN
