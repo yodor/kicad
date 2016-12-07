@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ponyser-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ponyser-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R4
+L R-RESCUE-ponyser R4
 U 1 1 523C4D70
 P 3450 2050
 F 0 "R4" V 3530 2050 40  0000 C CNN
@@ -56,7 +57,7 @@ F 3 "~" H 3450 2050 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-ponyser R5
 U 1 1 523C4D8E
 P 3450 2300
 F 0 "R5" V 3530 2300 40  0000 C CNN
@@ -67,7 +68,7 @@ F 3 "~" H 3450 2300 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-ponyser R6
 U 1 1 523C4D94
 P 3450 2550
 F 0 "R6" V 3530 2550 40  0000 C CNN
@@ -78,7 +79,7 @@ F 3 "~" H 3450 2550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-ponyser R3
 U 1 1 523C4D9A
 P 4200 1900
 F 0 "R3" V 4280 1900 40  0000 C CNN
@@ -89,7 +90,7 @@ F 3 "~" H 4200 1900 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-ponyser R1
 U 1 1 523C4DA0
 P 5400 2400
 F 0 "R1" V 5480 2400 40  0000 C CNN
@@ -100,7 +101,7 @@ F 3 "~" H 5400 2400 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER Z1
+L ZENER-RESCUE-ponyser Z1
 U 1 1 523C4DAD
 P 3900 2950
 F 0 "Z1" H 3900 3050 50  0000 C CNN
@@ -111,7 +112,7 @@ F 3 "~" H 3900 2950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER Z2
+L ZENER-RESCUE-ponyser Z2
 U 1 1 523C4DBA
 P 4200 2950
 F 0 "Z2" H 4200 3050 50  0000 C CNN
@@ -122,7 +123,7 @@ F 3 "~" H 4200 2950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER Z3
+L ZENER-RESCUE-ponyser Z3
 U 1 1 523C4DC0
 P 4500 2950
 F 0 "Z3" H 4500 3050 50  0000 C CNN
@@ -177,7 +178,7 @@ F 3 "~" H 5550 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C3
+L CP1-RESCUE-ponyser C3
 U 1 1 523C4E2F
 P 4250 1200
 F 0 "C3" H 4300 1300 50  0000 L CNN
@@ -188,7 +189,7 @@ F 3 "~" H 4250 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L C-RESCUE-ponyser C12
 U 1 1 523C4E3E
 P 4750 1200
 F 0 "C12" H 4750 1300 40  0000 L CNN
@@ -221,7 +222,7 @@ F 3 "~" H 1250 2400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1 C4
+L CP1-RESCUE-ponyser C4
 U 1 1 523C51C1
 P 6200 1150
 F 0 "C4" H 6250 1250 50  0000 L CNN
@@ -232,7 +233,7 @@ F 3 "~" H 6200 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-ponyser #PWR01
 U 1 1 523C528C
 P 4250 1550
 F 0 "#PWR01" H 4250 1550 30  0001 C CNN
@@ -243,7 +244,7 @@ F 3 "" H 4250 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND-RESCUE-ponyser #PWR02
 U 1 1 523C52DE
 P 4750 1550
 F 0 "#PWR02" H 4750 1550 30  0001 C CNN
@@ -254,7 +255,7 @@ F 3 "" H 4750 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-ponyser #PWR03
 U 1 1 523C5307
 P 5500 1550
 F 0 "#PWR03" H 5500 1550 30  0001 C CNN
@@ -265,7 +266,7 @@ F 3 "" H 5500 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND-RESCUE-ponyser #PWR04
 U 1 1 523C5331
 P 6200 1550
 F 0 "#PWR04" H 6200 1550 30  0001 C CNN
@@ -276,7 +277,7 @@ F 3 "" H 6200 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-ponyser #PWR05
 U 1 1 523C5383
 P 3900 3300
 F 0 "#PWR05" H 3900 3300 30  0001 C CNN
@@ -287,7 +288,7 @@ F 3 "" H 3900 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND-RESCUE-ponyser #PWR06
 U 1 1 523C5389
 P 4200 3300
 F 0 "#PWR06" H 4200 3300 30  0001 C CNN
@@ -298,7 +299,7 @@ F 3 "" H 4200 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND-RESCUE-ponyser #PWR07
 U 1 1 523C538F
 P 4500 3300
 F 0 "#PWR07" H 4500 3300 30  0001 C CNN
@@ -309,7 +310,7 @@ F 3 "" H 4500 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND-RESCUE-ponyser #PWR08
 U 1 1 523C5410
 P 5650 2500
 F 0 "#PWR08" H 5650 2500 30  0001 C CNN
@@ -331,7 +332,7 @@ F 3 "~" H 7150 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND-RESCUE-ponyser #PWR09
 U 1 1 523C54B3
 P 7400 1650
 F 0 "#PWR09" H 7400 1650 30  0001 C CNN
@@ -344,7 +345,7 @@ $EndComp
 Text Notes 6750 3050 0    60   ~ 0
 Pin 1 - Vcc\nPin 2 - Eth 8 - RST\nPin 3 - Eth 2 - Miso\nPin 4 - Eth 6 - Mosi\nPin 5 - Eth 4 - SCK\nPin 6 - GND
 $Comp
-L GND #PWR010
+L GND-RESCUE-ponyser #PWR010
 U 1 1 523C597B
 P 1700 2900
 F 0 "#PWR010" H 1700 2900 30  0001 C CNN

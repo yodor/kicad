@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "14 jul 2014"
+Date "2 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -355,9 +355,6 @@ F 3 "" H 1700 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 900  1850
-NoConn ~ 1700 2150
-NoConn ~ 1700 2350
-NoConn ~ 1700 2550
 $Comp
 L VCC #PWR011
 U 1 1 523C6471
@@ -507,4 +504,16 @@ Wire Wire Line
 	6800 2050 6350 2050
 Wire Wire Line
 	6350 2050 6350 2700
+Wire Wire Line
+	1700 2150 1800 2150
+Wire Wire Line
+	1800 2150 1800 2750
+Wire Wire Line
+	1800 2350 1700 2350
+Wire Wire Line
+	1800 2550 1700 2550
+Connection ~ 1800 2350
+Wire Wire Line
+	1800 2750 1700 2750
+Connection ~ 1800 2550
 $EndSCHEMATC
