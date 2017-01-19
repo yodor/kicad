@@ -4820,4 +4820,6 @@ Wire Wire Line
 	13000 3300 13000 3200
 Wire Wire Line
 	13100 3300 13100 3200
+Text Notes 7750 600  0    60   ~ 0
+for IR receiver \nTSOP31238
 $EndSCHEMATC

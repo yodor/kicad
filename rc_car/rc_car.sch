@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:rc_car-cache
-LIBS:power_split-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -185,12 +184,12 @@ $EndComp
 $Comp
 L GND #PWR03
 U 1 1 587A7D80
-P 3700 2100
-F 0 "#PWR03" H 3700 2100 30  0001 C CNN
-F 1 "GND" H 3700 2030 30  0001 C CNN
-F 2 "" H 3700 2100 60  0000 C CNN
-F 3 "" H 3700 2100 60  0000 C CNN
-	1    3700 2100
+P 3800 2200
+F 0 "#PWR03" H 3800 2200 30  0001 C CNN
+F 1 "GND" H 3800 2130 30  0001 C CNN
+F 2 "" H 3800 2200 60  0000 C CNN
+F 3 "" H 3800 2200 60  0000 C CNN
+	1    3800 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -278,9 +277,9 @@ Text Label 5800 3450 0    60   ~ 0
 SCL
 Text Label 5800 3700 0    60   ~ 0
 SDA
-Text Label 3800 2200 3    60   ~ 0
+Text Label 3700 2100 3    60   ~ 0
 SCL
-Text Label 4000 2200 3    60   ~ 0
+Text Label 4100 2100 3    60   ~ 0
 SDA
 Wire Wire Line
 	2850 1950 2900 1950
@@ -734,7 +733,7 @@ F 3 "" H 2900 6250 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2900 6250 2900 6150
-Text Label 4100 2100 3    60   ~ 0
+Text Label 4000 2200 3    60   ~ 0
 5V
 $Comp
 L C C5
