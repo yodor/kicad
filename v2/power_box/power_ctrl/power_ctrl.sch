@@ -263,7 +263,7 @@ F 3 "~" H 6600 3550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-power_ctrl D3
 U 1 1 5693A899
 P 6600 4100
 F 0 "D3" H 6600 4200 50  0000 C CNN
@@ -609,7 +609,7 @@ $EndComp
 Text Label 10650 2200 2    60   ~ 0
 12V
 $Comp
-L LED D4
+L LED-RESCUE-power_ctrl D4
 U 1 1 56965EF3
 P 5400 2000
 F 0 "D4" H 5400 2100 50  0000 C CNN
@@ -659,16 +659,12 @@ F 3 "~" H 1950 1000 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 650  1950 850 
-Wire Wire Line
 	1950 1400 2300 1400
 Connection ~ 1950 1400
-Text Label 1950 650  0    60   ~ 0
-12V
-Text Label 2600 800  0    60   ~ 0
+Text Label 2600 700  0    60   ~ 0
 12V
 Wire Wire Line
-	2600 1200 2600 800 
+	2600 700  2600 1200
 Wire Wire Line
 	1950 1150 1950 1550
 $Comp
@@ -811,7 +807,7 @@ F 1 "Q_PMOS_GDS" H 3150 1350 50  0000 R CNN
 F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads" V 3150 1400 50  0000 C CNN
 F 3 "" H 2500 1400 50  0000 C CNN
 	1    2500 1400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CP C2
@@ -1140,4 +1136,9 @@ $EndComp
 Wire Wire Line
 	1550 2150 1550 2050
 Connection ~ 1550 1750
+Wire Wire Line
+	2600 800  1950 800 
+Wire Wire Line
+	1950 800  1950 850 
+Connection ~ 2600 800 
 $EndSCHEMATC

@@ -916,7 +916,7 @@ F 3 "" H 6050 10650 60  0000 C CNN
 	1    6050 10650
 	1    0    0    -1  
 $EndComp
-Text Notes 5800 10800 0    60   ~ 0
+Text Notes 5800 10900 0    60   ~ 0
 Address Bits 100\nRST HIGH\n
 NoConn ~ 5850 10200
 NoConn ~ 5850 10100
