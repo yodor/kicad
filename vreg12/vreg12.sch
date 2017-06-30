@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:vreg12-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 27 0
+LIBS:vreg12-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -91,7 +93,7 @@ Wire Wire Line
 	3450 3350 3100 3350
 Connection ~ 3100 3350
 $Comp
-L R 0.1R/5W1
+L R-RESCUE-vreg12 0.1R/5W1
 U 1 1 53E4BDC4
 P 2750 1850
 F 0 "0.1R/5W1" V 2830 1850 40  0000 C CNN
@@ -102,7 +104,7 @@ F 3 "~" H 2750 1850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R 0.1R/5W2
+L R-RESCUE-vreg12 0.1R/5W2
 U 1 1 53E4BDD1
 P 2750 2450
 F 0 "0.1R/5W2" V 2830 2450 40  0000 C CNN
@@ -113,7 +115,7 @@ F 3 "~" H 2750 2450 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R 0.1R/5W3
+L R-RESCUE-vreg12 0.1R/5W3
 U 1 1 53E4BDD7
 P 2750 3050
 F 0 "0.1R/5W3" V 2830 3050 40  0000 C CNN
@@ -124,7 +126,7 @@ F 3 "~" H 2750 3050 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-vreg12 R1
 U 1 1 53E4BDDD
 P 2200 3400
 F 0 "R1" V 2280 3400 40  0000 C CNN
@@ -176,7 +178,7 @@ F 3 "~" H 3650 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-vreg12 C2
 U 1 1 53E4BF9D
 P 3100 4000
 F 0 "C2" H 3100 4100 40  0000 L CNN
@@ -187,7 +189,7 @@ F 3 "~" H 3100 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-vreg12 C3
 U 1 1 53E4BFB4
 P 4250 4000
 F 0 "C3" H 4250 4100 40  0000 L CNN
@@ -210,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 3650 2300 3700
 $Comp
-L CP1 C1
+L CP1-RESCUE-vreg12 C1
 U 1 1 53E4C1C2
 P 2650 4000
 F 0 "C1" H 2700 4100 50  0000 L CNN
@@ -221,7 +223,7 @@ F 3 "~" H 2650 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C4
+L CP1-RESCUE-vreg12 C4
 U 1 1 53E4C1D9
 P 4600 4000
 F 0 "C4" H 4650 4100 50  0000 L CNN
@@ -273,7 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 4250 5200 4050
 $Comp
-L R R2
+L R-RESCUE-vreg12 R2
 U 1 1 53E4C6EA
 P 2400 3400
 F 0 "R2" V 2480 3400 40  0000 C CNN

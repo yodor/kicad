@@ -1,4 +1,4 @@
-update=Fri 30 Jun 2017 15:50:31 EEST
+update=Fri 30 Jun 2017 23:28:01 EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -26,18 +26,12 @@ LibName2=connect
 LibName3=discret
 LibName4=pin_array
 LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=/home/yodor/kicad/libs/modules/w_to
+LibName6=display
+LibName7=led
+LibName8=dip_sockets
+LibName9=pga_sockets
+LibName10=valves
+LibName11=/home/yodor/kicad/libs/modules/arduino_shields
 LibDir=
 [general]
 version=1
@@ -50,7 +44,7 @@ EquName1=devcms
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=vreg12-rescue
+LibName1=shield-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -81,3 +75,4 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+LibName32=/home/yodor/kicad/libs/libraries/arduino_shieldsNCL
