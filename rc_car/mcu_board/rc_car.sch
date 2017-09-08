@@ -74,7 +74,7 @@ F 1 "GND" H 1650 4580 30  0001 C CNN
 F 2 "" H 1650 4650 60  0000 C CNN
 F 3 "" H 1650 4650 60  0000 C CNN
 	1    1650 4650
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Text Label 1700 3300 2    60   ~ 0
 5V
@@ -135,7 +135,6 @@ F 3 "~" H 4550 3150 60  0000 C CNN
 	1    4550 3150
 	0    1    1    0   
 $EndComp
-NoConn ~ 2050 4650
 Text Label 3350 3850 0    60   ~ 0
 SCL
 Text Label 3350 3950 0    60   ~ 0
@@ -144,10 +143,9 @@ Text Label 5950 3850 3    60   ~ 0
 SCL
 Text Label 6050 3750 3    60   ~ 0
 SDA
-NoConn ~ 2050 4750
-Text Label 1950 4050 2    60   ~ 0
+Text Label 1400 4050 2    60   ~ 0
 TX
-Text Label 1950 3950 2    60   ~ 0
+Text Label 1400 3950 2    60   ~ 0
 RX
 $Comp
 L FILTER FB5
@@ -242,7 +240,7 @@ U 1 1 58865E67
 P 1850 3450
 F 0 "R9" V 1930 3450 50  0000 C CNN
 F 1 "10K" V 1850 3450 50  0000 C CNN
-F 2 "Discret:R4" V 1780 3450 50  0001 C CNN
+F 2 "Discret:R1" V 1780 3450 50  0001 C CNN
 F 3 "" H 1850 3450 50  0000 C CNN
 	1    1850 3450
 	1    0    0    -1  
@@ -323,9 +321,9 @@ Wire Wire Line
 Connection ~ 1750 4350
 Connection ~ 1750 4650
 Wire Wire Line
-	1950 3950 2050 3950
+	1800 3950 2050 3950
 Wire Wire Line
-	2050 4050 1950 4050
+	1800 4050 2050 4050
 Wire Wire Line
 	9100 3800 9100 3700
 Wire Wire Line
@@ -738,4 +736,118 @@ Wire Wire Line
 	10450 5250 10450 5150
 Wire Wire Line
 	10650 5250 10650 5150
+$Comp
+L R R1
+U 1 1 59732229
+P 1350 4900
+F 0 "R1" V 1430 4900 50  0000 C CNN
+F 1 "1M" V 1350 4900 50  0000 C CNN
+F 2 "Discret:R1" V 1280 4900 50  0001 C CNN
+F 3 "" H 1350 4900 50  0001 C CNN
+	1    1350 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4650 1900 4650
+Wire Wire Line
+	1900 4650 1900 4700
+Wire Wire Line
+	1900 4700 1750 4700
+Wire Wire Line
+	1750 4700 1750 4750
+Wire Wire Line
+	1750 4750 1050 4750
+Wire Wire Line
+	2050 4750 1800 4750
+Wire Wire Line
+	1800 4750 1800 5050
+Wire Wire Line
+	1800 5050 1050 5050
+$Comp
+L Crystal_Small 16Mhz1
+U 1 1 5973247B
+P 1100 4900
+F 0 "16Mhz1" H 1100 5000 50  0000 C CNN
+F 1 "Crystal_Small" V 1350 5150 50  0000 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 1100 4900 50  0001 C CNN
+F 3 "" H 1100 4900 50  0001 C CNN
+	1    1100 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 5050 1100 5000
+Connection ~ 1350 5050
+Wire Wire Line
+	1100 4750 1100 4800
+Connection ~ 1350 4750
+$Comp
+L C C4
+U 1 1 59732711
+P 900 4750
+F 0 "C4" H 925 4850 50  0000 L CNN
+F 1 "22pF" H 925 4650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 938 4600 50  0001 C CNN
+F 3 "" H 900 4750 50  0001 C CNN
+	1    900  4750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 5973277F
+P 900 5050
+F 0 "C5" H 925 5150 50  0000 L CNN
+F 1 "22pF" H 925 4950 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 938 4900 50  0001 C CNN
+F 3 "" H 900 5050 50  0001 C CNN
+	1    900  5050
+	0    1    1    0   
+$EndComp
+Connection ~ 1100 4750
+Connection ~ 1100 5050
+Wire Wire Line
+	750  5050 650  5050
+Wire Wire Line
+	650  5050 650  4750
+Wire Wire Line
+	650  4750 750  4750
+$Comp
+L GND #PWR020
+U 1 1 59732B2B
+P 600 4900
+F 0 "#PWR020" H 600 4900 30  0001 C CNN
+F 1 "GND" H 600 4830 30  0001 C CNN
+F 2 "" H 600 4900 60  0000 C CNN
+F 3 "" H 600 4900 60  0000 C CNN
+	1    600  4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	600  4900 650  4900
+Connection ~ 650  4900
+$Comp
+L R R2
+U 1 1 597332A9
+P 1650 3950
+F 0 "R2" V 1730 3950 50  0000 C CNN
+F 1 "1K" V 1650 3950 50  0000 C CNN
+F 2 "Discret:R1" V 1580 3950 50  0001 C CNN
+F 3 "" H 1650 3950 50  0000 C CNN
+	1    1650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5973332E
+P 1650 4050
+F 0 "R3" V 1730 4050 50  0000 C CNN
+F 1 "1K" V 1650 4050 50  0000 C CNN
+F 2 "Discret:R1" V 1580 4050 50  0001 C CNN
+F 3 "" H 1650 4050 50  0000 C CNN
+	1    1650 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 3950 1400 3950
+Wire Wire Line
+	1500 4050 1400 4050
 $EndSCHEMATC
