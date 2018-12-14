@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:rc_car-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -566,7 +567,7 @@ F 3 "" H 4550 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D9
+L LED-RESCUE-rc_car D9
 U 1 1 595A1DB7
 P 4850 3350
 F 0 "D9" H 4850 3450 50  0000 C CNN
@@ -577,7 +578,7 @@ F 3 "" H 4850 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D10
+L LED-RESCUE-rc_car D10
 U 1 1 595A1EBB
 P 4850 3550
 F 0 "D10" H 4850 3650 50  0000 C CNN
