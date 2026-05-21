@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "pot_board-rescue") (type "Legacy") (uri "${KIPRJMOD}/pot_board-rescue.lib") (options "") (descr ""))
+)

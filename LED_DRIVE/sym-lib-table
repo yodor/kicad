@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name power_split-rescue)(type Legacy)(uri ${KIPRJMOD}/power_split-rescue.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
+  (lib (name 7segm_common_anode)(type Legacy)(uri ${KIPRJMOD}/7segm_common_anode.lib)(options "")(descr ""))
+  (lib (name mcp23017)(type Legacy)(uri ${KIPRJMOD}/mcp23017.lib)(options "")(descr ""))
+)

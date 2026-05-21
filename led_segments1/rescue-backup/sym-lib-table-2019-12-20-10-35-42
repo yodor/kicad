@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name led_segments-rescue)(type Legacy)(uri ${KIPRJMOD}/led_segments-rescue.lib)(options "")(descr ""))
+  (lib (name MCU_Module)(type Legacy)(uri /home/yodor/kicad/libs/MCU_Module/MCU_Module.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri /home/yodor/kicad/libs/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
+)

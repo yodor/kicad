@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:selector_ctrl-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:selector_ctrl-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SUPP28 J1
+L selector_ctrl-rescue:SUPP28 J1
 U 1 1 564ED6D4
 P 5600 -11700
 F 0 "J1" H 5600 -11600 70  0000 C CNN
@@ -57,7 +25,7 @@ F 3 "~" H 5600 -11700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1-RESCUE-selector_ctrl C1
+L selector_ctrl-rescue:CP1-RESCUE-selector_ctrl C1
 U 1 1 564ED6D5
 P 2100 -14500
 F 0 "C1" H 2150 -14400 50  0000 L CNN
@@ -68,7 +36,7 @@ F 3 "~" H 2100 -14500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C2
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C2
 U 1 1 564ED6D6
 P 4200 -11550
 F 0 "C2" H 4200 -11450 40  0000 L CNN
@@ -79,7 +47,7 @@ F 3 "~" H 4200 -11550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_3 IR1
+L selector_ctrl-rescue:CONN_3 IR1
 U 1 1 564ED6D7
 P 5550 -14100
 F 0 "IR1" V 5500 -14100 50  0000 C CNN
@@ -90,12 +58,12 @@ F 3 "~" H 5550 -14100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1900 -15300 1900 -14150
+	1900 -15300 1900 -14500
 Wire Wire Line
 	1900 -15300 2000 -15300
 Connection ~ 1900 -14500
 Wire Wire Line
-	2300 -15300 2300 -14150
+	2300 -15300 2300 -14500
 Wire Wire Line
 	2200 -15300 2300 -15300
 Connection ~ 2300 -14500
@@ -116,7 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 -11650 4350 -11350
 Wire Wire Line
-	4350 -11350 4050 -11350
+	4350 -11350 4200 -11350
 Wire Wire Line
 	6200 -11450 6650 -11450
 Wire Wire Line
@@ -139,7 +107,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 -14150 2450 -14100
 $Comp
-L GND #PWR01
+L selector_ctrl-rescue:GND #PWR01
 U 1 1 564ED6D8
 P 2450 -14100
 F 0 "#PWR01" H 2450 -14100 30  0001 C CNN
@@ -150,7 +118,7 @@ F 3 "" H 2450 -14100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L selector_ctrl-rescue:GND #PWR02
 U 1 1 564ED6D9
 P 4050 -11250
 F 0 "#PWR02" H 4050 -11250 30  0001 C CNN
@@ -161,7 +129,7 @@ F 3 "" H 4050 -11250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1-RESCUE-selector_ctrl C3
+L selector_ctrl-rescue:CP1-RESCUE-selector_ctrl C3
 U 1 1 564ED6DA
 P 5350 -14800
 F 0 "C3" H 5400 -14700 50  0000 L CNN
@@ -172,11 +140,11 @@ F 3 "~" H 5350 -14800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5550 -15000 5550 -14450
+	5550 -15000 5550 -14800
 Wire Wire Line
 	5650 -15150 5650 -14450
 $Comp
-L R-RESCUE-selector_ctrl R3
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R3
 U 1 1 564ED6DB
 P 5550 -15250
 F 0 "R3" V 5450 -15250 40  0000 C CNN
@@ -190,7 +158,7 @@ Connection ~ 5550 -14800
 Wire Wire Line
 	4950 -14800 5150 -14800
 $Comp
-L GND #PWR03
+L selector_ctrl-rescue:GND #PWR03
 U 1 1 564ED6DC
 P 4950 -14550
 F 0 "#PWR03" H 4950 -14550 30  0001 C CNN
@@ -245,7 +213,7 @@ CH2
 Wire Wire Line
 	4800 -11050 5000 -11050
 $Comp
-L C-RESCUE-selector_ctrl C12
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C12
 U 1 1 564ED6E0
 P 7500 -11800
 F 0 "C12" H 7500 -11700 40  0000 L CNN
@@ -260,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 -11750 7350 -12000
 Wire Wire Line
-	7350 -12000 7700 -12000
+	7350 -12000 7500 -12000
 Wire Wire Line
 	6200 -11550 7500 -11550
 Wire Wire Line
@@ -271,7 +239,7 @@ Wire Wire Line
 Text Label 8500 -11600 0    60   ~ 0
 5V
 $Comp
-L GND #PWR04
+L selector_ctrl-rescue:GND #PWR04
 U 1 1 564ED6E1
 P 7800 -12150
 F 0 "#PWR04" H 7800 -12150 30  0001 C CNN
@@ -290,7 +258,7 @@ Wire Wire Line
 Connection ~ 7500 -11600
 NoConn ~ 6200 -11850
 $Comp
-L CONN_2 VDC1
+L selector_ctrl-rescue:CONN_2 VDC1
 U 1 1 564ED6E3
 P 2100 -15800
 F 0 "VDC1" V 2050 -15800 40  0000 C CNN
@@ -305,7 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 -15300 2200 -15450
 $Comp
-L CONN_4 RS1
+L selector_ctrl-rescue:CONN_4 RS1
 U 1 1 564ED6E4
 P 9800 -15450
 F 0 "RS1" V 9750 -15450 50  0000 C CNN
@@ -326,7 +294,7 @@ TX
 Text Label 9950 -14950 0    60   ~ 0
 5V
 $Comp
-L GND #PWR05
+L selector_ctrl-rescue:GND #PWR05
 U 1 1 564ED6E5
 P 9850 -14700
 F 0 "#PWR05" H 9850 -14700 30  0001 C CNN
@@ -349,7 +317,7 @@ EQ7_DATA_R
 Wire Wire Line
 	6200 -11950 6650 -11950
 $Comp
-L FILTER FB2
+L selector_ctrl-rescue:FILTER FB2
 U 1 1 564ED6E9
 P 3850 -12000
 F 0 "FB2" H 3850 -11850 60  0000 C CNN
@@ -366,7 +334,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 -11750 5000 -11750
 $Comp
-L FILTER FB6
+L selector_ctrl-rescue:FILTER FB6
 U 1 1 564ED6EA
 P 8050 -11600
 F 0 "FB6" H 8050 -11450 60  0000 C CNN
@@ -381,7 +349,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 -13000 4700 -12350
 $Comp
-L FILTER FB1
+L selector_ctrl-rescue:FILTER FB1
 U 1 1 564ED6EB
 P 3800 -14850
 F 0 "FB1" H 3800 -14700 60  0000 C CNN
@@ -392,7 +360,7 @@ F 3 "~" H 3800 -14850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L FILTER FB3
+L selector_ctrl-rescue:FILTER FB3
 U 1 1 564ED6EC
 P 4000 -14850
 F 0 "FB3" H 4000 -14700 60  0000 C CNN
@@ -411,7 +379,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 -15200 4000 -15400
 $Comp
-L DIL8 P12
+L selector_ctrl-rescue:DIL8 P12
 U 1 1 564ED6ED
 P 6400 -8000
 F 0 "P12" H 6400 -7750 60  0000 C CNN
@@ -422,7 +390,7 @@ F 3 "~" H 6400 -8000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C5
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C5
 U 1 1 564ED6EE
 P 5700 -8250
 F 0 "C5" H 5700 -8150 40  0000 L CNN
@@ -433,7 +401,7 @@ F 3 "~" H 5700 -8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C9
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C9
 U 1 1 564ED6EF
 P 7200 -7750
 F 0 "C9" H 7200 -7650 40  0000 L CNN
@@ -444,7 +412,7 @@ F 3 "~" H 7200 -7750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C11
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C11
 U 1 1 564ED6F0
 P 7400 -8150
 F 0 "C11" H 7400 -8050 40  0000 L CNN
@@ -455,7 +423,7 @@ F 3 "~" H 7400 -8150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C7
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C7
 U 1 1 564ED6F1
 P 6850 -7450
 F 0 "C7" H 6850 -7350 40  0000 L CNN
@@ -476,13 +444,13 @@ EQ7_RST
 Text Label 6050 -7650 2    60   ~ 0
 EQ7_STROBE
 Wire Wire Line
-	5200 -8050 6050 -8050
+	5200 -8050 5700 -8050
 Wire Wire Line
-	6050 -8600 6050 -8150
+	6050 -8600 6050 -8400
 Connection ~ 5700 -8450
 Connection ~ 5700 -8050
 $Comp
-L R-RESCUE-selector_ctrl R5
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R5
 U 1 1 564ED6F2
 P 6550 -8400
 F 0 "R5" V 6630 -8400 40  0000 C CNN
@@ -493,7 +461,7 @@ F 3 "~" H 6550 -8400 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6750 -8150 7200 -8150
+	6750 -8150 7100 -8150
 Wire Wire Line
 	7100 -8400 7100 -8150
 Connection ~ 7100 -8150
@@ -504,7 +472,7 @@ EQ7_DATA_L
 Text Label 6850 -7000 3    60   ~ 0
 L_OUT
 $Comp
-L FILTER FB5
+L selector_ctrl-rescue:FILTER FB5
 U 1 1 564ED6F3
 P 5050 -8450
 F 0 "FB5" H 5050 -8300 60  0000 C CNN
@@ -529,11 +497,10 @@ Wire Wire Line
 Connection ~ 6050 -8400
 Wire Wire Line
 	5700 -8600 5700 -8450
-Connection ~ 6050 -8600
 Wire Wire Line
 	5700 -8450 5400 -8450
 $Comp
-L GND #PWR06
+L selector_ctrl-rescue:GND #PWR06
 U 1 1 564ED6F4
 P 5200 -7950
 F 0 "#PWR06" H 5200 -7950 30  0001 C CNN
@@ -544,7 +511,7 @@ F 3 "" H 5200 -7950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L selector_ctrl-rescue:GND #PWR07
 U 1 1 564ED6F5
 P 7200 -7350
 F 0 "#PWR07" H 7200 -7350 30  0001 C CNN
@@ -555,7 +522,7 @@ F 3 "" H 7200 -7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL8 P11
+L selector_ctrl-rescue:DIL8 P11
 U 1 1 564ED6F6
 P 6250 -5600
 F 0 "P11" H 6250 -5350 60  0000 C CNN
@@ -566,7 +533,7 @@ F 3 "~" H 6250 -5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C4
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C4
 U 1 1 564ED6F7
 P 5550 -5850
 F 0 "C4" H 5550 -5750 40  0000 L CNN
@@ -577,7 +544,7 @@ F 3 "~" H 5550 -5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C8
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C8
 U 1 1 564ED6F8
 P 7050 -5350
 F 0 "C8" H 7050 -5250 40  0000 L CNN
@@ -588,7 +555,7 @@ F 3 "~" H 7050 -5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C10
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C10
 U 1 1 564ED6F9
 P 7250 -5750
 F 0 "C10" H 7250 -5650 40  0000 L CNN
@@ -599,7 +566,7 @@ F 3 "~" H 7250 -5750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C-RESCUE-selector_ctrl C6
+L selector_ctrl-rescue:C-RESCUE-selector_ctrl C6
 U 1 1 564ED6FA
 P 6700 -5050
 F 0 "C6" H 6700 -4950 40  0000 L CNN
@@ -616,11 +583,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 -5550 7050 -5550
 Wire Wire Line
-	5050 -5650 5900 -5650
+	5050 -5650 5550 -5650
 Connection ~ 5550 -6050
 Connection ~ 5550 -5650
 $Comp
-L R-RESCUE-selector_ctrl R4
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R4
 U 1 1 564ED6FB
 P 6400 -6000
 F 0 "R4" V 6480 -6000 40  0000 C CNN
@@ -631,7 +598,7 @@ F 3 "~" H 6400 -6000 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6600 -5750 7050 -5750
+	6600 -5750 6950 -5750
 Wire Wire Line
 	6950 -6000 6950 -5750
 Connection ~ 6950 -5750
@@ -653,9 +620,9 @@ Wire Wire Line
 	6150 -6000 5900 -6000
 Connection ~ 5900 -6000
 Wire Wire Line
-	5250 -6050 5900 -6050
+	5250 -6050 5550 -6050
 $Comp
-L GND #PWR08
+L selector_ctrl-rescue:GND #PWR08
 U 1 1 564ED6FC
 P 5050 -5550
 F 0 "#PWR08" H 5050 -5550 30  0001 C CNN
@@ -666,7 +633,7 @@ F 3 "" H 5050 -5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L selector_ctrl-rescue:GND #PWR09
 U 1 1 564ED6FD
 P 7050 -4950
 F 0 "#PWR09" H 7050 -4950 30  0001 C CNN
@@ -685,7 +652,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 -7250 6850 -7000
 $Comp
-L FILTER FB4
+L selector_ctrl-rescue:FILTER FB4
 U 1 1 564ED6FE
 P 4900 -6050
 F 0 "FB4" H 4900 -5900 60  0000 C CNN
@@ -710,11 +677,11 @@ Wire Wire Line
 Wire Wire Line
 	5700 -5550 5700 -5500
 Wire Wire Line
-	5900 -6050 5900 -5750
+	5900 -6050 5900 -6000
 Wire Wire Line
 	5700 -8600 6050 -8600
 $Comp
-L BC547 Q1
+L selector_ctrl-rescue:BC547 Q1
 U 1 1 564ED6FF
 P 2700 2650
 F 0 "Q1" H 2700 2501 40  0000 R CNN
@@ -725,7 +692,7 @@ F 3 "" H 2700 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL14 P6
+L selector_ctrl-rescue:DIL14 P6
 U 1 1 564ED700
 P 3650 2200
 F 0 "P6" H 3650 2600 60  0000 C CNN
@@ -736,7 +703,7 @@ F 3 "~" H 3650 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D1
+L selector_ctrl-rescue:DIODE D1
 U 1 1 564ED701
 P 3000 2200
 F 0 "D1" H 3000 2300 40  0000 C CNN
@@ -765,7 +732,7 @@ NoConn ~ 3300 2300
 NoConn ~ 3300 2200
 NoConn ~ 3300 2100
 $Comp
-L GND #PWR010
+L selector_ctrl-rescue:GND #PWR010
 U 1 1 564ED703
 P 2800 3000
 F 0 "#PWR010" H 2800 3000 30  0001 C CNN
@@ -776,7 +743,7 @@ F 3 "" H 2800 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-selector_ctrl R1
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R1
 U 1 1 564ED704
 P 2100 2650
 F 0 "R1" V 2180 2650 40  0000 C CNN
@@ -789,7 +756,7 @@ $EndComp
 Text Label 1700 2650 2    60   ~ 0
 CH1
 $Comp
-L BC547 Q3
+L selector_ctrl-rescue:BC547 Q3
 U 1 1 564ED706
 P 7600 6050
 F 0 "Q3" H 7600 5901 40  0000 R CNN
@@ -800,7 +767,7 @@ F 3 "" H 7600 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL14 P16
+L selector_ctrl-rescue:DIL14 P16
 U 1 1 564ED707
 P 8550 5600
 F 0 "P16" H 8550 6000 60  0000 C CNN
@@ -811,7 +778,7 @@ F 3 "~" H 8550 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D3
+L selector_ctrl-rescue:DIODE D3
 U 1 1 564ED708
 P 7900 5600
 F 0 "D3" H 7900 5700 40  0000 C CNN
@@ -838,7 +805,7 @@ NoConn ~ 8200 5700
 NoConn ~ 8200 5600
 NoConn ~ 8200 5500
 $Comp
-L GND #PWR011
+L selector_ctrl-rescue:GND #PWR011
 U 1 1 564ED709
 P 7700 6400
 F 0 "#PWR011" H 7700 6400 30  0001 C CNN
@@ -849,7 +816,7 @@ F 3 "" H 7700 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-selector_ctrl R6
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R6
 U 1 1 564ED70A
 P 7000 6050
 F 0 "R6" V 7080 6050 40  0000 C CNN
@@ -883,7 +850,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2650 2500 2650
 Wire Wire Line
-	2800 2400 3300 2400
+	2800 2400 3000 2400
 Wire Wire Line
 	1850 2650 1700 2650
 Wire Wire Line
@@ -910,7 +877,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6050 6600 6050
 $Comp
-L DIL14 P9
+L selector_ctrl-rescue:DIL14 P9
 U 1 1 564ED70C
 P 5300 2200
 F 0 "P9" H 5300 2600 60  0000 C CNN
@@ -943,7 +910,7 @@ NoConn ~ 4950 2100
 Wire Wire Line
 	4950 1550 4950 1900
 $Comp
-L DIL14 P18
+L selector_ctrl-rescue:DIL14 P18
 U 1 1 564ED70D
 P 10200 5600
 F 0 "P18" H 10200 6000 60  0000 C CNN
@@ -991,7 +958,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 5000 8900 5300
 $Comp
-L BC547 Q2
+L selector_ctrl-rescue:BC547 Q2
 U 1 1 564ED710
 P 2800 6100
 F 0 "Q2" H 2800 5951 40  0000 R CNN
@@ -1002,7 +969,7 @@ F 3 "" H 2800 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL14 P7
+L selector_ctrl-rescue:DIL14 P7
 U 1 1 564ED711
 P 3750 5650
 F 0 "P7" H 3750 6050 60  0000 C CNN
@@ -1013,7 +980,7 @@ F 3 "~" H 3750 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D2
+L selector_ctrl-rescue:DIODE D2
 U 1 1 564ED712
 P 3100 5650
 F 0 "D2" H 3100 5750 40  0000 C CNN
@@ -1040,7 +1007,7 @@ NoConn ~ 3400 5750
 NoConn ~ 3400 5650
 NoConn ~ 3400 5550
 $Comp
-L GND #PWR012
+L selector_ctrl-rescue:GND #PWR012
 U 1 1 564ED713
 P 2900 6450
 F 0 "#PWR012" H 2900 6450 30  0001 C CNN
@@ -1051,7 +1018,7 @@ F 3 "" H 2900 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-selector_ctrl R2
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R2
 U 1 1 564ED714
 P 2200 6100
 F 0 "R2" V 2280 6100 40  0000 C CNN
@@ -1064,7 +1031,7 @@ $EndComp
 Text Label 1800 6100 2    60   ~ 0
 CH3
 $Comp
-L BC547 Q4
+L selector_ctrl-rescue:BC547 Q4
 U 1 1 564ED715
 P 7400 2800
 F 0 "Q4" H 7400 2651 40  0000 R CNN
@@ -1075,7 +1042,7 @@ F 3 "" H 7400 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL14 P17
+L selector_ctrl-rescue:DIL14 P17
 U 1 1 564ED716
 P 8350 2350
 F 0 "P17" H 8350 2750 60  0000 C CNN
@@ -1086,7 +1053,7 @@ F 3 "~" H 8350 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D4
+L selector_ctrl-rescue:DIODE D4
 U 1 1 564ED717
 P 7700 2350
 F 0 "D4" H 7700 2450 40  0000 C CNN
@@ -1113,7 +1080,7 @@ NoConn ~ 8000 2450
 NoConn ~ 8000 2350
 NoConn ~ 8000 2250
 $Comp
-L GND #PWR013
+L selector_ctrl-rescue:GND #PWR013
 U 1 1 564ED718
 P 7500 3150
 F 0 "#PWR013" H 7500 3150 30  0001 C CNN
@@ -1124,7 +1091,7 @@ F 3 "" H 7500 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-selector_ctrl R7
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R7
 U 1 1 564ED719
 P 6800 2800
 F 0 "R7" V 6880 2800 40  0000 C CNN
@@ -1158,7 +1125,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 6100 2600 6100
 Wire Wire Line
-	2900 5850 3400 5850
+	2900 5850 3100 5850
 Wire Wire Line
 	1950 6100 1800 6100
 Wire Wire Line
@@ -1183,11 +1150,11 @@ Wire Wire Line
 Wire Wire Line
 	7050 2800 7200 2800
 Wire Wire Line
-	7500 2550 8000 2550
+	7500 2550 7700 2550
 Wire Wire Line
 	6550 2800 6400 2800
 $Comp
-L DIL14 P10
+L selector_ctrl-rescue:DIL14 P10
 U 1 1 564ED71A
 P 5400 5650
 F 0 "P10" H 5400 6050 60  0000 C CNN
@@ -1220,7 +1187,7 @@ NoConn ~ 5050 5750
 NoConn ~ 5050 5650
 NoConn ~ 5050 5550
 $Comp
-L DIL14 P19
+L selector_ctrl-rescue:DIL14 P19
 U 1 1 564ED71B
 P 10000 2350
 F 0 "P19" H 10000 2750 60  0000 C CNN
@@ -1276,7 +1243,7 @@ R_IN3
 Text Notes 600  700  0    60   ~ 0
 Relay DIP05-2A72-21L Coil Resistance typ 210 Ohm (180-220)\nRelay DIP05-1A72-12L Coil Resistance typ 505 Ohm (450-550)
 $Comp
-L BC547 Q5
+L selector_ctrl-rescue:BC547 Q5
 U 1 1 564ED71D
 P 14250 2300
 F 0 "Q5" H 14250 2151 40  0000 R CNN
@@ -1287,7 +1254,7 @@ F 3 "" H 14250 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIL14 P20
+L selector_ctrl-rescue:DIL14 P20
 U 1 1 564ED71E
 P 15200 1850
 F 0 "P20" H 15200 2250 60  0000 C CNN
@@ -1298,7 +1265,7 @@ F 3 "~" H 15200 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D5
+L selector_ctrl-rescue:DIODE D5
 U 1 1 564ED71F
 P 14550 1850
 F 0 "D5" H 14550 1950 40  0000 C CNN
@@ -1321,7 +1288,7 @@ NoConn ~ 14850 1950
 NoConn ~ 14850 1850
 NoConn ~ 14850 1750
 $Comp
-L GND #PWR014
+L selector_ctrl-rescue:GND #PWR014
 U 1 1 564ED721
 P 14350 2650
 F 0 "#PWR014" H 14350 2650 30  0001 C CNN
@@ -1332,7 +1299,7 @@ F 3 "" H 14350 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-selector_ctrl R8
+L selector_ctrl-rescue:R-RESCUE-selector_ctrl R8
 U 1 1 564ED722
 P 13650 2300
 F 0 "R8" V 13730 2300 40  0000 C CNN
@@ -1364,13 +1331,13 @@ Wire Wire Line
 Wire Wire Line
 	13900 2300 14050 2300
 Wire Wire Line
-	14350 2050 14850 2050
+	14350 2050 14550 2050
 Wire Wire Line
 	13400 2300 13250 2300
 Wire Wire Line
 	15550 1150 15550 1550
 $Comp
-L CONN_3 A_OUT1
+L selector_ctrl-rescue:CONN_3 A_OUT1
 U 1 1 564ED725
 P 15200 3350
 F 0 "A_OUT1" V 15150 3350 50  0000 C CNN
@@ -1381,7 +1348,7 @@ F 3 "~" H 15200 3350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14100 1150 15550 1150
+	14100 1150 14850 1150
 Wire Wire Line
 	14850 1150 14850 1550
 Wire Wire Line
@@ -1394,7 +1361,7 @@ G_OUT
 Text Label 15450 4500 3    60   ~ 0
 R_OUT
 $Comp
-L FILTER FB8
+L selector_ctrl-rescue:FILTER FB8
 U 1 1 564ED726
 P 15450 4050
 F 0 "FB8" H 15450 4200 60  0000 C CNN
@@ -1405,7 +1372,7 @@ F 3 "~" H 15450 4050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L FILTER FB7
+L selector_ctrl-rescue:FILTER FB7
 U 1 1 564ED727
 P 14950 4050
 F 0 "FB7" H 14950 4200 60  0000 C CNN
@@ -1430,7 +1397,7 @@ G_OUT
 Wire Wire Line
 	4700 3500 4700 2400
 $Comp
-L CONN_4 P3
+L selector_ctrl-rescue:CONN_4 P3
 U 1 1 564ED72A
 P 1850 -1450
 F 0 "P3" V 1800 -1450 50  0000 C CNN
@@ -1443,7 +1410,7 @@ $EndComp
 Wire Wire Line
 	1850 -1000 1850 -1100
 Wire Wire Line
-	1800 -1100 1900 -1100
+	1800 -1100 1850 -1100
 Connection ~ 1850 -1100
 Wire Wire Line
 	2000 -1000 2000 -1100
@@ -1456,7 +1423,7 @@ L_IN4
 Text Label 2550 -1000 3    60   ~ 0
 R_IN4
 $Comp
-L CONN_4 P4
+L selector_ctrl-rescue:CONN_4 P4
 U 1 1 564ED72B
 P 2400 -1450
 F 0 "P4" V 2350 -1450 50  0000 C CNN
@@ -1469,7 +1436,7 @@ $EndComp
 Wire Wire Line
 	2400 -1000 2400 -1100
 Wire Wire Line
-	2350 -1100 2450 -1100
+	2350 -1100 2400 -1100
 Connection ~ 2400 -1100
 Wire Wire Line
 	2550 -1000 2550 -1100
@@ -1482,7 +1449,7 @@ L_IN1
 Text Label 900  -1000 3    60   ~ 0
 R_IN1
 $Comp
-L CONN_4 P1
+L selector_ctrl-rescue:CONN_4 P1
 U 1 1 564ED72C
 P 750 -1450
 F 0 "P1" V 700 -1450 50  0000 C CNN
@@ -1495,7 +1462,7 @@ $EndComp
 Wire Wire Line
 	750  -1000 750  -1100
 Wire Wire Line
-	700  -1100 800  -1100
+	700  -1100 750  -1100
 Connection ~ 750  -1100
 Wire Wire Line
 	900  -1000 900  -1100
@@ -1508,7 +1475,7 @@ L_IN2
 Text Label 1450 -1000 3    60   ~ 0
 R_IN2
 $Comp
-L CONN_4 P2
+L selector_ctrl-rescue:CONN_4 P2
 U 1 1 564ED72D
 P 1300 -1450
 F 0 "P2" V 1250 -1450 50  0000 C CNN
@@ -1521,7 +1488,7 @@ $EndComp
 Wire Wire Line
 	1300 -1000 1300 -1100
 Wire Wire Line
-	1250 -1100 1350 -1100
+	1250 -1100 1300 -1100
 Connection ~ 1300 -1100
 Wire Wire Line
 	1450 -1000 1450 -1100
@@ -1536,12 +1503,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 -5650 5050 -5550
 Wire Wire Line
-	7700 5800 8200 5800
+	7700 5800 7900 5800
 Wire Wire Line
 	5050 5050 5750 5050
 Wire Wire Line
 	5750 5050 5750 5350
-Connection ~ 5050 5050
 Wire Wire Line
 	5050 5050 5050 5000
 Wire Wire Line
@@ -1563,7 +1529,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 -11050 4800 -10850
 $Comp
-L CONN_4 I2C1
+L selector_ctrl-rescue:CONN_4 I2C1
 U 1 1 564F2713
 P 3900 -15850
 F 0 "I2C1" V 3850 -15850 50  0000 C CNN
@@ -1582,7 +1548,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 -15400 4000 -15400
 $Comp
-L GND #PWR015
+L selector_ctrl-rescue:GND #PWR015
 U 1 1 564F292A
 P 4150 -15350
 F 0 "#PWR015" H 4150 -15350 30  0001 C CNN
@@ -1597,7 +1563,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 -15500 4150 -15350
 $Comp
-L GND #PWR016
+L selector_ctrl-rescue:GND #PWR016
 U 1 1 564F2A38
 P 3650 -15400
 F 0 "#PWR016" H 3650 -15400 30  0001 C CNN
@@ -1631,4 +1597,48 @@ Text Label 14550 1600 2    60   ~ 0
 5V
 Wire Wire Line
 	6200 -11650 6200 -11550
+Wire Wire Line
+	1900 -14500 1900 -14150
+Wire Wire Line
+	2300 -14500 2300 -14150
+Wire Wire Line
+	4200 -11350 4050 -11350
+Wire Wire Line
+	5550 -14800 5550 -14450
+Wire Wire Line
+	7500 -12000 7700 -12000
+Wire Wire Line
+	5700 -8050 6050 -8050
+Wire Wire Line
+	7100 -8150 7200 -8150
+Wire Wire Line
+	6050 -8400 6050 -8150
+Wire Wire Line
+	5550 -6050 5900 -6050
+Wire Wire Line
+	5550 -5650 5900 -5650
+Wire Wire Line
+	6950 -5750 7050 -5750
+Wire Wire Line
+	5900 -6000 5900 -5750
+Wire Wire Line
+	3000 2400 3300 2400
+Wire Wire Line
+	7900 5800 8200 5800
+Wire Wire Line
+	3100 5850 3400 5850
+Wire Wire Line
+	7700 2550 8000 2550
+Wire Wire Line
+	14550 2050 14850 2050
+Wire Wire Line
+	14850 1150 15550 1150
+Wire Wire Line
+	1850 -1100 1900 -1100
+Wire Wire Line
+	2400 -1100 2450 -1100
+Wire Wire Line
+	750  -1100 800  -1100
+Wire Wire Line
+	1300 -1100 1350 -1100
 $EndSCHEMATC

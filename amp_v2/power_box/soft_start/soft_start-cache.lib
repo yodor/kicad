@@ -1,14 +1,13 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BC547
+# soft_start-rescue_BC547
 #
-DEF BC547 Q 0 0 Y Y 1 F N
+DEF soft_start-rescue_BC547 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "BC547" 200 0 50 H V L CNN
+F1 "soft_start-rescue_BC547" 200 0 50 H V L CNN
 F2 "TO-92" 200 -75 50 H V L CIN
 F3 "" 0 0 50 H V L CNN
-ALIAS BC546 BC548 BC549 BC550
 $FPLIST
  TO-92*
 $ENDFPLIST
@@ -25,11 +24,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_2
+# soft_start-rescue_CONN_2
 #
-DEF CONN_2 P 0 40 Y N 1 F N
+DEF soft_start-rescue_CONN_2 P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "CONN_2" 50 0 40 V V C CNN
+F1 "soft_start-rescue_CONN_2" 50 0 40 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -39,11 +38,11 @@ X PM 2 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# CONN_3
+# soft_start-rescue_CONN_3
 #
-DEF CONN_3 K 0 40 Y N 1 F N
+DEF soft_start-rescue_CONN_3 K 0 40 Y N 1 F N
 F0 "K" -50 0 50 V V C CNN
-F1 "CONN_3" 50 0 40 V V C CNN
+F1 "soft_start-rescue_CONN_3" 50 0 40 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -54,11 +53,11 @@ X P3 3 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# DIODE
+# soft_start-rescue_DIODE
 #
-DEF DIODE D 0 40 N N 1 F N
+DEF soft_start-rescue_DIODE D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "DIODE" 0 -100 40 H V C CNN
+F1 "soft_start-rescue_DIODE" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -73,11 +72,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND-RESCUE-soft_start
+# soft_start-rescue_GND-RESCUE-soft_start
 #
-DEF ~GND-RESCUE-soft_start #PWR 0 0 Y Y 1 F P
+DEF soft_start-rescue_GND-RESCUE-soft_start #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "GND-RESCUE-soft_start" 0 -70 30 H I C CNN
+F1 "soft_start-rescue_GND-RESCUE-soft_start" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -86,11 +85,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# R-RESCUE-soft_start
+# soft_start-rescue_R-RESCUE-soft_start
 #
-DEF R-RESCUE-soft_start R 0 0 N Y 1 F N
+DEF soft_start-rescue_R-RESCUE-soft_start R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "R-RESCUE-soft_start" 7 1 40 V V C CNN
+F1 "soft_start-rescue_R-RESCUE-soft_start" 7 1 40 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -107,11 +106,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RELAY_HJR-3FF_Z
+# soft_start-rescue_RELAY_HJR-3FF_Z
 #
-DEF RELAY_HJR-3FF_Z RLY 0 40 Y Y 1 F N
+DEF soft_start-rescue_RELAY_HJR-3FF_Z RLY 0 40 Y Y 1 F N
 F0 "RLY" 0 250 60 H V C CNN
-F1 "RELAY_HJR-3FF_Z" 0 -235 60 H V C CNN
+F1 "soft_start-rescue_RELAY_HJR-3FF_Z" 0 -235 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST

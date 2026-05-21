@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "i2c_conn-rescue")(type "Legacy")(uri "${KIPRJMOD}/i2c_conn-rescue.lib")(options "")(descr ""))
+  (lib (name "rj12")(type "Legacy")(uri "${KIPRJMOD}/rj12.lib")(options "")(descr ""))
+)

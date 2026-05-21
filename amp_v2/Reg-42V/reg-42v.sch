@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:reg-42v-cache
-EELAYER 27 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,11 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1100 1900 2800 1900
+	1100 1900 2300 1900
 Wire Wire Line
-	1100 5000 2800 5000
+	1100 5000 2300 5000
 $Comp
-L R R1
+L reg-42v-rescue:R R1
 U 1 1 5586F3B4
 P 2300 2150
 F 0 "R1" V 2380 2150 40  0000 C CNN
@@ -60,7 +29,7 @@ F 3 "~" H 2300 2150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L reg-42v-rescue:R R2
 U 1 1 5586F3C1
 P 2300 4750
 F 0 "R2" V 2380 4750 40  0000 C CNN
@@ -71,7 +40,7 @@ F 3 "~" H 2300 4750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZENER D2
+L reg-42v-rescue:ZENER D2
 U 1 1 5586F3D6
 P 2300 3200
 F 0 "D2" H 2300 3300 50  0000 C CNN
@@ -82,7 +51,7 @@ F 3 "~" H 2300 3200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER D1
+L reg-42v-rescue:ZENER D1
 U 1 1 5586F3E3
 P 2300 2700
 F 0 "D1" H 2300 2800 50  0000 C CNN
@@ -93,7 +62,7 @@ F 3 "~" H 2300 2700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L NPN Q1
+L reg-42v-rescue:NPN Q1
 U 1 1 5586F3F0
 P 2900 950
 F 0 "Q1" H 2900 800 50  0000 R CNN
@@ -104,7 +73,7 @@ F 3 "~" H 2900 950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PNP Q2
+L reg-42v-rescue:PNP Q2
 U 1 1 5586F3FF
 P 2900 5900
 F 0 "Q2" H 2900 5750 60  0000 R CNN
@@ -115,7 +84,7 @@ F 3 "~" H 2900 5900 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L ZENER D4
+L reg-42v-rescue:ZENER D4
 U 1 1 5586F40C
 P 2300 4200
 F 0 "D4" H 2300 4300 50  0000 C CNN
@@ -126,7 +95,7 @@ F 3 "~" H 2300 4200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER D3
+L reg-42v-rescue:ZENER D3
 U 1 1 5586F412
 P 2300 3700
 F 0 "D3" H 2300 3800 50  0000 C CNN
@@ -137,14 +106,14 @@ F 3 "~" H 2300 3700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1100 3450 4150 3450
+	1100 3450 1350 3450
 Wire Wire Line
-	2300 3400 2300 3500
+	2300 3400 2300 3450
 Connection ~ 2300 3450
 Wire Wire Line
 	2300 3000 2300 2900
 Wire Wire Line
-	2300 2500 2300 2400
+	2300 2500 2300 2450
 Connection ~ 2300 1900
 Wire Wire Line
 	2900 2450 2300 2450
@@ -154,7 +123,7 @@ Connection ~ 2300 2450
 Wire Wire Line
 	2300 3900 2300 4000
 Wire Wire Line
-	2300 4500 2300 4400
+	2300 4500 2300 4450
 Wire Wire Line
 	2300 4450 2900 4450
 Wire Wire Line
@@ -162,11 +131,11 @@ Wire Wire Line
 Connection ~ 2300 4450
 Connection ~ 2300 5000
 Wire Wire Line
-	3000 1900 4150 1900
+	3000 1900 3400 1900
 Wire Wire Line
-	3000 5000 4150 5000
+	3000 5000 3400 5000
 $Comp
-L R R3
+L reg-42v-rescue:R R3
 U 1 1 5586F505
 P 3400 2400
 F 0 "R3" V 3480 2400 40  0000 C CNN
@@ -177,7 +146,7 @@ F 3 "~" H 3400 2400 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L reg-42v-rescue:LED D5
 U 1 1 5586F50D
 P 3400 2950
 F 0 "D5" H 3400 3050 50  0000 C CNN
@@ -188,7 +157,7 @@ F 3 "~" H 3400 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D6
+L reg-42v-rescue:LED D6
 U 1 1 5586F51A
 P 3400 3900
 F 0 "D6" H 3400 4000 50  0000 C CNN
@@ -199,7 +168,7 @@ F 3 "~" H 3400 3900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L reg-42v-rescue:R R4
 U 1 1 5586F520
 P 3400 4550
 F 0 "R4" V 3480 4550 40  0000 C CNN
@@ -212,7 +181,7 @@ $EndComp
 Wire Wire Line
 	3400 1900 3400 2150
 Wire Wire Line
-	3400 3150 3400 3700
+	3400 3150 3400 3450
 Connection ~ 3400 3450
 Wire Wire Line
 	3400 4100 3400 4300
@@ -225,7 +194,7 @@ Text Label 1100 1900 1    60   ~ 0
 Text Label 1100 5000 3    60   ~ 0
 -45
 $Comp
-L GND #PWR01
+L reg-42v-rescue:GND #PWR01
 U 1 1 5586F614
 P 1350 3550
 F 0 "#PWR01" H 1350 3550 30  0001 C CNN
@@ -240,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3450 3950 3550
 $Comp
-L GND #PWR02
+L reg-42v-rescue:GND #PWR02
 U 1 1 5586F659
 P 3950 3550
 F 0 "#PWR02" H 3950 3550 30  0001 C CNN
@@ -255,7 +224,7 @@ VCC
 Text Label 3950 5000 0    60   ~ 0
 VEE
 $Comp
-L CONN_3 K1
+L reg-42v-rescue:CONN_3 K1
 U 1 1 5586F6C5
 P 2900 1550
 F 0 "K1" V 2850 1550 50  0000 C CNN
@@ -266,7 +235,7 @@ F 3 "" H 2900 1550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_3 K2
+L reg-42v-rescue:CONN_3 K2
 U 1 1 5586F6D2
 P 2900 5350
 F 0 "K2" V 2850 5350 50  0000 C CNN
@@ -289,7 +258,7 @@ P_C
 Text Label 2900 4450 0    60   ~ 0
 P_B
 $Comp
-L CONN_3 K3
+L reg-42v-rescue:CONN_3 K3
 U 1 1 5586F8C1
 P 750 3450
 F 0 "K3" V 700 3450 50  0000 C CNN
@@ -300,7 +269,7 @@ F 3 "" H 750 3450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_3 K4
+L reg-42v-rescue:CONN_3 K4
 U 1 1 5586F8C7
 P 4500 3450
 F 0 "K4" V 4450 3450 50  0000 C CNN
@@ -324,4 +293,28 @@ Wire Wire Line
 	3400 2750 3400 2650
 Text Notes 3650 1300 0    60   ~ 0
 hFE = 50\n41.4 / 0.1 = 414(430)R\n
+Wire Wire Line
+	2300 3450 3400 3450
+Wire Wire Line
+	2300 3450 2300 3500
+Wire Wire Line
+	2300 1900 2800 1900
+Wire Wire Line
+	2300 2450 2300 2400
+Wire Wire Line
+	2300 4450 2300 4400
+Wire Wire Line
+	2300 5000 2800 5000
+Wire Wire Line
+	3400 3450 3400 3700
+Wire Wire Line
+	3400 3450 3950 3450
+Wire Wire Line
+	3400 5000 4150 5000
+Wire Wire Line
+	3400 1900 4150 1900
+Wire Wire Line
+	1350 3450 2300 3450
+Wire Wire Line
+	3950 3450 4150 3450
 $EndSCHEMATC

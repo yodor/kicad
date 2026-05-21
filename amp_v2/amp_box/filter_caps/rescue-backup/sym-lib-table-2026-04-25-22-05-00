@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "filter_caps-rescue") (type "Legacy") (uri "${KIPRJMOD}/filter_caps-rescue.lib") (options "") (descr ""))
+)

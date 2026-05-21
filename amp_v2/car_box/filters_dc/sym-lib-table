@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name power_amp-rescue)(type Legacy)(uri ${KIPRJMOD}/power_amp-rescue.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
+)

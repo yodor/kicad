@@ -1,0 +1,35 @@
+Info: Backing up file '/storage/work/kicad/amp_v2/selector_box/selector_all/sym-lib-table' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/sym-lib-table-2026-05-16-16-33-03'.
+Info: Backing up file '' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/-2026-05-16-16-33-03'.
+Info: Backing up file '/storage/work/kicad/amp_v2/selector_box/selector_all/selector_ctrl.sch' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/selector_ctrl-2026-05-16-16-33-03.sch'.
+Info: Backing up file '/storage/work/kicad/amp_v2/selector_box/selector_all/selector_ctrl.kicad_pro' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/selector_ctrl-2026-05-16-16-33-03.kicad_pro'.
+Info: Backing up file '/storage/work/kicad/amp_v2/selector_box/selector_all/selector_ctrl-cache.lib' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/selector_ctrl-cache-2026-05-16-16-33-03.lib'.
+Info: Backing up file '/storage/work/kicad/amp_v2/selector_box/selector_all/selector_ctrl.cache.lib' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/selector_ctrl.cache-2026-05-16-16-33-03.lib'.
+Info: Backing up file '/storage/work/kicad/amp_v2/selector_box/selector_all/selector_ctrl-rescue.lib' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/selector_ctrl-rescue-2026-05-16-16-33-03.lib'.
+Info: Backing up file '/storage/work/kicad/amp_v2/selector_box/selector_all/selector_ctrl-rescue.dcm' to '/storage/work/kicad/amp_v2/selector_box/selector_all/rescue-backup/selector_ctrl-rescue-2026-05-16-16-33-03.dcm'.
+Info: Adding library 'selector_ctrl-rescue', file '${KIPRJMOD}/selector_ctrl-rescue.lib' to project symbol library table.
+Symbol CP1 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol GND mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_3 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol GND mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CP1 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol R mapped to symbol library 'selector_ctrl-rescue'.
+Symbol FILTER mapped to symbol library 'selector_ctrl-rescue'.
+Symbol C mapped to symbol library 'selector_ctrl-rescue'.
+Symbol GND mapped to symbol library 'selector_ctrl-rescue'.
+Symbol SUPP28 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol C mapped to symbol library 'selector_ctrl-rescue'.
+Symbol FILTER mapped to symbol library 'selector_ctrl-rescue'.
+Symbol GND mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_4 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol CONN_2 mapped to symbol library 'selector_ctrl-rescue'.
+Symbol GND mapped to symbol library 'selector_ctrl-rescue'.
+Info: Symbol library table mapping complete!
+Info: Created project symbol library table.
+

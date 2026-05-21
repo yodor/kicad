@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CONN_01X06
+# rc_car-rescue_CONN_01X06
 #
-DEF CONN_01X06 J 0 40 Y N 1 F N
+DEF rc_car-rescue_CONN_01X06 J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "CONN_01X06" 100 0 50 V V C CNN
+F1 "rc_car-rescue_CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -31,11 +31,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D
+# rc_car-rescue_D
 #
-DEF D D 0 40 N N 1 F N
+DEF rc_car-rescue_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D" 0 -100 50 H V C CNN
+F1 "rc_car-rescue_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -54,11 +54,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# rc_car-rescue_GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF rc_car-rescue_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "rc_car-rescue_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -67,11 +67,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Q_NMOS_GDS
+# rc_car-rescue_Q_NMOS_GDS
 #
-DEF Q_NMOS_GDS Q 0 0 Y N 1 F N
+DEF rc_car-rescue_Q_NMOS_GDS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NMOS_GDS" 200 -50 50 H V L CNN
+F1 "rc_car-rescue_Q_NMOS_GDS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -98,11 +98,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_NMOS_SGD
+# rc_car-rescue_Q_NMOS_SGD
 #
-DEF Q_NMOS_SGD Q 0 0 Y N 1 F N
+DEF rc_car-rescue_Q_NMOS_SGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NMOS_SGD" 200 -50 50 H V L CNN
+F1 "rc_car-rescue_Q_NMOS_SGD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -129,11 +129,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_PMOS_GDS
+# rc_car-rescue_Q_PMOS_GDS
 #
-DEF Q_PMOS_GDS Q 0 0 Y N 1 F N
+DEF rc_car-rescue_Q_PMOS_GDS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_PMOS_GDS" 200 -50 50 H V L CNN
+F1 "rc_car-rescue_Q_PMOS_GDS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -160,11 +160,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R
+# rc_car-rescue_R
 #
-DEF R R 0 0 N Y 1 F N
+DEF rc_car-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "rc_car-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

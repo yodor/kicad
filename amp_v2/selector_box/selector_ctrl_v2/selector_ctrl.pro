@@ -1,6 +1,6 @@
-update=Fri 07 Oct 2016 13:15:27 EEST
+update=28.11.2021 (нд) 16:30:26
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -46,36 +46,4 @@ EquName1=devcms
 version=1
 [eeschema]
 version=1
-LibDir=/home/yodor/kicad/libs/libraries
-[eeschema/libraries]
-LibName1=selector_ctrl-rescue
-LibName2=power
-LibName3=device
-LibName4=transistors
-LibName5=conn
-LibName6=linear
-LibName7=regul
-LibName8=74xx
-LibName9=cmos4000
-LibName10=adc-dac
-LibName11=memory
-LibName12=xilinx
-LibName13=special
-LibName14=microcontrollers
-LibName15=dsp
-LibName16=microchip
-LibName17=analog_switches
-LibName18=motorola
-LibName19=texas
-LibName20=intel
-LibName21=audio
-LibName22=interface
-LibName23=digital-audio
-LibName24=philips
-LibName25=display
-LibName26=cypress
-LibName27=siliconi
-LibName28=opto
-LibName29=atmel
-LibName30=contrib
-LibName31=valves
+LibDir=

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name led_dimmer-rescue)(type Legacy)(uri ${KIPRJMOD}/led_dimmer-rescue.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri /home/yodor/kicad/libs/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
+)

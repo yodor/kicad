@@ -1,35 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:rc_car-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +17,7 @@ $EndDescr
 Text Label 8400 3450 0    60   ~ 0
 M2_R
 $Comp
-L GND #PWR01
+L rc_car-rescue:GND #PWR01
 U 1 1 588961A1
 P 6400 4250
 F 0 "#PWR01" H 6400 4250 30  0001 C CNN
@@ -63,7 +34,7 @@ M2_OUT_L
 Text Label 6400 2200 2    60   ~ 0
 VIN_MOTOR
 $Comp
-L R R7
+L rc_car-rescue:R R7
 U 1 1 5889617A
 P 5250 2800
 F 0 "R7" V 5330 2800 50  0000 C CNN
@@ -74,7 +45,7 @@ F 3 "" H 5250 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q13
+L rc_car-rescue:Q_NMOS_GDS Q13
 U 1 1 58896165
 P 7200 3850
 F 0 "Q13" H 7400 3900 50  0000 L CNN
@@ -85,7 +56,7 @@ F 3 "" H 7200 3850 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q10
+L rc_car-rescue:Q_NMOS_GDS Q10
 U 1 1 5889615F
 P 5600 3850
 F 0 "Q10" H 5800 3900 50  0000 L CNN
@@ -96,7 +67,7 @@ F 3 "" H 5600 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PMOS_GDS Q12
+L rc_car-rescue:Q_PMOS_GDS Q12
 U 1 1 58896159
 P 7200 3100
 F 0 "Q12" H 7400 3150 50  0000 L CNN
@@ -107,7 +78,7 @@ F 3 "" H 7200 3100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Q_PMOS_GDS Q8
+L rc_car-rescue:Q_PMOS_GDS Q8
 U 1 1 58896153
 P 5600 3100
 F 0 "Q8" H 5800 3150 50  0000 L CNN
@@ -127,14 +98,14 @@ Wire Wire Line
 	5700 2550 5700 2900
 Connection ~ 7100 3450
 Wire Wire Line
-	7100 3300 7100 3650
+	7100 3300 7100 3450
 Connection ~ 5700 3450
 Wire Wire Line
-	5700 3300 5700 3650
+	5700 3300 5700 3450
 Wire Wire Line
-	5250 2950 5250 3850
+	5250 2950 5250 3300
 $Comp
-L D D1
+L rc_car-rescue:D D1
 U 1 1 5895349F
 P 5100 3300
 F 0 "D1" H 5100 3400 50  0000 C CNN
@@ -148,7 +119,7 @@ Wire Wire Line
 	4950 3300 4950 3100
 Connection ~ 5250 3300
 $Comp
-L D D2
+L rc_car-rescue:D D2
 U 1 1 58953890
 P 5100 3600
 F 0 "D2" H 5100 3700 50  0000 C CNN
@@ -160,7 +131,7 @@ F 3 "" H 5100 3600 50  0000 C CNN
 $EndComp
 Connection ~ 5250 3600
 $Comp
-L R R12
+L rc_car-rescue:R R12
 U 1 1 58896173
 P 7500 2800
 F 0 "R12" V 7580 2800 50  0000 C CNN
@@ -171,7 +142,7 @@ F 3 "" H 7500 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L rc_car-rescue:R R13
 U 1 1 5895668B
 P 4650 2800
 F 0 "R13" V 4730 2800 50  0000 C CNN
@@ -182,7 +153,7 @@ F 3 "" H 4650 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L rc_car-rescue:R R11
 U 1 1 58956B2F
 P 3750 2800
 F 0 "R11" V 3830 2800 50  0000 C CNN
@@ -193,7 +164,7 @@ F 3 "" H 3750 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SGD Q11
+L rc_car-rescue:Q_NMOS_SGD Q11
 U 1 1 58956DE3
 P 3650 4800
 F 0 "Q11" H 3850 4850 50  0000 L CNN
@@ -204,11 +175,10 @@ F 3 "" H 3650 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4950 3300
-Connection ~ 4950 3600
 Wire Wire Line
 	4950 3600 4950 4600
 $Comp
-L Q_NMOS_SGD Q7
+L rc_car-rescue:Q_NMOS_SGD Q7
 U 1 1 5895A373
 P 4550 3500
 F 0 "Q7" H 4750 3550 50  0000 L CNN
@@ -219,7 +189,7 @@ F 3 "" H 4550 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L rc_car-rescue:R R8
 U 1 1 5895A83E
 P 3300 4950
 F 0 "R8" V 3380 4950 50  0000 C CNN
@@ -230,7 +200,7 @@ F 3 "" H 3300 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L rc_car-rescue:R R6
 U 1 1 5895ABC1
 P 4250 3650
 F 0 "R6" V 4330 3650 50  0000 C CNN
@@ -243,9 +213,9 @@ $EndComp
 Text Label 3100 4800 2    60   ~ 0
 M2_EN
 Wire Wire Line
-	7500 2950 7500 3850
+	7500 2950 7500 3250
 $Comp
-L D D3
+L rc_car-rescue:D D3
 U 1 1 5895E5B7
 P 7650 3250
 F 0 "D3" H 7650 3350 50  0000 C CNN
@@ -256,7 +226,7 @@ F 3 "" H 7650 3250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D4
+L rc_car-rescue:D D4
 U 1 1 5895E95A
 P 7650 3500
 F 0 "D4" H 7650 3600 50  0000 C CNN
@@ -276,7 +246,7 @@ Wire Wire Line
 	7800 4600 7800 3500
 Connection ~ 7500 3500
 $Comp
-L R R16
+L rc_car-rescue:R R16
 U 1 1 5895EFFF
 P 7950 2800
 F 0 "R16" V 8030 2800 50  0000 C CNN
@@ -289,7 +259,7 @@ $EndComp
 Wire Wire Line
 	7950 3250 7950 2950
 $Comp
-L Q_NMOS_SGD Q14
+L rc_car-rescue:Q_NMOS_SGD Q14
 U 1 1 5895F95A
 P 8050 3450
 F 0 "Q14" H 7900 3300 50  0000 L CNN
@@ -301,7 +271,7 @@ F 3 "" H 8050 3450 50  0000 C CNN
 $EndComp
 Connection ~ 7950 3250
 $Comp
-L R R17
+L rc_car-rescue:R R17
 U 1 1 5895FF0B
 P 8250 3750
 F 0 "R17" V 8330 3750 50  0000 C CNN
@@ -319,7 +289,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3850 5400 3850
 Wire Wire Line
-	3750 4600 7800 4600
+	3750 4600 4950 4600
 Wire Wire Line
 	7400 3100 7800 3100
 Wire Wire Line
@@ -331,7 +301,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 3900 8250 4000
 $Comp
-L GND #PWR02
+L rc_car-rescue:GND #PWR02
 U 1 1 58ABDC0F
 P 7950 3750
 F 0 "#PWR02" H 7950 3750 30  0001 C CNN
@@ -342,7 +312,7 @@ F 3 "" H 7950 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L rc_car-rescue:GND #PWR03
 U 1 1 58ABDD34
 P 8250 4000
 F 0 "#PWR03" H 8250 4000 30  0001 C CNN
@@ -353,12 +323,12 @@ F 3 "" H 8250 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 4150 7100 4150
+	5700 4150 6400 4150
 Wire Wire Line
 	6400 4150 6400 4250
 Connection ~ 6400 4150
 Wire Wire Line
-	3750 2550 7950 2550
+	3750 2550 4650 2550
 Wire Wire Line
 	5250 2550 5250 2650
 Connection ~ 5700 2550
@@ -380,7 +350,7 @@ Wire Wire Line
 	4650 2650 4650 2550
 Connection ~ 5250 2550
 $Comp
-L GND #PWR04
+L rc_car-rescue:GND #PWR04
 U 1 1 58AC0E7B
 P 4650 3800
 F 0 "#PWR04" H 4650 3800 30  0001 C CNN
@@ -393,7 +363,7 @@ $EndComp
 Wire Wire Line
 	4650 3800 4650 3700
 $Comp
-L GND #PWR05
+L rc_car-rescue:GND #PWR05
 U 1 1 58AC11BE
 P 4250 3900
 F 0 "#PWR05" H 4250 3900 30  0001 C CNN
@@ -406,7 +376,7 @@ $EndComp
 Wire Wire Line
 	4250 3900 4250 3800
 Wire Wire Line
-	4000 3500 4350 3500
+	4000 3500 4250 3500
 Connection ~ 4950 4600
 Wire Wire Line
 	3750 2650 3750 2550
@@ -417,10 +387,10 @@ Connection ~ 4250 3500
 Text Label 4000 3500 1    60   ~ 0
 M2_L
 Wire Wire Line
-	3100 4800 3450 4800
+	3100 4800 3300 4800
 Connection ~ 3300 4800
 $Comp
-L GND #PWR06
+L rc_car-rescue:GND #PWR06
 U 1 1 58AC2F66
 P 3300 5150
 F 0 "#PWR06" H 3300 5150 30  0001 C CNN
@@ -431,7 +401,7 @@ F 3 "" H 3300 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L rc_car-rescue:GND #PWR07
 U 1 1 58AC2FFE
 P 3750 5150
 F 0 "#PWR07" H 3750 5150 30  0001 C CNN
@@ -450,7 +420,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 3450 7100 3450
 $Comp
-L CONN_01X06 J1
+L rc_car-rescue:CONN_01X06 J1
 U 1 1 5953AFBA
 P 5350 5000
 F 0 "J1" H 5350 5350 50  0000 C CNN
@@ -471,7 +441,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5200 5200 5200
 Wire Wire Line
-	5200 5200 5200 5850
+	5200 5200 5200 5750
 Wire Wire Line
 	5400 5350 5400 5200
 Wire Wire Line
@@ -482,7 +452,7 @@ Wire Wire Line
 	5500 5750 5200 5750
 Connection ~ 5200 5750
 $Comp
-L GND #PWR08
+L rc_car-rescue:GND #PWR08
 U 1 1 5953B5BA
 P 5200 5850
 F 0 "#PWR08" H 5200 5850 30  0001 C CNN
@@ -492,4 +462,38 @@ F 3 "" H 5200 5850 60  0000 C CNN
 	1    5200 5850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7100 3450 7100 3650
+Wire Wire Line
+	5700 3450 5700 3650
+Wire Wire Line
+	5250 3300 5250 3600
+Wire Wire Line
+	5250 3600 5250 3850
+Wire Wire Line
+	7500 3250 7500 3500
+Wire Wire Line
+	7500 3500 7500 3850
+Wire Wire Line
+	6400 4150 7100 4150
+Wire Wire Line
+	5700 2550 6400 2550
+Wire Wire Line
+	7100 2550 7500 2550
+Wire Wire Line
+	7500 2550 7950 2550
+Wire Wire Line
+	6400 2550 7100 2550
+Wire Wire Line
+	5250 2550 5700 2550
+Wire Wire Line
+	4950 4600 7800 4600
+Wire Wire Line
+	4650 2550 5250 2550
+Wire Wire Line
+	4250 3500 4350 3500
+Wire Wire Line
+	3300 4800 3450 4800
+Wire Wire Line
+	5200 5750 5200 5850
 $EndSCHEMATC
