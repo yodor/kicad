@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "selector_rid_ground-rescue") (type "Legacy") (uri "${KIPRJMOD}/volume_matrix-rescue.lib") (options "") (descr ""))
+)

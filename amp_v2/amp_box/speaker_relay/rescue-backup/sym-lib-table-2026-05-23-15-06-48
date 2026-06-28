@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name speaker_relay-rescue)(type Legacy)(uri ${KIPRJMOD}/speaker_relay-rescue.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
+  (lib (name relay_relpol)(type Legacy)(uri ${KIPRJMOD}/relay_relpol.lib)(options "")(descr ""))
+)

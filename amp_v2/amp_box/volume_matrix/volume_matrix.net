@@ -1,0 +1,708 @@
+(export
+	(version D)
+	(design
+		(source /home/yodor/kicad/v2/selector_box/rid_relay_audio/selector_rid_ground.sch)
+		(date "Fri 27 May 2016 10:31:52 EEST")
+		(tool "Eeschema 4.0.2-stable")
+		(sheet
+			(number 1)
+			(name /)
+			(tstamps /)
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date "17 nov 2015")
+				(source volume_matrix.sch)
+				(comment
+					(number 1)
+					(value "")
+				)
+				(comment
+					(number 2)
+					(value "")
+				)
+				(comment
+					(number 3)
+					(value "")
+				)
+				(comment
+					(number 4)
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref Q1)
+			(value BC547)
+			(footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+			(libsource
+				(lib transistors)
+				(part BC547)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 537C7A2D)
+		)
+		(comp
+			(ref P3)
+			(value DIP05-2A72-21L)
+			(footprint Housings_DIP:DIP-14_W7.62mm_LongPads)
+			(libsource
+				(lib conn)
+				(part DIL14)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 537C7ABA)
+		)
+		(comp
+			(ref D1)
+			(value DIODE)
+			(footprint Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10)
+			(libsource
+				(lib selector_rid_ground-cache)
+				(part DIODE)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 537C7AE2)
+		)
+		(comp
+			(ref K1)
+			(value CONN_3)
+			(footprint Pin_Headers:Pin_Header_Straight_1x03)
+			(libsource
+				(lib selector_rid_ground-cache)
+				(part CONN_3)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 537C7B53)
+		)
+		(comp
+			(ref R1)
+			(value 12K)
+			(footprint Discret:R4)
+			(libsource
+				(lib selector_rid_ground-rescue)
+				(part R-RESCUE-selector_rid_ground)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 537C7C41)
+		)
+		(comp
+			(ref P4)
+			(value DIP05-1A72-12L)
+			(footprint Housings_DIP:DIP-14_W7.62mm_LongPads)
+			(libsource
+				(lib conn)
+				(part DIL14)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 5382156C)
+		)
+		(comp
+			(ref P2)
+			(value CONN_4)
+			(footprint Pin_Headers:Pin_Header_Straight_1x04)
+			(libsource
+				(lib selector_rid_ground-cache)
+				(part CONN_4)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 564B2CE5)
+		)
+		(comp
+			(ref P1)
+			(value CONN_4)
+			(footprint Pin_Headers:Pin_Header_Straight_1x04)
+			(libsource
+				(lib selector_rid_ground-cache)
+				(part CONN_4)
+			)
+			(sheetpath
+				(names /)
+				(tstamps /)
+			)
+			(tstamp 5747FE33)
+		)
+	)
+	(libparts
+		(libpart
+			(lib transistors)
+			(part BC547)
+			(aliases
+				(alias BC546)
+				(alias BC548)
+				(alias BC549)
+				(alias BC550)
+			)
+			(description "45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92")
+			(docs http://www.fairchildsemi.com/ds/BC/BC547.pdf)
+			(footprints
+				(fp TO-92*)
+			)
+			(fields
+				(field
+					(name Reference) Q)
+				(field
+					(name Value) BC547)
+				(field
+					(name Footprint) TO-92)
+			)
+			(pins
+				(pin
+					(num 1)
+					(name C)
+					(type passive)
+				)
+				(pin
+					(num 2)
+					(name B)
+					(type input)
+				)
+				(pin
+					(num 3)
+					(name E)
+					(type passive)
+				)
+			)
+		)
+		(libpart
+			(lib selector_rid_ground-cache)
+			(part CONN_3)
+			(fields
+				(field
+					(name Reference) K)
+				(field
+					(name Value) CONN_3)
+			)
+			(pins
+				(pin
+					(num 1)
+					(name P1)
+					(type passive)
+				)
+				(pin
+					(num 2)
+					(name PM)
+					(type passive)
+				)
+				(pin
+					(num 3)
+					(name P3)
+					(type passive)
+				)
+			)
+		)
+		(libpart
+			(lib selector_rid_ground-cache)
+			(part CONN_4)
+			(fields
+				(field
+					(name Reference) P)
+				(field
+					(name Value) CONN_4)
+			)
+			(pins
+				(pin
+					(num 1)
+					(name P1)
+					(type passive)
+				)
+				(pin
+					(num 2)
+					(name P2)
+					(type passive)
+				)
+				(pin
+					(num 3)
+					(name P3)
+					(type passive)
+				)
+				(pin
+					(num 4)
+					(name P4)
+					(type passive)
+				)
+			)
+		)
+		(libpart
+			(lib conn)
+			(part DIL14)
+			(fields
+				(field
+					(name Reference) P)
+				(field
+					(name Value) DIL14)
+			)
+			(pins
+				(pin
+					(num 1)
+					(name 1)
+					(type passive)
+				)
+				(pin
+					(num 2)
+					(name 2)
+					(type passive)
+				)
+				(pin
+					(num 3)
+					(name 3)
+					(type passive)
+				)
+				(pin
+					(num 4)
+					(name 4)
+					(type passive)
+				)
+				(pin
+					(num 5)
+					(name 5)
+					(type passive)
+				)
+				(pin
+					(num 6)
+					(name 6)
+					(type passive)
+				)
+				(pin
+					(num 7)
+					(name 7)
+					(type passive)
+				)
+				(pin
+					(num 8)
+					(name 8)
+					(type passive)
+				)
+				(pin
+					(num 9)
+					(name 9)
+					(type passive)
+				)
+				(pin
+					(num 10)
+					(name 10)
+					(type passive)
+				)
+				(pin
+					(num 11)
+					(name 11)
+					(type passive)
+				)
+				(pin
+					(num 12)
+					(name 12)
+					(type passive)
+				)
+				(pin
+					(num 13)
+					(name 13)
+					(type passive)
+				)
+				(pin
+					(num 14)
+					(name 14)
+					(type passive)
+				)
+			)
+		)
+		(libpart
+			(lib selector_rid_ground-cache)
+			(part DIODE)
+			(footprints
+				(fp D?)
+				(fp S*)
+			)
+			(fields
+				(field
+					(name Reference) D)
+				(field
+					(name Value) DIODE)
+			)
+			(pins
+				(pin
+					(num 1)
+					(name A)
+					(type passive)
+				)
+				(pin
+					(num 2)
+					(name K)
+					(type passive)
+				)
+			)
+		)
+		(libpart
+			(lib selector_rid_ground-rescue)
+			(part R-RESCUE-selector_rid_ground)
+			(footprints
+				(fp R?)
+				(fp SM0603)
+				(fp SM0805)
+				(fp R?-*)
+				(fp SM1206)
+			)
+			(fields
+				(field
+					(name Reference) R)
+				(field
+					(name Value) R-RESCUE-selector_rid_ground)
+			)
+			(pins
+				(pin
+					(num 1)
+					(name ~)
+					(type passive)
+				)
+				(pin
+					(num 2)
+					(name ~)
+					(type passive)
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical selector_rid_ground-cache)
+			(uri /home/yodor/kicad/v2/selector_box/rid_relay_audio/selector_rid_ground-cache.lib)
+		)
+		(library
+			(logical conn)
+			(uri /usr/share/kicad/library/conn.lib)
+		)
+		(library
+			(logical transistors)
+			(uri /usr/share/kicad/library/transistors.lib)
+		)
+		(library
+			(logical selector_rid_ground-rescue)
+			(uri /home/yodor/kicad/v2/selector_box/rid_relay_audio/selector_rid_ground-rescue.lib)
+		)
+	)
+	(nets
+		(net
+			(code 1)
+			(name /G_IN1)
+			(node
+				(ref P2)
+				(pin 2)
+			)
+			(node
+				(ref P2)
+				(pin 3)
+			)
+			(node
+				(ref P4)
+				(pin 14)
+			)
+		)
+		(net
+			(code 2)
+			(name "Net-(P4-Pad7)")
+			(node
+				(ref P4)
+				(pin 7)
+			)
+		)
+		(net
+			(code 3)
+			(name /G_OUT)
+			(node
+				(ref K1)
+				(pin 2)
+			)
+			(node
+				(ref P4)
+				(pin 8)
+			)
+		)
+		(net
+			(code 4)
+			(name "Net-(P4-Pad3)")
+			(node
+				(ref P4)
+				(pin 3)
+			)
+		)
+		(net
+			(code 5)
+			(name "Net-(P4-Pad4)")
+			(node
+				(ref P4)
+				(pin 4)
+			)
+		)
+		(net
+			(code 6)
+			(name "Net-(P4-Pad5)")
+			(node
+				(ref P4)
+				(pin 5)
+			)
+		)
+		(net
+			(code 7)
+			(name "Net-(P4-Pad9)")
+			(node
+				(ref P4)
+				(pin 9)
+			)
+		)
+		(net
+			(code 8)
+			(name "Net-(P4-Pad10)")
+			(node
+				(ref P4)
+				(pin 10)
+			)
+		)
+		(net
+			(code 9)
+			(name "Net-(P4-Pad11)")
+			(node
+				(ref P4)
+				(pin 11)
+			)
+		)
+		(net
+			(code 10)
+			(name "Net-(P4-Pad12)")
+			(node
+				(ref P4)
+				(pin 12)
+			)
+		)
+		(net
+			(code 11)
+			(name "Net-(P4-Pad13)")
+			(node
+				(ref P4)
+				(pin 13)
+			)
+		)
+		(net
+			(code 12)
+			(name /VCC)
+			(node
+				(ref P4)
+				(pin 2)
+			)
+			(node
+				(ref P3)
+				(pin 2)
+			)
+			(node
+				(ref D1)
+				(pin 2)
+			)
+			(node
+				(ref P1)
+				(pin 1)
+			)
+		)
+		(net
+			(code 13)
+			(name GND)
+			(node
+				(ref Q1)
+				(pin 3)
+			)
+			(node
+				(ref P1)
+				(pin 4)
+			)
+			(node
+				(ref P1)
+				(pin 2)
+			)
+		)
+		(net
+			(code 14)
+			(name /EN1)
+			(node
+				(ref P1)
+				(pin 3)
+			)
+			(node
+				(ref R1)
+				(pin 2)
+			)
+		)
+		(net
+			(code 15)
+			(name "Net-(P4-Pad1)")
+			(node
+				(ref P4)
+				(pin 1)
+			)
+		)
+		(net
+			(code 16)
+			(name "Net-(P3-Pad13)")
+			(node
+				(ref P3)
+				(pin 13)
+			)
+		)
+		(net
+			(code 17)
+			(name "Net-(P3-Pad10)")
+			(node
+				(ref P3)
+				(pin 10)
+			)
+		)
+		(net
+			(code 18)
+			(name "Net-(P3-Pad11)")
+			(node
+				(ref P3)
+				(pin 11)
+			)
+		)
+		(net
+			(code 19)
+			(name "Net-(P3-Pad12)")
+			(node
+				(ref P3)
+				(pin 12)
+			)
+		)
+		(net
+			(code 20)
+			(name /R_IN1)
+			(node
+				(ref P3)
+				(pin 14)
+			)
+			(node
+				(ref P2)
+				(pin 4)
+			)
+		)
+		(net
+			(code 21)
+			(name "Net-(P3-Pad9)")
+			(node
+				(ref P3)
+				(pin 9)
+			)
+		)
+		(net
+			(code 22)
+			(name /R_OUT)
+			(node
+				(ref P3)
+				(pin 8)
+			)
+			(node
+				(ref K1)
+				(pin 1)
+			)
+		)
+		(net
+			(code 23)
+			(name /L_OUT)
+			(node
+				(ref P3)
+				(pin 7)
+			)
+			(node
+				(ref K1)
+				(pin 3)
+			)
+		)
+		(net
+			(code 24)
+			(name "Net-(P3-Pad5)")
+			(node
+				(ref P3)
+				(pin 5)
+			)
+		)
+		(net
+			(code 25)
+			(name "Net-(P3-Pad4)")
+			(node
+				(ref P3)
+				(pin 4)
+			)
+		)
+		(net
+			(code 26)
+			(name "Net-(P3-Pad3)")
+			(node
+				(ref P3)
+				(pin 3)
+			)
+		)
+		(net
+			(code 27)
+			(name /L_IN1)
+			(node
+				(ref P3)
+				(pin 1)
+			)
+			(node
+				(ref P2)
+				(pin 1)
+			)
+		)
+		(net
+			(code 28)
+			(name "Net-(Q1-Pad2)")
+			(node
+				(ref Q1)
+				(pin 2)
+			)
+			(node
+				(ref R1)
+				(pin 1)
+			)
+		)
+		(net
+			(code 29)
+			(name "Net-(D1-Pad1)")
+			(node
+				(ref Q1)
+				(pin 1)
+			)
+			(node
+				(ref D1)
+				(pin 1)
+			)
+			(node
+				(ref P4)
+				(pin 6)
+			)
+			(node
+				(ref P3)
+				(pin 6)
+			)
+		)
+	)
+)
