@@ -4,3 +4,5 @@ libs3d
 *.lck
 **/*.lck
 **/*backups/
+**/*backup/
+**/output/

@@ -1,2 +1,0 @@
-Target only Z0
-G1 Z0(?!\.|\d)
