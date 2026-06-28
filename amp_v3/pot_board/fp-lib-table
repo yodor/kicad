@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "alps_rk27112MC") (type "Legacy") (uri "${KIPRJMOD}/alps_rk27112MC.mod") (options "") (descr ""))
+)
