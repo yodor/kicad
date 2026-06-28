@@ -1,5 +1,6 @@
 libs
 libs3d
-.history/
+**/.history/
 *.lck
-*backups/
+**/*.lck
+**/*backups/
