@@ -1895,12 +1895,6 @@
 		(uuid "440fc6e6-663f-48ed-b0ee-4b45b0c7f790")
 	)
 	(junction
-		(at 35.56 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "481dea7c-1714-4d4e-a6ca-2a8320efbcdb")
-	)
-	(junction
 		(at 119.38 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1913,22 +1907,10 @@
 		(uuid "6ba586d2-f3b8-4631-a2e1-29d3909d1a0a")
 	)
 	(junction
-		(at 22.86 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "802edb46-01c8-4927-940b-5e2932ee550e")
-	)
-	(junction
 		(at 123.19 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ce6e93b-21b6-4f96-9fa0-e5aafa620e59")
-	)
-	(junction
-		(at 35.56 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cb660ef-4d0e-4dba-9d2a-e5cf15505cac")
 	)
 	(junction
 		(at 165.1 127)
@@ -1965,12 +1947,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f405370a-e64e-41d0-9af9-e241f7405321")
-	)
-	(junction
-		(at 22.86 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f48f3c0e-0973-4d64-8fc3-2aa99e7cabe5")
 	)
 	(junction
 		(at 265.43 100.33)
@@ -2270,16 +2246,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 44.45 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "546b0c69-b878-48b7-9392-c73e1bbe5d31")
-	)
-	(wire
-		(pts
 			(xy 265.43 49.53) (xy 270.51 49.53)
 		)
 		(stroke
@@ -2347,16 +2313,6 @@
 			(type default)
 		)
 		(uuid "6ab67434-7eb4-4715-9180-6ca58a7f00c4")
-	)
-	(wire
-		(pts
-			(xy 35.56 63.5) (xy 44.45 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c85e62c-d5c8-4acf-90c9-69e23224f5b2")
 	)
 	(wire
 		(pts
@@ -2570,16 +2526,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 63.5) (xy 22.86 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd49435-bcdd-4df7-b113-bdf94dc6c58a")
-	)
-	(wire
-		(pts
 			(xy 195.58 31.75) (xy 195.58 34.29)
 		)
 		(stroke
@@ -2637,16 +2583,6 @@
 			(type default)
 		)
 		(uuid "abcd3111-401f-4ad6-ba6b-d7e8bfc027d1")
-	)
-	(wire
-		(pts
-			(xy 13.97 55.88) (xy 22.86 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae85720f-c40d-4c9d-91a0-f9012145548f")
 	)
 	(wire
 		(pts
@@ -3884,7 +3820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33fa09e6-d181-4621-b11f-584a2360e0a4")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 24.384 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3948,7 +3884,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4723,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55653efa-fe27-4a59-8d73-d336a62a9a17")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 172.72 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4723,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73bfb323-e97b-4df2-ab93-472be8c298e2")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 172.72 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5165,7 +5101,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5897,7 +5833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9babc014-cb20-404f-af91-386db6f96703")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 121.92 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5959,7 +5895,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6346,7 +6282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b232b5b8-afde-4e6f-9b71-afe4d7918b07")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 208.28 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6344,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7872,87 +7808,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 13.97 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f115cfae-a4d6-4f14-a9c9-09da0f3e4986")
-		(property "Reference" "C4"
-			(at 10.668 56.642 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 7.62 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 14.9352 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 13.97 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 13.97 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00fa62a3-a21a-4198-934e-bace5d1361d6")
-		)
-		(pin "2"
-			(uuid "fa4e474b-b954-4d7e-bdb9-05fbdbf53269")
-		)
-		(instances
-			(project "jfet_buffer"
-				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
 		(at 119.38 44.45 0)
 		(unit 1)
@@ -8119,7 +7974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7a9314a-f851-4b54-8072-b45f897b5d8d")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 39.878 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,89 +8038,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 44.45 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f81bf449-b95c-420d-831c-17617ee44672")
-		(property "Reference" "C7"
-			(at 48.26 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 48.26 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 45.4152 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a3eaf33c-48db-4bf8-8ac7-09a228754d12")
-		)
-		(pin "2"
-			(uuid "48b8dbd6-59ef-4a87-9347-e931b108ac7c")
-		)
-		(instances
-			(project "jfet_buffer"
-				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8283,7 +8056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc3c977c-ab9b-413a-b7f2-5ec546902aad")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 274.32 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +8120,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
