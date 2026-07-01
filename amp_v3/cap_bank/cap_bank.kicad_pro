@@ -39,7 +39,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
+          "drill": 1.0,
           "height": 2.6,
           "width": 1.6
         },
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
+          "corner_radius": 1.0,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,22 +60,16 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 1.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
-          "min_thickness": 0.025,
+          "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 1,
-          "thermal_relief_gap": 1.0,
-          "thermal_relief_spoke_width": 1.0
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -158,8 +152,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.8,
-        "min_track_width": 0.8,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -209,9 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -238,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -501,14 +488,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jfet_buffer.kicad_pro",
+    "filename": "cap_bank.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.8,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -519,7 +506,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 1.6,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -537,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "output",
+      "plot": "",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -547,7 +534,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -656,18 +643,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "jfet_buffer.kicad_sch",
-        "name": "jfet_buffer",
-        "uuid": "4a69c903-ca61-4bf4-abb9-de13d0f3d285"
+        "filename": "cap_bank.kicad_sch",
+        "name": "Root",
+        "uuid": "f17f0f6a-aa79-4f33-8502-21ae7788042f"
       }
     ],
-    "used_designators": "R1-14,Q1-4,J1-6,C1-12,#PWR1-33",
+    "used_designators": "J1-2,#PWR1-2,C1-6",
     "variants": []
   },
   "sheets": [
     [
-      "4a69c903-ca61-4bf4-abb9-de13d0f3d285",
-      "jfet_buffer"
+      "f17f0f6a-aa79-4f33-8502-21ae7788042f",
+      "Root"
     ]
   ],
   "text_variables": {},

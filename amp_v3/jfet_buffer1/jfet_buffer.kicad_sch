@@ -1871,10 +1871,22 @@
 		)
 	)
 	(junction
+		(at 195.58 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0558fe9b-f54e-4a07-becb-93e19d9863ef")
+	)
+	(junction
 		(at 165.1 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "078bbdf3-f5a2-45f8-bb23-da0bfe934752")
+	)
+	(junction
+		(at 109.22 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "161ab749-b58f-4178-a12f-bddbf1a947d5")
 	)
 	(junction
 		(at 109.22 33.02)
@@ -1889,10 +1901,22 @@
 		(uuid "393c5877-eb8f-41d6-8e51-0461934dcfa8")
 	)
 	(junction
+		(at 109.22 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a0caff6-7697-441f-a33a-2e4a78625d6b")
+	)
+	(junction
 		(at 209.55 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "440fc6e6-663f-48ed-b0ee-4b45b0c7f790")
+	)
+	(junction
+		(at 195.58 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4847272a-b057-4aea-8900-beff0ae4afe0")
 	)
 	(junction
 		(at 119.38 33.02)
@@ -1966,6 +1990,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 43.18) (xy 195.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057ccca2-36a1-4af8-8c9e-05ce73c3b266")
+	)
+	(wire
+		(pts
+			(xy 119.38 43.18) (xy 119.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f72836-8be4-4dc3-a2be-bc8067eab86f")
+	)
+	(wire
+		(pts
 			(xy 119.38 34.29) (xy 119.38 33.02)
 		)
 		(stroke
@@ -1986,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 66.04 130.81)
+			(xy 68.58 107.95) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2006,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 63.5 128.27)
+			(xy 66.04 110.49) (xy 66.04 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2110,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 160.02) (xy 90.17 162.56)
+			(xy 95.25 22.86) (xy 109.22 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2436b981-2e51-4fcb-853a-fc8654132393")
+	)
+	(wire
+		(pts
+			(xy 68.58 144.78) (xy 68.58 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2096,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 96.52) (xy 30.48 96.52)
+			(xy 21.59 95.25) (xy 25.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2106,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 144.78) (xy 87.63 144.78)
+			(xy 62.23 129.54) (xy 66.04 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 63.5 113.03)
+			(xy 66.04 91.44) (xy 66.04 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2136,13 +2190,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 143.51) (xy 87.63 144.78)
+			(xy 66.04 128.27) (xy 66.04 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cb7d76a-2f9b-4639-ae61-5371393066f3")
+	)
+	(wire
+		(pts
+			(xy 95.25 43.18) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d66499c-13ff-4dbb-a451-28f3a90fc20c")
 	)
 	(wire
 		(pts
@@ -2163,6 +2227,16 @@
 			(type default)
 		)
 		(uuid "3fb267e8-82ef-4c98-97eb-3498634d8c06")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 119.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d8ff9d-231a-484b-978d-f7692fffa93b")
 	)
 	(wire
 		(pts
@@ -2216,16 +2290,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 44.45) (xy 205.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "516ee501-7480-4f98-8098-bd8464dc3597")
-	)
-	(wire
-		(pts
 			(xy 270.51 107.95) (xy 274.32 107.95)
 		)
 		(stroke
@@ -2236,13 +2300,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 41.91) (xy 109.22 44.45)
+			(xy 109.22 41.91) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53003c68-e074-4e6c-9bbc-098abafc5576")
+	)
+	(wire
+		(pts
+			(xy 195.58 22.86) (xy 195.58 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53888723-7e9a-45b5-9eb3-3c092f5aa015")
 	)
 	(wire
 		(pts
@@ -2286,13 +2360,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 44.45) (xy 119.38 41.91)
+			(xy 184.15 30.48) (xy 184.15 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c1cf39c-6dfb-4da9-ac6e-841675368035")
+		(uuid "61059a7f-ab9e-414d-81f5-24bad021214e")
 	)
 	(wire
 		(pts
@@ -2303,6 +2377,16 @@
 			(type default)
 		)
 		(uuid "6165d98a-9c74-43e5-bfe7-f91994d04988")
+	)
+	(wire
+		(pts
+			(xy 195.58 43.18) (xy 205.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68611e57-ff44-4787-8379-592516c78b47")
 	)
 	(wire
 		(pts
@@ -2346,7 +2430,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 162.56) (xy 87.63 162.56)
+			(xy 109.22 22.86) (xy 109.22 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731828bb-5d9c-4b04-a78e-6407091d80d2")
+	)
+	(wire
+		(pts
+			(xy 62.23 147.32) (xy 66.04 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2356,13 +2450,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 96.52) (xy 33.02 100.33)
+			(xy 27.94 95.25) (xy 27.94 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75257662-57f2-4439-adfd-cdcec69a01d9")
+	)
+	(wire
+		(pts
+			(xy 184.15 22.86) (xy 195.58 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d8dc17-1f86-4ef6-b2ef-cca3a03fb3f9")
 	)
 	(wire
 		(pts
@@ -2386,13 +2490,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 96.52) (xy 40.64 96.52)
+			(xy 33.02 95.25) (xy 35.56 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7bd4665e-12eb-4045-800a-221be0c92a46")
+	)
+	(wire
+		(pts
+			(xy 195.58 43.18) (xy 195.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef750e3-7ed6-4472-bbc7-221cd24270e2")
 	)
 	(wire
 		(pts
@@ -2436,6 +2550,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 30.48) (xy 95.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f39e4c-57fa-40b6-a940-0636ba136b1f")
+	)
+	(wire
+		(pts
 			(xy 165.1 124.46) (xy 165.1 127)
 		)
 		(stroke
@@ -2456,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 143.51) (xy 90.17 147.32)
+			(xy 68.58 128.27) (xy 68.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 24.13) (xy 109.22 21.59)
+			(xy 109.22 24.13) (xy 109.22 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 111.76) (xy 66.04 115.57)
+			(xy 68.58 91.44) (xy 68.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 162.56) (xy 87.63 160.02)
+			(xy 66.04 147.32) (xy 66.04 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2770,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 113.03) (xy 63.5 113.03)
+			(xy 62.23 92.71) (xy 66.04 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2666,13 +2790,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 96.52) (xy 35.56 100.33)
+			(xy 30.48 95.25) (xy 30.48 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bdfd45e8-41da-4514-b2a0-d9d3017734ff")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 109.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a4d86e-8091-4f01-be67-78ae2164cf66")
 	)
 	(wire
 		(pts
@@ -2706,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 130.81) (xy 63.5 130.81)
+			(xy 62.23 110.49) (xy 66.04 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2726,13 +2860,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 41.91) (xy 195.58 44.45)
+			(xy 195.58 41.91) (xy 195.58 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cfae9923-df7e-46db-8510-bb2d91b47ad4")
+	)
+	(wire
+		(pts
+			(xy 184.15 43.18) (xy 184.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe4252a-ac43-4c36-8633-d65e718a0b99")
 	)
 	(wire
 		(pts
@@ -2766,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 24.13) (xy 195.58 21.59)
+			(xy 195.58 24.13) (xy 195.58 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2783,6 +2927,26 @@
 			(type default)
 		)
 		(uuid "e4837dc1-4388-45a0-ae5b-215a20e6b3e2")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94fa024-dbcb-4f78-a65b-6f34accdda6b")
+	)
+	(wire
+		(pts
+			(xy 205.74 43.18) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f5f57d-be21-423e-b6a7-bd0fa4cd9710")
 	)
 	(wire
 		(pts
@@ -2845,7 +3009,7 @@
 		(uuid "2b2b3427-86d3-45d3-983b-a7e4bba68b4a")
 	)
 	(label "R_OUT_BUF2"
-		(at 83.82 162.56 180)
+		(at 62.23 147.32 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2895,7 +3059,7 @@
 		(uuid "77674a84-7ba5-4c01-8ea9-18a99c87d3d6")
 	)
 	(label "R_IN"
-		(at 40.64 96.52 0)
+		(at 35.56 95.25 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2905,7 +3069,7 @@
 		(uuid "887ae304-ae0f-4864-ab51-1654c1794406")
 	)
 	(label "R_OUT_BUF1"
-		(at 59.69 130.81 180)
+		(at 62.23 110.49 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2985,7 +3149,7 @@
 		(uuid "d09d29bc-cbe3-4ad6-8149-36ab874aaee0")
 	)
 	(label "L_OUT_BUF1"
-		(at 59.69 113.03 180)
+		(at 62.23 92.71 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3015,7 +3179,7 @@
 		(uuid "e77696b4-5be4-443d-a356-9b4e07ce9311")
 	)
 	(label "L_OUT_BUF2"
-		(at 83.82 144.78 180)
+		(at 62.23 129.54 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3025,7 +3189,7 @@
 		(uuid "ee5f4a78-b5be-44eb-9bd3-9bb2293cfa1a")
 	)
 	(label "L_IN"
-		(at 26.67 96.52 180)
+		(at 21.59 95.25 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3118,7 +3282,7 @@
 	)
 	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
-		(at 33.02 100.33 0)
+		(at 27.94 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3127,8 +3291,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05e9e1ad-280a-4be1-94be-b9d4ad55433c")
-		(property "Reference" "#PWR022"
-			(at 33.02 106.68 0)
+		(property "Reference" "#PWR020"
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +3303,7 @@
 			)
 		)
 		(property "Value" "GND_IN_L"
-			(at 32.766 107.188 90)
+			(at 27.686 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3149,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 100.33 0)
+			(at 27.94 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3159,7 +3323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 100.33 0)
+			(at 27.94 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3169,7 +3333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 100.33 0)
+			(at 27.94 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3184,7 +3348,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3201,7 +3365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09f5c462-5ee4-4cce-8bdc-2b19e6f5dbbe")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 195.58 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3258,7 +3422,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3285,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1M"
 			(at 109.22 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +3516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10838424-3ab6-46df-b5ce-7041b262bce6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 165.1 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3409,7 +3573,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3426,7 +3590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "111ac1f1-6d7a-40d2-b92c-076292ca013a")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 120.015 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3652,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a383e0d-20fd-458f-a09b-10d5e3a9b222")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3562,7 +3726,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3729,7 +3893,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 63.5 123.19 90)
+		(at 66.04 102.87 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3740,7 +3904,7 @@
 		(dnp no)
 		(uuid "31ef4bec-1b60-471a-81ec-0bef1675b98e")
 		(property "Reference" "J4"
-			(at 62.23 122.5549 90)
+			(at 64.77 102.2349 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3751,7 +3915,7 @@
 			)
 		)
 		(property "Value" "SIG_OUT_R_1"
-			(at 62.23 125.0949 90)
+			(at 64.77 104.7749 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3762,7 +3926,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 63.5 123.19 0)
+			(at 66.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3773,7 +3937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 123.19 0)
+			(at 66.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3784,7 +3948,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 63.5 123.19 0)
+			(at 66.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33fa09e6-d181-4621-b11f-584a2360e0a4")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 24.384 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,7 +4048,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3969,7 +4133,7 @@
 	)
 	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
-		(at 35.56 100.33 0)
+		(at 30.48 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3978,8 +4142,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3dd326da-d4f3-4dd8-b8ea-feb737783e73")
-		(property "Reference" "#PWR023"
-			(at 35.56 106.68 0)
+		(property "Reference" "#PWR021"
+			(at 30.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +4154,7 @@
 			)
 		)
 		(property "Value" "GND_IN_R"
-			(at 35.56 107.188 90)
+			(at 30.48 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4000,7 +4164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 100.33 0)
+			(at 30.48 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4010,7 +4174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 100.33 0)
+			(at 30.48 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4020,7 +4184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 100.33 0)
+			(at 30.48 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4035,7 +4199,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4203,7 +4367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45daae1f-91a7-43c3-8ad2-31b4f7727b70")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 274.32 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4260,81 +4424,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_ctrl-rescue:GNDA")
-		(at 205.74 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46da89a8-7142-42c9-af7d-8d9a04c47a58")
-		(property "Reference" "#PWR010"
-			(at 205.74 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_IN_R"
-			(at 205.74 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1e3a17d-90a5-4e54-9cb0-752f20529b3d")
-		)
-		(instances
-			(project "jfet_buffer"
-				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR010")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4425,7 +4515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ca59eb2-6a28-476d-b535-effdf7f4db40")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 206.375 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4487,7 +4577,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4659,7 +4749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55653efa-fe27-4a59-8d73-d336a62a9a17")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 172.72 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +4813,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4740,7 +4830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56d8e8ea-04e9-4ffb-b5dc-4cf25029725f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 35.56 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4797,7 +4887,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4888,7 +4978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d71b8be-8a81-492c-a33b-a49a4bc2bc37")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 22.86 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4945,7 +5035,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4962,7 +5052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "614cf613-157b-467c-8e3b-5a38e12e577f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 265.43 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5019,7 +5109,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73bfb323-e97b-4df2-ab93-472be8c298e2")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 172.72 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +5191,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5128,7 +5218,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1M"
 			(at 195.58 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5186,7 +5276,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 35.56 91.44 270)
+		(at 30.48 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5196,8 +5286,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8084d2-190a-4438-baff-9545df49b17b")
-		(property "Reference" "J2"
-			(at 34.29 86.36 90)
+		(property "Reference" "J3"
+			(at 29.21 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5207,7 +5297,7 @@
 			)
 		)
 		(property "Value" "Signal Input"
-			(at 34.29 88.9 90)
+			(at 29.21 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5217,7 +5307,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 35.56 91.44 0)
+			(at 30.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5228,7 +5318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 91.44 0)
+			(at 30.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,7 +5329,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 35.56 91.44 0)
+			(at 30.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5264,7 +5354,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5282,7 +5372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1891dc-dd0c-40f9-acce-cbff200ffe0b")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 274.32 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5346,7 +5436,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5430,9 +5520,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 87.63 154.94 90)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 184.15 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5440,9 +5529,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "845c1a53-a1b9-47e6-ba3c-e136d0a7afda")
-		(property "Reference" "J6"
-			(at 86.36 154.3049 90)
+		(fields_autoplaced yes)
+		(uuid "8316ed71-8486-41b3-9976-3823ccb4dfb3")
+		(property "Reference" "C2"
+			(at 187.96 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5452,8 +5542,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIG_OUT_R2"
-			(at 86.36 156.8449 90)
+		(property "Value" "100nF"
+			(at 187.96 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5463,8 +5553,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 87.63 154.94 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+			(at 185.1152 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5565,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 154.94 0)
+			(at 184.15 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03dd0cbb-78f4-4748-af02-16c9fdb3bda3")
+		)
+		(pin "2"
+			(uuid "2f0d5187-f017-4f96-8b7d-960e5228845e")
+		)
+		(instances
+			(project "jfet_buffer"
+				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 66.04 139.7 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "845c1a53-a1b9-47e6-ba3c-e136d0a7afda")
+		(property "Reference" "J6"
+			(at 64.77 139.0649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIG_OUT_R2"
+			(at 64.77 141.6049 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 66.04 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5658,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 87.63 154.94 0)
+			(at 66.04 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,7 +5694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "853e5059-0dd5-4458-81c6-7e043c562672")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 274.32 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5579,7 +5751,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5686,7 +5858,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1M"
 			(at 195.58 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +6005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9babc014-cb20-404f-af91-386db6f96703")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 121.92 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +6067,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5912,7 +6084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ca754d2-ca59-4d5b-8802-d0edc90d89d2")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 265.43 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5969,7 +6141,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5986,7 +6158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9db7c3e8-fa05-4ced-8a63-d105a2b64741")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 22.86 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6043,7 +6215,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6060,7 +6232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4d3d2ba-10b0-40cb-9397-99319c8d5334")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 265.43 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6117,7 +6289,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6134,7 +6306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6fe2d10-098d-4749-9677-a08e52cb050a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 35.56 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6191,7 +6363,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6208,7 +6380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab7780eb-05ae-41f2-a750-5b6a35949232")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 172.72 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6265,7 +6437,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6282,7 +6454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b232b5b8-afde-4e6f-9b71-afe4d7918b07")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 208.28 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6344,7 +6516,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6445,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1M"
 			(at 109.22 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6675,7 @@
 	)
 	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
-		(at 90.17 162.56 0)
+		(at 68.58 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6512,8 +6684,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9c2471c-0ffb-464e-b208-da6a6a686d70")
-		(property "Reference" "#PWR032"
-			(at 90.17 168.91 0)
+		(property "Reference" "#PWR030"
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6524,7 +6696,7 @@
 			)
 		)
 		(property "Value" "GND_IN_R"
-			(at 96.52 165.862 0)
+			(at 74.93 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6534,7 +6706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 162.56 0)
+			(at 68.58 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6544,7 +6716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 162.56 0)
+			(at 68.58 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6554,7 +6726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 162.56 0)
+			(at 68.58 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6569,7 +6741,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6577,7 +6749,7 @@
 	)
 	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
-		(at 90.17 147.32 0)
+		(at 68.58 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6586,8 +6758,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb7e9ee1-966b-470d-9fc3-41d4cf8a7e6b")
-		(property "Reference" "#PWR031"
-			(at 90.17 153.67 0)
+		(property "Reference" "#PWR027"
+			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +6770,7 @@
 			)
 		)
 		(property "Value" "GND_IN_L"
-			(at 96.52 148.082 0)
+			(at 74.93 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6608,7 +6780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 147.32 0)
+			(at 68.58 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6618,7 +6790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 147.32 0)
+			(at 68.58 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6628,7 +6800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 147.32 0)
+			(at 68.58 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6643,7 +6815,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6651,7 +6823,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 66.04 106.68 270)
+		(at 68.58 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6661,8 +6833,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc234b11-66d4-40d4-8fee-9973de037587")
-		(property "Reference" "J3"
-			(at 67.31 106.0449 90)
+		(property "Reference" "J2"
+			(at 69.85 85.7249 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6673,7 +6845,7 @@
 			)
 		)
 		(property "Value" "SIG_OUT_L1"
-			(at 67.31 108.5849 90)
+			(at 69.85 88.2649 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6684,7 +6856,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 66.04 106.68 0)
+			(at 68.58 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +6867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 106.68 0)
+			(at 68.58 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6706,7 +6878,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 66.04 106.68 0)
+			(at 68.58 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +6897,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6819,7 +6991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd8485e3-bced-45a5-b9fd-874a1eabe16d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6876,7 +7048,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7133,7 +7305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc304106-1d16-4f9d-bd90-217527bc2fa8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 265.43 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7190,7 +7362,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7198,7 +7370,7 @@
 	)
 	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
-		(at 66.04 130.81 0)
+		(at 68.58 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7207,8 +7379,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8c45ca2-964b-4ca1-bc0f-a5cc8422b696")
-		(property "Reference" "#PWR028"
-			(at 66.04 137.16 0)
+		(property "Reference" "#PWR025"
+			(at 68.58 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7219,7 +7391,7 @@
 			)
 		)
 		(property "Value" "GND_IN_R"
-			(at 72.39 134.112 0)
+			(at 74.93 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7229,7 +7401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 130.81 0)
+			(at 68.58 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7239,7 +7411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 130.81 0)
+			(at 68.58 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7249,7 +7421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 130.81 0)
+			(at 68.58 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7264,7 +7436,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7583,8 +7755,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 95.25 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9d70972-085d-4a31-bc9a-a3492903e61c")
+		(property "Reference" "C1"
+			(at 99.06 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+			(at 96.2152 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9df630d9-be50-4aa0-a588-051b49dff41a")
+		)
+		(pin "2"
+			(uuid "39cc4e81-810e-4716-bb48-9a4f93bcf86b")
+		)
+		(instances
+			(project "jfet_buffer"
+				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
-		(at 66.04 115.57 0)
+		(at 68.58 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7593,8 +7847,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9ed22ec-40c6-4324-8cfe-897b8e78be5a")
-		(property "Reference" "#PWR027"
-			(at 66.04 121.92 0)
+		(property "Reference" "#PWR019"
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +7859,7 @@
 			)
 		)
 		(property "Value" "GND_IN_L"
-			(at 72.39 116.332 0)
+			(at 74.93 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7615,7 +7869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 115.57 0)
+			(at 68.58 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7625,7 +7879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 115.57 0)
+			(at 68.58 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7635,7 +7889,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 115.57 0)
+			(at 68.58 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7650,7 +7904,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7667,7 +7921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eea0d477-a980-4a76-8bf9-946ba105a866")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 165.1 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7724,7 +7978,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7808,82 +8062,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power_ctrl-rescue:GNDA")
-		(at 119.38 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f42de1f7-4d10-481b-b28d-eefda1c2b76f")
-		(property "Reference" "#PWR08"
-			(at 119.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_IN_L"
-			(at 119.38 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6ad81cb-7700-4e9c-84d8-56f8cfb90087")
-		)
-		(instances
-			(project "jfet_buffer"
-				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 90.17 138.43 270)
+		(at 68.58 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7894,7 +8074,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7061e67-cda3-43d3-9963-b3c40a4d429e")
 		(property "Reference" "J5"
-			(at 91.44 137.7949 90)
+			(at 69.85 122.5549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7905,7 +8085,7 @@
 			)
 		)
 		(property "Value" "SIG_OUT_L2"
-			(at 91.44 140.3349 90)
+			(at 69.85 125.0949 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7916,7 +8096,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 90.17 138.43 0)
+			(at 68.58 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7927,7 +8107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 138.43 0)
+			(at 68.58 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7938,7 +8118,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 90.17 138.43 0)
+			(at 68.58 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,7 +8154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7a9314a-f851-4b54-8072-b45f897b5d8d")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 39.878 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8038,7 +8218,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc3c977c-ab9b-413a-b7f2-5ec546902aad")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 274.32 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,7 +8300,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
