@@ -658,129 +658,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power_ctrl-rescue:+9V"
 			(power global)
 			(pin_names
@@ -1796,6 +1673,26 @@
 	)
 	(wire
 		(pts
+			(xy -11.43 106.68) (xy -11.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075c9cb4-1725-44ce-848f-950541d8eb2e")
+	)
+	(wire
+		(pts
+			(xy -13.97 106.68) (xy -11.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0875aa2d-b0e9-4c88-89b9-b078b6805c6c")
+	)
+	(wire
+		(pts
 			(xy 91.44 45.72) (xy 91.44 44.45)
 		)
 		(stroke
@@ -1863,16 +1760,6 @@
 			(type default)
 		)
 		(uuid "31f18df8-bee7-4d53-8a1c-5458495da06b")
-	)
-	(wire
-		(pts
-			(xy 29.21 50.8) (xy 26.67 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32eee696-b43f-444e-8fbc-2b231687f2e4")
 	)
 	(wire
 		(pts
@@ -1996,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 31.75 71.12)
+			(xy 39.37 76.2) (xy 39.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2106,16 +1993,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 50.8) (xy 19.05 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3060e2-0430-459c-8621-c296b4bcd2d5")
-	)
-	(wire
-		(pts
 			(xy 139.7 34.29) (xy 143.51 34.29)
 		)
 		(stroke
@@ -2196,7 +2073,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 68.58) (xy 29.21 68.58)
+			(xy -24.13 106.68) (xy -21.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78bfdac-6707-4eac-9896-304ae09031ae")
+	)
+	(wire
+		(pts
+			(xy 33.02 77.47) (xy 36.83 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2266,26 +2153,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 29.21 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5e0db74-6d18-448d-aa88-8683e6b44895")
-	)
-	(wire
-		(pts
-			(xy 16.51 49.53) (xy 16.51 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d937effa-0c55-47fc-b67c-157ead592a9e")
-	)
-	(wire
-		(pts
 			(xy 139.7 105.41) (xy 139.7 106.68)
 		)
 		(stroke
@@ -2326,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 29.21 68.58)
+			(xy 36.83 76.2) (xy 36.83 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2363,6 +2230,16 @@
 			(justify left bottom)
 		)
 		(uuid "77674a84-7ba5-4c01-8ea9-18a99c87d3d6")
+	)
+	(label "SH_GND"
+		(at -24.13 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4183884-0967-466b-8596-f553444c1783")
 	)
 	(label "VBIAS_OUT_L"
 		(at 92.71 91.44 270)
@@ -2435,7 +2312,7 @@
 		(uuid "ee5f4a78-b5be-44eb-9bd3-9bb2293cfa1a")
 	)
 	(label "L_IN"
-		(at 25.4 68.58 180)
+		(at 33.02 77.47 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2532,7 +2409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10838424-3ab6-46df-b5ce-7041b262bce6")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 139.7 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2589,7 +2466,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2675,85 +2552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 26.67 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12249108-9aa8-4c2b-8fd3-a0d2b00edbf1")
-		(property "Reference" "H2"
-			(at 29.21 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 29.21 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 26.67 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 26.67 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98684522-6d15-4c41-a392-f272922931a6")
-		)
-		(instances
-			(project "jfet_buffer"
-				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_ctrl-rescue:+9V")
 		(at 139.7 82.55 0)
 		(unit 1)
@@ -2764,7 +2562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a383e0d-20fd-458f-a09b-10d5e3a9b222")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2821,7 +2619,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2838,7 +2636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b7689b8-be6c-402d-b58b-fc7fae429a52")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 141.732 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2898,7 +2696,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2988,7 +2786,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 31.75 62.23 270)
+		(at 39.37 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2999,7 +2797,7 @@
 		(fields_autoplaced yes)
 		(uuid "24bf2bb6-b8b3-453a-8488-e9fadcc74bfd")
 		(property "Reference" "J2"
-			(at 33.02 61.5949 90)
+			(at 40.64 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3010,7 +2808,7 @@
 			)
 		)
 		(property "Value" "SIG_OUT_L1"
-			(at 33.02 64.1349 90)
+			(at 40.64 73.0249 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,7 +2820,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 31.75 62.23 0)
+			(at 39.37 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,7 +2831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 62.23 0)
+			(at 39.37 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3044,7 +2842,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 31.75 62.23 0)
+			(at 39.37 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3228,8 +3026,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power_ctrl-rescue:+9V")
-		(at 16.51 49.53 0)
+		(lib_id "power_ctrl-rescue:R")
+		(at -17.78 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3237,9 +3035,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3791e137-684a-4ef3-a1e8-764ef6fca3e8")
-		(property "Reference" "#PWR08"
-			(at 16.51 53.34 0)
+		(uuid "3b90a1cb-236e-4d2c-86ee-b27dbdceafe4")
+		(property "Reference" "R7"
+			(at -17.78 104.648 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at -17.78 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at -17.78 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,28 +3067,8 @@
 				)
 			)
 		)
-		(property "Value" "+20V"
-			(at 16.51 45.974 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 16.51 49.53 0)
+			(at -17.78 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3280,7 +3078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.51 49.53 0)
+			(at -17.78 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3290,12 +3088,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "edf0ac2e-5495-4274-932e-825b059db342")
+			(uuid "0c95a0cd-cda3-49e2-b437-22e24865ca6f")
+		)
+		(pin "2"
+			(uuid "cb2423e1-0ecb-476e-a675-aedffc4cae21")
 		)
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR08")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3312,7 +3113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e336f61-e398-4d2a-9d5c-d2ca3ce57096")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 147.32 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3369,86 +3170,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 19.05 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46261a37-5600-49ed-859b-712c72386620")
-		(property "Reference" "H1"
-			(at 21.59 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 21.59 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 19.05 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 19.05 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "063de709-2e5f-41c0-a35b-8da8847b235f")
-		)
-		(instances
-			(project "jfet_buffer"
-				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "H1")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3465,7 +3187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46ff0b7a-1551-4c49-b36b-6f5e410e80e2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3522,7 +3244,81 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR010")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_ctrl-rescue:GNDA")
+		(at -11.43 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c6109a5-a7ad-4231-b652-2a3b3a83bb27")
+		(property "Reference" "#PWR014"
+			(at -11.43 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_IN_L"
+			(at -5.08 112.522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -11.43 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -11.43 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -11.43 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35fe3469-af2b-4897-8779-589a9e54241b")
+		)
+		(instances
+			(project "jfet_buffer"
+				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3612,7 +3408,7 @@
 	)
 	(symbol
 		(lib_id "power_ctrl-rescue:GNDA")
-		(at 31.75 71.12 0)
+		(at 39.37 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3621,8 +3417,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56858f83-a1a8-4214-9630-031f7c310b2b")
-		(property "Reference" "#PWR012"
-			(at 31.75 77.47 0)
+		(property "Reference" "#PWR010"
+			(at 39.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3429,7 @@
 			)
 		)
 		(property "Value" "GND_IN_L"
-			(at 38.1 71.882 0)
+			(at 45.72 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3643,7 +3439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 71.12 0)
+			(at 39.37 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3653,7 +3449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 71.12 0)
+			(at 39.37 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3663,7 +3459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 71.12 0)
+			(at 39.37 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3678,7 +3474,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb7e9ee1-966b-470d-9fc3-41d4cf8a7e6b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 39.37 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4446,7 +4242,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4931,7 +4727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9ed22ec-40c6-4324-8cfe-897b8e78be5a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 39.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4988,7 +4784,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5005,7 +4801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eea0d477-a980-4a76-8bf9-946ba105a866")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 139.7 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5062,7 +4858,7 @@
 		(instances
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5305,80 +5101,6 @@
 			(project "jfet_buffer"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_ctrl-rescue:+9V")
-		(at 29.21 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe3a5577-9ffe-42ba-9233-b2b94fd0dbc3")
-		(property "Reference" "#PWR09"
-			(at 29.21 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+20V"
-			(at 29.21 45.974 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "307d863e-d642-4870-be8c-92618debcedc")
-		)
-		(instances
-			(project "jfet_buffer"
-				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
