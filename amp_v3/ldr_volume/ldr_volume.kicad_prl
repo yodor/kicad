@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 2,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -10,10 +10,10 @@
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.800000011920929,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.4300000071525574
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "jfet_buffer.kicad_prl",
+    "filename": "ldr_volume.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -91,18 +91,7 @@
       8,
       9
     ],
-    "col_widths": [
-      186,
-      171,
-      135,
-      88,
-      135,
-      135,
-      135,
-      92,
-      135,
-      1009
-    ],
+    "col_widths": [],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -114,7 +103,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": -1
   },
   "open_jobsets": [],
   "project": {

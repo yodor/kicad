@@ -50,10 +50,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -61,21 +61,15 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.8,
-          "min_island_area": 10.0,
+          "min_island_area": -0.0005451284,
           "min_thickness": 0.8,
           "pad_connection": 2,
-          "remove_islands": 0,
-          "thermal_relief_gap": 1.0,
-          "thermal_relief_spoke_width": 1.0
+          "remove_islands": 1,
+          "thermal_relief_gap": 1.5,
+          "thermal_relief_spoke_width": 1.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -158,8 +152,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.8,
-        "min_track_width": 0.8,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -209,9 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -238,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -501,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jfet_buffer.kicad_pro",
+    "filename": "ldr_volume.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -521,8 +508,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
-        "via_diameter": 1.6,
-        "via_drill": 0.8,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -656,18 +643,36 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "jfet_buffer.kicad_sch",
-        "name": "jfet_buffer",
-        "uuid": "4a69c903-ca61-4bf4-abb9-de13d0f3d285"
+        "filename": "ldr_volume.kicad_sch",
+        "name": "board#2",
+        "uuid": "4097963a-7f94-48eb-a80a-b35b0381b1df"
+      },
+      {
+        "filename": "board#3.kicad_sch",
+        "name": "board#3",
+        "uuid": "94f77547-2e48-4baf-b2d8-b5c6eb42fd6e"
+      },
+      {
+        "filename": "board#1.kicad_sch",
+        "name": "board#1",
+        "uuid": "4c316523-e3a9-424b-9fb2-25fa254a8a5b"
       }
     ],
-    "used_designators": "H1-4,R1-14,Q1-4,J1-9,C1-12,#PWR1-33",
+    "used_designators": "NT1-3,L1,R1-24,A1,C1-20,D1-3,J1-18,FB1,#PWR1-46,K1-2,Q1-6,U1-6",
     "variants": []
   },
   "sheets": [
     [
-      "4a69c903-ca61-4bf4-abb9-de13d0f3d285",
-      "jfet_buffer"
+      "4097963a-7f94-48eb-a80a-b35b0381b1df",
+      "board#2"
+    ],
+    [
+      "94f77547-2e48-4baf-b2d8-b5c6eb42fd6e",
+      "board#3"
+    ],
+    [
+      "4c316523-e3a9-424b-9fb2-25fa254a8a5b",
+      "board#1"
     ]
   ],
   "text_variables": {},
