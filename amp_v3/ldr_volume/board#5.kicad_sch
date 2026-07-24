@@ -3138,6 +3138,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 81.28) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe883dd-16a4-442b-9685-bc449ca27120")
+	)
+	(wire
+		(pts
 			(xy 91.44 151.13) (xy 91.44 154.94)
 		)
 		(stroke
@@ -3175,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "7e111606-1fa9-49e8-851a-bcfb56271178")
+	)
+	(wire
+		(pts
+			(xy 43.18 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8576ea6b-493d-4b29-8ed0-dd6ded69ee81")
 	)
 	(wire
 		(pts
@@ -3235,6 +3255,16 @@
 			(type default)
 		)
 		(uuid "a0179b62-5113-4f7f-b870-1e719ce6d1b0")
+	)
+	(wire
+		(pts
+			(xy 43.18 86.36) (xy 48.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0df5c8b-0429-4fab-bb41-be5fea92232b")
 	)
 	(wire
 		(pts
@@ -3398,6 +3428,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 78.74) (xy 48.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb197650-06a0-4214-8efe-bcbfe332bcbb")
+	)
+	(wire
+		(pts
 			(xy 26.67 45.72) (xy 26.67 49.53)
 		)
 		(stroke
@@ -3445,6 +3485,16 @@
 			(type default)
 		)
 		(uuid "f7364e10-5225-47a3-8c5e-f7970ad0e1d6")
+	)
+	(wire
+		(pts
+			(xy 43.18 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86c185e-0979-4b12-b2d4-38573cdd4036")
 	)
 	(wire
 		(pts
@@ -3496,7 +3546,17 @@
 		)
 		(uuid "001763b1-7344-486b-bd8d-dcc172e89324")
 	)
-	(label "TFT_CS"
+	(label "TFT_SDA_L"
+		(at 43.18 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "040e833e-8a67-43ed-a782-e1838fd1067b")
+	)
+	(label "TFT_CS_L"
 		(at -21.59 90.17 180)
 		(effects
 			(font
@@ -3515,6 +3575,26 @@
 			(justify right bottom)
 		)
 		(uuid "082d1bc5-a881-4f20-b5ef-224a441611c3")
+	)
+	(label "TFT_SCL_L"
+		(at 43.18 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0933a218-32b9-42e6-a0b0-fdbbd08e18d8")
+	)
+	(label "TFT_SCL_R"
+		(at 104.14 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0946b825-050b-481a-bda9-a9d47bc000f7")
 	)
 	(label "AUDIO_L"
 		(at 21.59 160.02 270)
@@ -3555,6 +3635,16 @@
 			(justify right bottom)
 		)
 		(uuid "29933172-75a5-4fc3-baa4-b507d39de6ea")
+	)
+	(label "TFT_DC_R"
+		(at 104.14 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31ae38bd-47e6-483b-a60f-ef78d6934112")
 	)
 	(label "AUDIO_L"
 		(at 35.56 165.1 180)
@@ -3607,7 +3697,7 @@
 		(uuid "49b773df-c9b5-4588-a08b-7daeed738e1b")
 	)
 	(label "UART_TX"
-		(at 104.14 76.2 0)
+		(at 116.84 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3616,7 +3706,7 @@
 		)
 		(uuid "5267b62e-a6d3-4a9a-82db-eb35dd6e384e")
 	)
-	(label "TFT_RES"
+	(label "TFT_RES_L"
 		(at -21.59 85.09 180)
 		(effects
 			(font
@@ -3636,7 +3726,17 @@
 		)
 		(uuid "55e96414-050f-4d65-98d8-42a61c849a4c")
 	)
-	(label "TFT_GND"
+	(label "TFT_DC_L"
+		(at 43.18 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "590f5b5f-6d4a-4dd3-a711-0e93a9ccaae1")
+	)
+	(label "TFT_GND_R"
 		(at -15.24 120.65 0)
 		(effects
 			(font
@@ -3647,7 +3747,7 @@
 		(uuid "5e1a6c17-d11f-4e79-a25c-933ce48b8534")
 	)
 	(label "UART_RX"
-		(at 104.14 73.66 0)
+		(at 116.84 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3656,7 +3756,7 @@
 		)
 		(uuid "6047ee97-7044-4e72-bc2c-42cb3b971dd3")
 	)
-	(label "TFT_BL"
+	(label "TFT_BL_R"
 		(at -15.24 102.87 0)
 		(effects
 			(font
@@ -3676,7 +3776,17 @@
 		)
 		(uuid "6c055f44-f86f-4ef3-8558-22f3aba0af3a")
 	)
-	(label "TFT_GND"
+	(label "TFT_SDA_R"
+		(at 104.14 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6df02390-e589-4978-b9cc-753f834fceb2")
+	)
+	(label "TFT_GND_L"
 		(at -21.59 74.93 180)
 		(effects
 			(font
@@ -3696,7 +3806,7 @@
 		)
 		(uuid "78eacea7-a702-40c6-9d04-f34449e17c1a")
 	)
-	(label "TFT_SDA"
+	(label "TFT_SDA_L"
 		(at -21.59 82.55 180)
 		(effects
 			(font
@@ -3736,6 +3846,16 @@
 		)
 		(uuid "87ea5eab-4f49-42de-92e6-99d97f075495")
 	)
+	(label "TFT_CS_R"
+		(at 104.14 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c099228-85be-4a43-b712-dd8593043c83")
+	)
 	(label "5v_local"
 		(at 41.91 49.53 0)
 		(effects
@@ -3756,7 +3876,7 @@
 		)
 		(uuid "95787ce9-9f2a-4dc3-aaa1-a7f644e406dc")
 	)
-	(label "TFT_DC"
+	(label "TFT_DC_L"
 		(at -21.59 87.63 180)
 		(effects
 			(font
@@ -3786,7 +3906,7 @@
 		)
 		(uuid "a4d06d26-71e3-4283-886c-d7c7d7bb1966")
 	)
-	(label "TFT_CS"
+	(label "TFT_CS_R"
 		(at -15.24 105.41 0)
 		(effects
 			(font
@@ -3796,7 +3916,17 @@
 		)
 		(uuid "a95d794c-0d43-4a77-9599-c39b79c113e6")
 	)
-	(label "TFT_SCL"
+	(label "TFT_RES_R"
+		(at 104.14 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b645a868-d439-4c3f-b783-d735456dadc5")
+	)
+	(label "TFT_SCL_R"
 		(at -15.24 115.57 0)
 		(effects
 			(font
@@ -3805,6 +3935,16 @@
 			(justify left bottom)
 		)
 		(uuid "c6d4b397-d3c8-4801-9dc9-666ad2999815")
+	)
+	(label "TFT_CS_L"
+		(at 43.18 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce9c0c77-dcc9-45a3-88e7-78a4251a005a")
 	)
 	(label "AGND_L"
 		(at 123.19 160.02 270)
@@ -3816,7 +3956,7 @@
 		)
 		(uuid "d6f73748-b39a-43cf-9ed0-b1937bee2ec6")
 	)
-	(label "TFT_DC"
+	(label "TFT_DC_R"
 		(at -15.24 107.95 0)
 		(effects
 			(font
@@ -3825,6 +3965,16 @@
 			(justify left bottom)
 		)
 		(uuid "d74bf48e-67d5-4707-bf00-7e090d9e94ab")
+	)
+	(label "TFT_RES_L"
+		(at 43.18 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9fed9cc-9335-468e-a4a8-8c826140c6e9")
 	)
 	(label "ADC_R"
 		(at 97.79 163.83 270)
@@ -3836,7 +3986,7 @@
 		)
 		(uuid "e73d030e-2384-47ec-a872-72e7d74fef1e")
 	)
-	(label "TFT_BL"
+	(label "TFT_BL_L"
 		(at -21.59 92.71 180)
 		(effects
 			(font
@@ -3856,7 +4006,7 @@
 		)
 		(uuid "e9a21599-9834-49b4-bf9a-20a36338dd87")
 	)
-	(label "TFT_VDD"
+	(label "TFT_VDD_R"
 		(at -15.24 118.11 0)
 		(effects
 			(font
@@ -3866,7 +4016,7 @@
 		)
 		(uuid "ebc47ab8-3517-40ad-92cc-1a5a79b541cd")
 	)
-	(label "TFT_SCL"
+	(label "TFT_SCL_L"
 		(at -21.59 80.01 180)
 		(effects
 			(font
@@ -3896,7 +4046,7 @@
 		)
 		(uuid "fccc9c23-2b85-423e-8de6-b5d12d130161")
 	)
-	(label "TFT_RES"
+	(label "TFT_RES_R"
 		(at -15.24 110.49 0)
 		(effects
 			(font
@@ -3906,7 +4056,7 @@
 		)
 		(uuid "fcd1a4a8-0dc2-4620-b0f0-e912f29a847c")
 	)
-	(label "TFT_VDD"
+	(label "TFT_VDD_L"
 		(at -21.59 77.47 180)
 		(effects
 			(font
@@ -3916,7 +4066,7 @@
 		)
 		(uuid "fdd443bd-a24f-4370-8664-dcd50cf45c88")
 	)
-	(label "TFT_SDA"
+	(label "TFT_SDA_R"
 		(at -15.24 113.03 0)
 		(effects
 			(font
@@ -4134,7 +4284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01833007-129c-4504-8e56-219afd263804")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 71.12 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4194,7 +4344,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/c16a8161-991e-4f32-8346-3bac9962e2d7"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a65271-0814-4463-8ca4-84ef0392ee7f")
-		(property "Reference" "J20"
+		(property "Reference" "J19"
 			(at -10.16 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4522,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/c16a8161-991e-4f32-8346-3bac9962e2d7"
-					(reference "J20")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ebad7fb-1473-4fe7-a29a-c40d623f8f1f")
-		(property "Reference" "J24"
+		(property "Reference" "J21"
 			(at 67.31 149.2249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +4708,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/c16a8161-991e-4f32-8346-3bac9962e2d7"
-					(reference "J24")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4820,7 +4970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da54b16-cef6-4edb-9313-e53095db3f83")
-		(property "Reference" "J23"
+		(property "Reference" "J20"
 			(at -26.67 113.0301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4902,7 +5052,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/c16a8161-991e-4f32-8346-3bac9962e2d7"
-					(reference "J23")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -5001,7 +5151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a32eae4c-f82e-4aa2-99e4-e1c169a379c7")
-		(property "Reference" "J25"
+		(property "Reference" "J22"
 			(at 25.4 150.4949 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5065,7 +5215,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/c16a8161-991e-4f32-8346-3bac9962e2d7"
-					(reference "J25")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -5429,7 +5579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 33.9852 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5650,7 +5800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0687821-ba78-4280-8a95-adececdef9d8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5710,7 +5860,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/c16a8161-991e-4f32-8346-3bac9962e2d7"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5728,7 +5878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1c228c3-eb67-41fb-aa5c-dcea3b01b676")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 138.43 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5788,7 +5938,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/c16a8161-991e-4f32-8346-3bac9962e2d7"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)

@@ -2136,7 +2136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP"
+		(property "Footprint" "Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP"
 			(at 97.79 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2217,7 +2217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 88.5952 58.42 0)
 			(hide yes)
 			(show_name no)
