@@ -1625,7 +1625,7 @@
 				)
 			)
 		)
-		(property "Value" "NSL-32-SR3-Rshunt"
+		(property "Value" "NSL-32-SR3"
 			(at 52.832 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1929,7 +1929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 114.046 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)

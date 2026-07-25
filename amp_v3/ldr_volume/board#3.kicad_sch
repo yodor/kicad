@@ -6928,7 +6928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 61.976 -144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8262,7 +8262,7 @@
 				)
 			)
 		)
-		(property "Value" "110"
+		(property "Value" "120"
 			(at 117.856 -222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8422,7 +8422,7 @@
 				)
 			)
 		)
-		(property "Value" "110"
+		(property "Value" "120"
 			(at 116.586 -161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9794,7 +9794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 63.246 -205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10626,7 +10626,7 @@
 				)
 			)
 		)
-		(property "Value" "110"
+		(property "Value" "120"
 			(at 41.656 -227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10944,7 +10944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 139.446 -200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11014,7 +11014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8939775-c4e3-4336-823b-5fea8eb1b2e7")
-		(property "Reference" "R31"
+		(property "Reference" "R29"
 			(at 255.016 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +11078,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/94f77547-2e48-4baf-b2d8-b5c6eb42fd6e"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11270,7 +11270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 138.176 -139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12339,7 +12339,7 @@
 				)
 			)
 		)
-		(property "Value" "110"
+		(property "Value" "120"
 			(at 40.386 -166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
