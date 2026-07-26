@@ -1471,7 +1471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076e6db0-6977-4f08-8d66-5ce3160cea15")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR020"
 			(at 125.73 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1531,7 +1531,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "#PWR026")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1628,7 +1628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42c82dc2-d2a1-4033-b155-90259616a534")
-		(property "Reference" "C11"
+		(property "Reference" "C3"
 			(at 81.28 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1692,7 +1692,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1721,7 +1721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "PWR3"
 			(at 99.06 24.7649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1881,7 +1881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "PWR2"
 			(at 71.12 24.7649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2195,7 +2195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92ff7c2e-a31b-4f95-9216-5f31d1dc877f")
-		(property "Reference" "C12"
+		(property "Reference" "C4"
 			(at 86.614 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2259,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2277,7 +2277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3149ba6-4d69-46d0-9a74-8be548583ce6")
-		(property "Reference" "C18"
+		(property "Reference" "C5"
 			(at 115.57 52.4509 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +2341,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "C18")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2359,7 +2359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc57410c-144a-4484-a785-58c6165fa554")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR025"
 			(at 97.79 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2419,7 +2419,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "#PWR045")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2448,7 +2448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "PWR4"
 			(at 127 24.7649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1cd8af9-3632-4043-9f3a-690bb18d23b4")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR019"
 			(at 97.79 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2579,7 +2579,7 @@
 		(instances
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "#PWR025")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2608,7 +2608,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "PWR1"
 			(at 43.18 24.7649 90)
 			(show_name no)
 			(do_not_autoplace no)
