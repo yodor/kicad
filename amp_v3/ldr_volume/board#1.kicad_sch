@@ -1559,7 +1559,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "AC_IN"
 			(at 27.305 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1569,7 +1569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
 			(at 26.67 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2288,7 +2288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "100uF"
 			(at 115.57 54.9909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 112.7252 58.42 0)
 			(hide yes)
 			(show_name no)
