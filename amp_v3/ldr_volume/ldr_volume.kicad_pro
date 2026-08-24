@@ -683,17 +683,12 @@
         "uuid": "4c316523-e3a9-424b-9fb2-25fa254a8a5b"
       },
       {
-        "filename": "board#5.kicad_sch",
-        "name": "board#5",
-        "uuid": "c16a8161-991e-4f32-8346-3bac9962e2d7"
-      },
-      {
         "filename": "testboard.kicad_sch",
         "name": "testboard",
         "uuid": "b2909a89-f6d0-4363-ac75-1c75d5f31794"
       }
     ],
-    "used_designators": "A1-2,R1-47,NT1-8,IR1,Q1-18,K1-2,J1-29,FL1-2,#PWR1-69,FB1,L1-4,U1-7,D1-3,C1-34",
+    "used_designators": "C1-34,A1-2,R1-47,NT1-8,IR1,Q1-18,D1-4,U1-7,K1-2,J1-34,FL1-2,#PWR1-69,L1-4,FB1",
     "variants": []
   },
   "sheets": [
@@ -708,10 +703,6 @@
     [
       "94f77547-2e48-4baf-b2d8-b5c6eb42fd6e",
       "board#3"
-    ],
-    [
-      "c16a8161-991e-4f32-8346-3bac9962e2d7",
-      "board#5"
     ],
     [
       "b2909a89-f6d0-4363-ac75-1c75d5f31794",
