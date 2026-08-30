@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 2.6,
-          "width": 1.6
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
+          "corner_radius": 1.0,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -661,6 +661,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -686,9 +694,14 @@
         "filename": "testboard.kicad_sch",
         "name": "testboard",
         "uuid": "b2909a89-f6d0-4363-ac75-1c75d5f31794"
+      },
+      {
+        "filename": "board#5.kicad_sch",
+        "name": "board#5",
+        "uuid": "eb7eeafe-7041-446a-ba39-958190dc0815"
       }
     ],
-    "used_designators": "C1-34,A1-2,R1-47,NT1-8,IR1,Q1-18,D1-4,U1-7,K1-2,J1-34,FL1-2,#PWR1-69,L1-4,FB1",
+    "used_designators": "Q1-18,FB1,L1-4,#PWR1-78,FL1-2,IR1,J1-41,K1-2,SW1-4,NT1-8,R1-47,C1-34,A1-2,U1-8,D1-5",
     "variants": []
   },
   "sheets": [
@@ -703,6 +716,10 @@
     [
       "94f77547-2e48-4baf-b2d8-b5c6eb42fd6e",
       "board#3"
+    ],
+    [
+      "eb7eeafe-7041-446a-ba39-958190dc0815",
+      "board#5"
     ],
     [
       "b2909a89-f6d0-4363-ac75-1c75d5f31794",
