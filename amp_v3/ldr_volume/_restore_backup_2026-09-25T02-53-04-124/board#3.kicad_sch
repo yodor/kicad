@@ -11894,7 +11894,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 -226.06 0)
+		(at 132.08 -226.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11904,7 +11904,7 @@
 		(dnp no)
 		(uuid "c389a237-23e4-4503-8c3d-912d1288f986")
 		(property "Reference" "R54"
-			(at 134.62 -224.282 90)
+			(at 129.54 -227.838 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11915,7 +11915,7 @@
 			)
 		)
 		(property "Value" "68K"
-			(at 131.826 -224.028 90)
+			(at 132.334 -228.092 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11925,8 +11925,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
-			(at 130.302 -226.06 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 133.858 -226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12375,7 +12375,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.21 -228.6 0)
+		(at 29.21 -228.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12385,7 +12385,7 @@
 		(dnp no)
 		(uuid "d2fc3233-483f-438c-a2be-14cefc9e53f7")
 		(property "Reference" "R55"
-			(at 31.75 -226.822 90)
+			(at 26.67 -230.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12396,7 +12396,7 @@
 			)
 		)
 		(property "Value" "68K"
-			(at 28.956 -226.568 90)
+			(at 29.464 -230.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12406,8 +12406,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
-			(at 27.432 -228.6 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 30.988 -228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
