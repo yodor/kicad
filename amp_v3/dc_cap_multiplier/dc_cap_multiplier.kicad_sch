@@ -2254,7 +2254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "PWR_IN"
 			(at 137.16 28.5749 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "PWR_OUT"
 			(at 135.89 69.2149 90)
 			(show_name no)
 			(do_not_autoplace no)
