@@ -704,11 +704,6 @@
         "uuid": "4c316523-e3a9-424b-9fb2-25fa254a8a5b"
       },
       {
-        "filename": "testboard.kicad_sch",
-        "name": "testboard",
-        "uuid": "b2909a89-f6d0-4363-ac75-1c75d5f31794"
-      },
-      {
         "filename": "board#5.kicad_sch",
         "name": "Main Board",
         "uuid": "eb7eeafe-7041-446a-ba39-958190dc0815"
@@ -733,10 +728,6 @@
     [
       "eb7eeafe-7041-446a-ba39-958190dc0815",
       "Main Board"
-    ],
-    [
-      "b2909a89-f6d0-4363-ac75-1c75d5f31794",
-      "testboard"
     ]
   ],
   "text_variables": {},
