@@ -1178,6 +1178,12 @@
 		(uuid "14919cc2-2c1c-49ee-9066-cbd61e1d5fed")
 	)
 	(junction
+		(at 157.48 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bd10310-52a2-48bb-a292-4a2d2d3c0f10")
+	)
+	(junction
 		(at 110.49 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1225,12 +1231,6 @@
 		(color 0 0 0 0)
 		(uuid "d2840622-d9e3-434a-aedd-4078e0a09293")
 	)
-	(junction
-		(at 157.48 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed05937d-1a4d-4344-aac4-f54b69ea579a")
-	)
 	(wire
 		(pts
 			(xy 67.31 25.4) (xy 73.66 25.4)
@@ -1240,16 +1240,6 @@
 			(type default)
 		)
 		(uuid "01294375-4a26-4eef-a7ab-8ca47012baa0")
-	)
-	(wire
-		(pts
-			(xy 157.48 53.34) (xy 162.56 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a21916e-c26d-44ab-8d97-78dbe586a888")
 	)
 	(wire
 		(pts
@@ -1433,7 +1423,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 53.34) (xy 175.26 53.34)
+			(xy 170.18 82.55) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1743,6 +1733,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 82.55) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3f3718-bbc8-48b3-9e17-2a09b4a7a3f0")
+	)
+	(wire
+		(pts
 			(xy 31.75 81.28) (xy 35.56 81.28)
 		)
 		(stroke
@@ -1762,7 +1762,7 @@
 		(uuid "fdd34c41-76e3-41d3-bcd4-bb2347866f72")
 	)
 	(label "AUDIO_IN_VACTROL"
-		(at 133.35 50.8 180)
+		(at 133.35 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1822,7 +1822,7 @@
 		(uuid "32acc826-1c65-4401-97b1-f13559a49226")
 	)
 	(label "AUDIO_OUT_AMP"
-		(at 175.26 53.34 0)
+		(at 175.26 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,7 +1852,7 @@
 		(uuid "6073f969-6cd7-4bd6-af93-596080b5538b")
 	)
 	(label "AUDIO_GND"
-		(at 133.35 80.01 180)
+		(at 133.35 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2005,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 74.6252 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -2055,7 +2055,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 53.34 90)
+		(at 166.37 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2065,7 +2065,7 @@
 		(dnp no)
 		(uuid "0916cde0-e29f-4492-8e52-a4d11463ede2")
 		(property "Reference" "R9"
-			(at 166.37 51.054 90)
+			(at 166.37 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2075,7 +2075,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 166.37 55.626 90)
+			(at 166.37 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2084,8 +2084,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 166.37 55.118 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 166.37 84.328 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +2096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 53.34 0)
+			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2107,7 +2107,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 53.34 0)
+			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2164,7 +2164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:SMDIP-8_W7.62mm"
 			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2261,7 +2261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -2342,7 +2342,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 66.3448 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -2423,7 +2423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 87.9348 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2503,7 +2503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:SMDIP-8_W7.62mm"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2602,7 +2602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:SMDIP-8_W7.62mm"
 			(at 82.55 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2701,7 +2701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 96.2152 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2781,7 +2781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 24.13 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2862,7 +2862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 87.9348 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2942,7 +2942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 26.67 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3023,7 +3023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 96.2152 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 46.228 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -3181,7 +3181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -3263,7 +3263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 117.8052 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3344,7 +3344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 109.5248 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3414,7 +3414,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR_IN"
+		(property "Value" "OP_PWR"
 			(at 24.765 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 24.13 33.02 0)
 			(hide yes)
 			(show_name no)

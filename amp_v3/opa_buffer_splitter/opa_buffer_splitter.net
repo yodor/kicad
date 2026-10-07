@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/storage/work/kicad/amp_v3/opa_buffer_splitter/opa_buffer_splitter/opa_buffer_splitter.kicad_sch")
-		(date "2026-10-06T20:36:28")
+		(source "/storage/work/kicad/amp_v3/opa_buffer_splitter/opa_buffer_splitter.kicad_sch")
+		(date "2026-10-07T21:14:04")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -153,11 +153,11 @@
 		(comp
 			(ref "C1")
 			(value "10uF esr")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -207,11 +207,11 @@
 		(comp
 			(ref "C2")
 			(value "10uF esr")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -259,67 +259,13 @@
 			)
 		)
 		(comp
-			(ref "C2_A1")
-			(value "1uF X7R")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "PSU")
-			)
-			(property
-				(name "Sheetfile")
-				(value "psu.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/PSU/")
-				(tstamps "/")
-			)
-			(tstamps "b0f03a70-a628-443a-87ec-cc8e1d1e8bc7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C3")
 			(value "1uF x7r")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -369,11 +315,11 @@
 		(comp
 			(ref "C4")
 			(value "1uF x7r")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -423,11 +369,11 @@
 		(comp
 			(ref "C5")
 			(value "2.2 nF, 2000 V, Y5P")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -477,11 +423,11 @@
 		(comp
 			(ref "C6")
 			(value "47uF")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -531,11 +477,11 @@
 		(comp
 			(ref "C7")
 			(value "1uF X7R")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -583,8 +529,63 @@
 			)
 		)
 		(comp
+			(ref "C7_A1")
+			(value "1uF X7R")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "PSU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "psu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/PSU/")
+				(tstamps "/")
+			)
+			(tstamps "b0f03a70-a628-443a-87ec-cc8e1d1e8bc7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D1")
 			(value "1N4007")
+			(footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
 			(description "Diode")
 			(fields
 				(field
@@ -592,8 +593,7 @@
 				(field
 					(name "Sim.Pins") "1=K 2=A")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -651,11 +651,11 @@
 		(comp
 			(ref "D2")
 			(value "1N5338B")
-			(footprint "Diode_SMD:Littelfuse_PolyZen-LS")
+			(footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
 			(description "Zener diode")
 			(fields
 				(field
-					(name "Footprint") "Diode_SMD:Littelfuse_PolyZen-LS")
+					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -705,11 +705,11 @@
 		(comp
 			(ref "F1")
 			(value "1A")
-			(footprint "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm")
+			(footprint "Fuse:Fuse_Littelfuse_395Series")
 			(description "Fuse")
 			(fields
 				(field
-					(name "Footprint") "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm")
+					(name "Footprint") "Fuse:Fuse_Littelfuse_395Series")
 				(field
 					(name "Datasheet")
 				)
@@ -759,12 +759,12 @@
 		(comp
 			(ref "FL1")
 			(value "RN202-0.3-02-12M")
-			(footprint "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm")
+			(footprint "Inductor_THT:Choke_Schaffner_RN202-04-8.8x18.2mm")
 			(datasheet "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/")
 			(description "Common mode choke, 300mA, 300VAC, 12mH, 1.1 ohm, RN-102")
 			(fields
 				(field
-					(name "Footprint") "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm")
+					(name "Footprint") "Inductor_THT:Choke_Schaffner_RN202-04-8.8x18.2mm")
 				(field
 					(name "Datasheet") "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/")
 				(field
@@ -819,11 +819,11 @@
 		(comp
 			(ref "J1")
 			(value "UHP_PWR")
+			(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -872,12 +872,12 @@
 		)
 		(comp
 			(ref "J2")
-			(value "Conn_01x04_Pin")
-			(footprint "Package_DIP:DIP-24_W7.62mm")
+			(value "OP_PWR_OUT")
+			(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x04, script generated")
 			(fields
 				(field
-					(name "Footprint") "Package_DIP:DIP-24_W7.62mm")
+					(name "Footprint") "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -932,12 +932,12 @@
 		)
 		(comp
 			(ref "J3")
-			(value "Conn_01x04_Pin")
-			(footprint "Package_DIP:DIP-24_W7.62mm")
+			(value "OP_PWR_OUT")
+			(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x04, script generated")
 			(fields
 				(field
-					(name "Footprint") "Package_DIP:DIP-24_W7.62mm")
+					(name "Footprint") "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -992,12 +992,12 @@
 		)
 		(comp
 			(ref "J4")
-			(value "Conn_01x04_Pin")
-			(footprint "Package_DIP:DIP-24_W7.62mm")
+			(value "OP_PWR_OUT")
+			(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x04, script generated")
 			(fields
 				(field
-					(name "Footprint") "Package_DIP:DIP-24_W7.62mm")
+					(name "Footprint") "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1052,12 +1052,12 @@
 		)
 		(comp
 			(ref "J5")
-			(value "Conn_01x04_Pin")
-			(footprint "Package_DIP:DIP-24_W7.62mm")
+			(value "OP_PWR_OUT")
+			(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x04, script generated")
 			(fields
 				(field
-					(name "Footprint") "Package_DIP:DIP-24_W7.62mm")
+					(name "Footprint") "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1113,11 +1113,11 @@
 		(comp
 			(ref "L1")
 			(value "10uH")
-			(footprint "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm")
+			(footprint "Inductor_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP")
 			(description "Inductor")
 			(fields
 				(field
-					(name "Footprint") "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm")
+					(name "Footprint") "Inductor_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP")
 				(field
 					(name "Datasheet")
 				)
@@ -1167,11 +1167,11 @@
 		(comp
 			(ref "L2")
 			(value "10uH")
-			(footprint "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm")
+			(footprint "Inductor_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP")
 			(description "Inductor")
 			(fields
 				(field
-					(name "Footprint") "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm")
+					(name "Footprint") "Inductor_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP")
 				(field
 					(name "Datasheet")
 				)
@@ -1221,11 +1221,11 @@
 		(comp
 			(ref "U1")
 			(value "DPB09B-12")
-			(footprint "LED_THT:LED_D5.0mm_IRGrey")
+			(footprint "Package_SIP:SIP-8_19x3mm_P2.54mm")
 			(description "Generic connector, single row, 01x08, script generated")
 			(fields
 				(field
-					(name "Footprint") "LED_THT:LED_D5.0mm_IRGrey")
+					(name "Footprint") "Package_SIP:SIP-8_19x3mm_P2.54mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1292,12 +1292,12 @@
 		)
 		(comp
 			(ref "C8")
-			(value "2.2uF (Film or PP)")
+			(value "1uF PP")
+			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1347,11 +1347,11 @@
 		(comp
 			(ref "C9")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1401,11 +1401,11 @@
 		(comp
 			(ref "C10")
 			(value "4.7uF")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1455,11 +1455,11 @@
 		(comp
 			(ref "C11")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1509,11 +1509,11 @@
 		(comp
 			(ref "C12")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1563,11 +1563,11 @@
 		(comp
 			(ref "C13")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1617,11 +1617,11 @@
 		(comp
 			(ref "C14")
 			(value "10uF esr")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1671,11 +1671,11 @@
 		(comp
 			(ref "C15")
 			(value "10uF esr")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1725,11 +1725,11 @@
 		(comp
 			(ref "C16")
 			(value "4.7uF")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1777,13 +1777,67 @@
 			)
 		)
 		(comp
+			(ref "C25")
+			(value "1uF")
+			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Splitter")
+			)
+			(property
+				(name "Sheetfile")
+				(value "opa_buffer_splitter.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Splitter/")
+				(tstamps "/")
+			)
+			(tstamps "b58c098c-8099-4232-819c-fd528c90d7b0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "J6")
-			(value "PWR_IN")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(value "OP_PWR")
+			(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x03, script generated")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1836,11 +1890,11 @@
 		(comp
 			(ref "J7")
 			(value "AUDIO_IN")
+			(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1889,12 +1943,12 @@
 		)
 		(comp
 			(ref "J8")
-			(value "AUDIO_OUT")
+			(value "AOUT_MASTER")
+			(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1943,12 +1997,12 @@
 		)
 		(comp
 			(ref "J9")
-			(value "AUDIO_OUT")
+			(value "AOUT_VIS")
+			(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1998,11 +2052,11 @@
 		(comp
 			(ref "R1")
 			(value "100K")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -2052,11 +2106,11 @@
 		(comp
 			(ref "R2")
 			(value "10R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -2106,11 +2160,11 @@
 		(comp
 			(ref "R3")
 			(value "10R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -2160,11 +2214,11 @@
 		(comp
 			(ref "R4")
 			(value "47R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -2214,11 +2268,11 @@
 		(comp
 			(ref "R5")
 			(value "47R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2268,12 +2322,12 @@
 		(comp
 			(ref "U2")
 			(value "OPA1656")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Package_DIP:SMDIP-8_W7.62mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa1656.pdf")
 			(description "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Package_DIP:SMDIP-8_W7.62mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa1656.pdf")
 				(field
@@ -2352,11 +2406,11 @@
 		(comp
 			(ref "C17")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2406,11 +2460,11 @@
 		(comp
 			(ref "C18")
 			(value "4.7uF")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2460,11 +2514,11 @@
 		(comp
 			(ref "C19")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2514,11 +2568,11 @@
 		(comp
 			(ref "C20")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2568,11 +2622,11 @@
 		(comp
 			(ref "C21")
 			(value "10uF esr")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2622,11 +2676,11 @@
 		(comp
 			(ref "C22")
 			(value "10uF esr")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2676,11 +2730,11 @@
 		(comp
 			(ref "C23")
 			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2730,11 +2784,11 @@
 		(comp
 			(ref "C24")
 			(value "4.7uF")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2783,12 +2837,12 @@
 		)
 		(comp
 			(ref "J10")
-			(value "PWR_IN")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(value "OP_PWR")
+			(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x03, script generated")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2841,11 +2895,11 @@
 		(comp
 			(ref "J11")
 			(value "AUDIO_IN")
+			(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2895,11 +2949,11 @@
 		(comp
 			(ref "J12")
 			(value "AUDIO_OUT")
+			(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2949,11 +3003,11 @@
 		(comp
 			(ref "R6")
 			(value "1M")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -3003,11 +3057,11 @@
 		(comp
 			(ref "R7")
 			(value "10R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3057,11 +3111,11 @@
 		(comp
 			(ref "R8")
 			(value "10R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3111,11 +3165,11 @@
 		(comp
 			(ref "R9")
 			(value "47R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -3165,12 +3219,12 @@
 		(comp
 			(ref "U3")
 			(value "OPA1656")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "Package_DIP:SMDIP-8_W7.62mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa1656.pdf")
 			(description "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Package_DIP:SMDIP-8_W7.62mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa1656.pdf")
 				(field
@@ -3201,7 +3255,7 @@
 				(names "/Buffer/")
 				(tstamps "/")
 			)
-			(tstamps "4ed4a49d-0123-4bca-8bbc-72964f2cf13f" "3fc68379-04d7-4210-b1f2-bdeaf310cc51"
+			(tstamps "3fc68379-04d7-4210-b1f2-bdeaf310cc51" "4ed4a49d-0123-4bca-8bbc-72964f2cf13f"
 				"18490b1a-2ff1-4700-a992-c5664924c6d0"
 			)
 			(units
@@ -3929,8 +3983,8 @@
 			)
 			(node
 				(ref "U3")
-				(pin "5")
-				(pinfunction "+_5")
+				(pin "3")
+				(pinfunction "+_3")
 				(pintype "input")
 			)
 		)
@@ -3951,8 +4005,8 @@
 			)
 			(node
 				(ref "U3")
-				(pin "3")
-				(pinfunction "+_3")
+				(pin "5")
+				(pinfunction "+_5")
 				(pintype "input")
 			)
 		)
@@ -4117,17 +4171,17 @@
 			(name "/PSU/30V_PRE")
 			(class "Default")
 			(node
-				(ref "C2_A1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C6")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
 				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7_A1")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -4233,11 +4287,6 @@
 			(name "/PSU/GND_PRE")
 			(class "Default")
 			(node
-				(ref "C2_A1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "C5")
 				(pin "1")
 				(pintype "passive")
@@ -4249,6 +4298,11 @@
 			)
 			(node
 				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7_A1")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -4424,6 +4478,11 @@
 			(name "/Splitter/AUDIO_IN")
 			(class "Default")
 			(node
+				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "C8")
 				(pin "2")
 				(pintype "passive")
@@ -4482,6 +4541,11 @@
 			(code "22")
 			(name "/Splitter/RCA_IN")
 			(class "Default")
+			(node
+				(ref "C25")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "C8")
 				(pin "1")
@@ -4643,11 +4707,6 @@
 			(name "Net-(U3A--)")
 			(class "Default")
 			(node
-				(ref "R9")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U3")
 				(pin "1")
 				(pintype "output")
@@ -4663,6 +4722,11 @@
 			(code "31")
 			(name "Net-(U3B--)")
 			(class "Default")
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "U3")
 				(pin "6")

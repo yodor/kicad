@@ -1874,12 +1874,12 @@
 		(uuid "0ef6093c-e8a4-4563-b547-6b01d6343ea7")
 	)
 	(label "AUDIO_GND"
-		(at 49.53 86.36 0)
+		(at 49.53 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3578622a-e596-4bc6-8436-a67e8f81572e")
 	)
@@ -2124,7 +2124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 186.69 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -2386,7 +2386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 47.752 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -2684,9 +2684,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6665386c-6ad0-4093-a9d6-bcf94b263a7c")
 		(property "Reference" "C8"
-			(at 38.608 71.882 90)
+			(at 41.91 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2695,8 +2696,8 @@
 				)
 			)
 		)
-		(property "Value" "1uF PP"
-			(at 46.736 71.882 90)
+		(property "Value" "2.2uF (Film or PP)"
+			(at 41.91 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2705,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitor JFC:JFC"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 45.72 72.6948 0)
 			(hide yes)
 			(show_name no)
@@ -3447,7 +3448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 186.69 71.628 90)
 			(hide yes)
 			(show_name no)
