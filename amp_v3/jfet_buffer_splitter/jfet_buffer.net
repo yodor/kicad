@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/storage/work/kicad/amp_v3/jfet_buffer_splitter/jfet_buffer.kicad_sch")
-		(date "2026-09-29T01:06:44")
+		(source "/home/yodor/kicad/jfet_buffer_splitter/jfet_buffer.kicad_sch")
+		(date "2026-10-08T03:06:41")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")

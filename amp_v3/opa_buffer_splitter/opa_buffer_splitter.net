@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/storage/work/kicad/amp_v3/opa_buffer_splitter/opa_buffer_splitter.kicad_sch")
-		(date "2026-10-07T21:14:04")
+		(source "/home/yodor/kicad/opa_buffer_splitter/opa_buffer_splitter.kicad_sch")
+		(date "2026-10-08T04:56:54")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -152,7 +152,7 @@
 	(components
 		(comp
 			(ref "C1")
-			(value "10uF esr")
+			(value "10uF")
 			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
@@ -206,7 +206,7 @@
 		)
 		(comp
 			(ref "C2")
-			(value "10uF esr")
+			(value "10uF")
 			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
@@ -1293,11 +1293,11 @@
 		(comp
 			(ref "C8")
 			(value "1uF PP")
-			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
+			(footprint "capacitor JFC:JFC")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
+					(name "Footprint") "capacitor JFC:JFC")
 				(field
 					(name "Datasheet")
 				)
@@ -1777,60 +1777,6 @@
 			)
 		)
 		(comp
-			(ref "C25")
-			(value "1uF")
-			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Splitter")
-			)
-			(property
-				(name "Sheetfile")
-				(value "opa_buffer_splitter.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Splitter/")
-				(tstamps "/")
-			)
-			(tstamps "b58c098c-8099-4232-819c-fd528c90d7b0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "J6")
 			(value "OP_PWR")
 			(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
@@ -2052,11 +1998,11 @@
 		(comp
 			(ref "R1")
 			(value "100K")
-			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2214,11 +2160,11 @@
 		(comp
 			(ref "R4")
 			(value "47R")
-			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -3255,7 +3201,7 @@
 				(names "/Buffer/")
 				(tstamps "/")
 			)
-			(tstamps "3fc68379-04d7-4210-b1f2-bdeaf310cc51" "4ed4a49d-0123-4bca-8bbc-72964f2cf13f"
+			(tstamps "4ed4a49d-0123-4bca-8bbc-72964f2cf13f" "3fc68379-04d7-4210-b1f2-bdeaf310cc51"
 				"18490b1a-2ff1-4700-a992-c5664924c6d0"
 			)
 			(units
@@ -4478,11 +4424,6 @@
 			(name "/Splitter/AUDIO_IN")
 			(class "Default")
 			(node
-				(ref "C25")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "C8")
 				(pin "2")
 				(pintype "passive")
@@ -4541,11 +4482,6 @@
 			(code "22")
 			(name "/Splitter/RCA_IN")
 			(class "Default")
-			(node
-				(ref "C25")
-				(pin "1")
-				(pintype "passive")
-			)
 			(node
 				(ref "C8")
 				(pin "1")
