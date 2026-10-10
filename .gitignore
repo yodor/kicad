@@ -7,3 +7,4 @@ libs3d
 **/*backup/
 **/output/
 **/*.FlatPrj
+**/_restore_backup_*
