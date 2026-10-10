@@ -476,6 +476,12 @@
 		(uuid "09e746a9-373f-41b2-96f0-bfd736b880bb")
 	)
 	(junction
+		(at 133.35 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20b510d3-2b85-4a3b-b459-c502a3e9115e")
+	)
+	(junction
 		(at 124.46 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -498,6 +504,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cf3abb2-65ac-4b3b-8a69-0d8a29b851b4")
+	)
+	(junction
+		(at 121.92 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802b5a8d-67fd-4c96-8673-85fb97139805")
 	)
 	(junction
 		(at 78.74 64.77)
@@ -543,6 +555,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 138.43) (xy 74.93 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02972753-cff0-4409-b988-4c2f5f5f4126")
+	)
+	(wire
+		(pts
 			(xy 55.88 72.39) (xy 67.31 72.39)
 		)
 		(stroke
@@ -583,6 +605,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2286e015-b6c0-4f63-ada2-7e7422bd1cd0")
+	)
+	(wire
+		(pts
 			(xy 55.88 72.39) (xy 50.8 72.39)
 		)
 		(stroke
@@ -613,6 +645,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 119.38) (xy 116.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecf7d80-fc7d-4b44-bfec-3adfaa4f622d")
+	)
+	(wire
+		(pts
 			(xy 78.74 72.39) (xy 90.17 72.39)
 		)
 		(stroke
@@ -620,6 +662,16 @@
 			(type default)
 		)
 		(uuid "55a73046-73a7-4705-ba31-f494a9384b03")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5726fc34-d060-4267-89db-7cff78f957a2")
 	)
 	(wire
 		(pts
@@ -633,6 +685,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 139.7) (xy 54.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615faca0-29e7-4bf5-a8aa-d77705960827")
+	)
+	(wire
+		(pts
 			(xy 138.43 59.69) (xy 138.43 64.77)
 		)
 		(stroke
@@ -640,6 +702,16 @@
 			(type default)
 		)
 		(uuid "69b088c1-2a20-421f-b5a3-ef91a64861e2")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742130f7-89e7-464b-a808-a486c89549c8")
 	)
 	(wire
 		(pts
@@ -660,6 +732,16 @@
 			(type default)
 		)
 		(uuid "8fa7afd4-d428-4c6f-8d42-e01b0ebebb30")
+	)
+	(wire
+		(pts
+			(xy 133.35 111.76) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938d46e6-ea60-4b05-a137-fb2109cdbc7d")
 	)
 	(wire
 		(pts
@@ -753,6 +835,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 111.76) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6512ca-2282-47d2-a77a-9a66a2befa55")
+	)
+	(wire
+		(pts
 			(xy 78.74 64.77) (xy 90.17 64.77)
 		)
 		(stroke
@@ -780,6 +872,26 @@
 			(type default)
 		)
 		(uuid "fda8d604-0bf9-42d9-a4ef-7bdf1fa4cce2")
+	)
+	(label "IN"
+		(at 116.84 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2101e1b7-70f0-47e1-bd7d-8bda1b4e5901")
+	)
+	(label "IN"
+		(at 52.07 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34518d6d-786e-4170-8af4-fbdbb87967e9")
 	)
 	(label "OUT"
 		(at 78.74 104.14 0)
@@ -820,6 +932,26 @@
 			(justify left bottom)
 		)
 		(uuid "4cecc338-37ab-488f-8fbf-39ffd5dfd740")
+	)
+	(label "OUT"
+		(at 72.39 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b0f3e07-a688-4378-883b-52aee7f6d1c4")
+	)
+	(label "OUT"
+		(at 135.89 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b34340b-cb20-49ef-b4cb-4ef495ff30c1")
 	)
 	(label "IN"
 		(at 55.88 104.14 180)
@@ -941,6 +1073,88 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
+		(at 57.15 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ce9c07-3494-4d39-b162-5ae7f79630d4")
+		(property "Reference" "J5"
+			(at 58.42 133.9849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP_IN"
+			(at 58.42 136.5249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 57.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 57.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16db33bb-6b78-4559-b822-d591a3db9878")
+		)
+		(pin "2"
+			(uuid "090ec5a5-6ec4-4004-b988-cde459e4ac78")
+		)
+		(instances
+			(project "cap_bank"
+				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
 		(at 55.88 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -1016,6 +1230,168 @@
 			(project "cap_bank"
 				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bfc7111-34c7-4fc8-9cbd-b2a30eda08fd")
+		(property "Reference" "C10"
+			(at 125.73 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF PP"
+			(at 119.126 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:JFC"
+			(at 122.8852 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5d5f3d8-3d10-4762-9758-b7f10a8580a3")
+		)
+		(pin "2"
+			(uuid "cc9813f3-ae2c-4154-801d-6f51f2f7db38")
+		)
+		(instances
+			(project "cap_bank"
+				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 77.47 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "439e3c17-df94-4ad5-801a-7fb8e2726859")
+		(property "Reference" "J6"
+			(at 78.74 132.7149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP_OUT"
+			(at 78.74 135.2549 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 77.47 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 77.47 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0a01d69-ed76-4e38-b019-f3acc47beb09")
+		)
+		(pin "2"
+			(uuid "6c46de0a-2288-4afa-a2cf-7f1147129f8a")
+		)
+		(instances
+			(project "cap_bank"
+				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1426,6 +1802,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 57.15 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f4968ea-78a2-4f15-8433-e310462f88c2")
+		(property "Reference" "#PWR05"
+			(at 57.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 57.15 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0012f459-6c06-4d5f-b565-a10c50f9ab26")
+		)
+		(instances
+			(project "cap_bank"
+				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 68.58 0)
 		(unit 1)
@@ -1663,6 +2117,165 @@
 			(project "cap_bank"
 				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a51c1f55-7252-42eb-a964-3fbb42a4bcfb")
+		(property "Reference" "C11"
+			(at 137.16 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF PP"
+			(at 130.556 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:JFC"
+			(at 134.3152 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec9deec0-9920-49d9-906b-7e7f9862cc49")
+		)
+		(pin "2"
+			(uuid "704beb0a-8d89-4f04-8a0c-527760329e88")
+		)
+		(instances
+			(project "cap_bank"
+				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 77.47 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5359de6-2a72-45e1-ab90-e1c8d43f137a")
+		(property "Reference" "#PWR06"
+			(at 77.47 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 77.47 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 77.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f2a21b3-3a2f-48da-b41e-943f3d591afc")
+		)
+		(instances
+			(project "cap_bank"
+				(path "/f17f0f6a-aa79-4f33-8502-21ae7788042f"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

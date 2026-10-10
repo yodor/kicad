@@ -458,228 +458,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1283,6 +1061,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 40.64) (xy 31.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2971411c-4c6f-45e6-895c-fdfe09c9df94")
+	)
+	(wire
+		(pts
 			(xy 40.64 63.5) (xy 44.45 63.5)
 		)
 		(stroke
@@ -1333,6 +1121,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 27.94) (xy 31.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b562ef-4cfd-41e3-80d7-4b1589857f7e")
+	)
+	(wire
+		(pts
 			(xy 99.06 55.88) (xy 95.25 55.88)
 		)
 		(stroke
@@ -1360,26 +1158,6 @@
 			(type default)
 		)
 		(uuid "6394b250-38eb-4e46-a94e-051953ba40f7")
-	)
-	(wire
-		(pts
-			(xy 29.21 33.02) (xy 36.83 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d9986a-a8ac-4750-848c-eb2f8c378fda")
-	)
-	(wire
-		(pts
-			(xy 29.21 35.56) (xy 34.29 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a146bab-ab39-4bb3-a8ca-ba71b5f1a1cc")
 	)
 	(wire
 		(pts
@@ -1463,13 +1241,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 35.56) (xy 34.29 40.64)
+			(xy 27.94 38.1) (xy 31.75 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91166ecd-ca37-40eb-8fd2-fae733b3aafd")
+		(uuid "90a7c12f-8833-4a4f-b8ae-9ff572be685a")
 	)
 	(wire
 		(pts
@@ -1553,26 +1331,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 30.48) (xy 34.29 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1ccb1b-ce0b-4ab7-b070-855bc726388a")
-	)
-	(wire
-		(pts
-			(xy 34.29 25.4) (xy 34.29 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c148dd62-185c-427c-a901-3bb19aabfa56")
-	)
-	(wire
-		(pts
 			(xy 60.96 25.4) (xy 67.31 25.4)
 		)
 		(stroke
@@ -1600,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "c426e1e4-401d-4241-bec3-9cf1a5470398")
+	)
+	(wire
+		(pts
+			(xy 27.94 25.4) (xy 31.75 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b048b9-e656-4e91-b7ab-d3e17f563b6e")
 	)
 	(wire
 		(pts
@@ -1761,6 +1529,16 @@
 		)
 		(uuid "fdd34c41-76e3-41d3-bcd4-bb2347866f72")
 	)
+	(label "-12VA"
+		(at 31.75 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0114023d-3369-46ff-8d80-b97c3375fa25")
+	)
 	(label "AUDIO_IN_VACTROL"
 		(at 148.59 80.01 180)
 		(effects
@@ -1772,14 +1550,14 @@
 		(uuid "04e15dce-9297-4a79-82fd-dbce33d81620")
 	)
 	(label "+12VA"
-		(at 34.29 25.4 90)
+		(at 31.75 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "056256ac-01bc-432a-9a91-a217d18c115b")
+		(uuid "0e71ef38-4811-4ce8-a8c8-941bd20b6410")
 	)
 	(label "AUDIO_IN_VACTROL"
 		(at 40.64 63.5 180)
@@ -1801,6 +1579,16 @@
 		)
 		(uuid "1509e286-8f1d-4a86-8d88-820f6b135ca0")
 	)
+	(label "AUDIO_GND"
+		(at 31.75 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2be63eb6-a488-478b-bf37-fffdf23901d9")
+	)
 	(label "-12VA"
 		(at 102.87 33.02 180)
 		(effects
@@ -1820,6 +1608,16 @@
 			(justify right bottom)
 		)
 		(uuid "32acc826-1c65-4401-97b1-f13559a49226")
+	)
+	(label "AUDIO_GND"
+		(at 31.75 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "378c180b-71de-4c05-8ab9-97d2c9a717f1")
 	)
 	(label "AUDIO_OUT_AMP"
 		(at 190.5 82.55 0)
@@ -1901,16 +1699,6 @@
 		)
 		(uuid "a07d9365-b80e-4e68-b612-5aa1c7914d1e")
 	)
-	(label "AUDIO_GND"
-		(at 36.83 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afe8cfa7-e7a7-43f7-ba03-fe1c70100316")
-	)
 	(label "AUDIO_OUT_AMP"
 		(at 35.56 81.28 0)
 		(effects
@@ -1940,16 +1728,6 @@
 			(justify left bottom)
 		)
 		(uuid "cdc258fe-7604-4960-8ffe-1c9c6f0b2a40")
-	)
-	(label "-12VA"
-		(at 34.29 40.64 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3056689-c4cf-4b03-9cd5-30a22e534e2f")
 	)
 	(label "-12VA_LOCAL"
 		(at 121.92 33.02 0)
@@ -2084,7 +1862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 181.61 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -2305,6 +2083,86 @@
 			(project "opa_buffer_splitter"
 				(path "/0ffe5cec-fe0a-41d9-93e8-3d636c72e0e3"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 22.86 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c55113b-3bce-4250-a3b9-f8b43a6d4ef5")
+		(property "Reference" "J16"
+			(at 23.495 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OP_PWR_NEG"
+			(at 23.495 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28414a8b-a9f0-447c-a511-36133dd6897a")
+		)
+		(pin "2"
+			(uuid "8e97a80f-9249-4a94-9816-733222f6f855")
+		)
+		(instances
+			(project "opa_buffer_splitter"
+				(path "/0ffe5cec-fe0a-41d9-93e8-3d636c72e0e3"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -3079,7 +2937,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 67.31 180)
+		(at 44.45 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3089,16 +2947,6 @@
 		(dnp no)
 		(uuid "cfc3ea30-e755-4d23-9c89-184254564ec4")
 		(property "Reference" "R6"
-			(at 42.164 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
 			(at 46.736 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,8 +2956,18 @@
 				)
 			)
 		)
+		(property "Value" "1M"
+			(at 42.164 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 46.228 67.31 90)
+			(at 42.672 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3400,8 +3258,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 24.13 33.02 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 22.86 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3410,9 +3268,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da34afb7-5391-45fa-8268-a16e66f80531")
-		(property "Reference" "J10"
-			(at 24.765 25.4 0)
+		(uuid "e3ad62cc-75de-4c4a-b01e-705e0acbdfcf")
+		(property "Reference" "J15"
+			(at 23.495 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3421,8 +3279,8 @@
 				)
 			)
 		)
-		(property "Value" "OP_PWR"
-			(at 24.765 27.94 0)
+		(property "Value" "OP_PWR_POS"
+			(at 23.495 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3431,8 +3289,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 24.13 33.02 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 22.86 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,7 +3301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 33.02 0)
+			(at 22.86 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3453,8 +3311,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 24.13 33.02 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 22.86 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3463,20 +3321,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "284722bc-6839-4402-8e4e-51b485b2d987")
-		)
-		(pin "2"
-			(uuid "531ea456-9c7e-474e-b8e6-b8bf65f5ed1b")
 		)
 		(pin "1"
-			(uuid "bab282ac-48de-432d-a15d-ec0526804645")
+			(uuid "c1637bfe-ff1c-44c4-a114-5e61b4bea98d")
+		)
+		(pin "2"
+			(uuid "6e076c8c-33e7-489b-a5a4-f1ec1cedbd13")
 		)
 		(instances
 			(project "opa_buffer_splitter"
 				(path "/0ffe5cec-fe0a-41d9-93e8-3d636c72e0e3"
-					(reference "J10")
+					(reference "J15")
 					(unit 1)
 				)
 			)
