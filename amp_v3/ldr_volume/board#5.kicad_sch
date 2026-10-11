@@ -4473,6 +4473,26 @@
 		)
 		(uuid "3e3d2f41-9ce9-4d3f-949a-582fda954ff5")
 	)
+	(text "X7R Caps"
+		(exclude_from_sim no)
+		(at 135.128 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9dec4c9c-4a91-48f2-aa17-eccd4e309793")
+	)
+	(text "Film Caps"
+		(exclude_from_sim no)
+		(at 36.068 166.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa397434-8974-43aa-a192-9352c6063c99")
+	)
 	(junction
 		(at -78.74 237.49)
 		(diameter 0)

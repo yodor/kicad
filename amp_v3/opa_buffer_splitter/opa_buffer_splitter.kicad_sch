@@ -1194,6 +1194,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Film Caps (wima)\n"
+		(exclude_from_sim no)
+		(at 36.068 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b98b12d-291a-44fc-90ef-5b0157028763")
+	)
+	(text "Film Caps (wima)\n"
+		(exclude_from_sim no)
+		(at 112.014 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a4aa1c3-b14f-4a9e-ac0e-434e97e9a740")
+	)
 	(junction
 		(at 35.56 30.48)
 		(diameter 0)

@@ -2032,6 +2032,16 @@
 		)
 		(uuid "2a1e5254-eb06-4956-8cc1-1e4a8c13eb9a")
 	)
+	(text "Film Caps (wima)\n"
+		(exclude_from_sim no)
+		(at 46.736 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "416d3ee9-5a70-499d-bbf7-63c10ea28fef")
+	)
 	(text "Pair sorting: drain +12V, 330R source->GND, gate->GND; read V(330R); pair within 20-30 mV."
 		(exclude_from_sim no)
 		(at 200.66 175.768 0)
@@ -2086,6 +2096,26 @@
 			(justify left bottom)
 		)
 		(uuid "a9b9481f-e3c2-47c1-a93c-bea44f68d7bb")
+	)
+	(text "Film Caps (wima)\n"
+		(exclude_from_sim no)
+		(at 229.362 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0ded148-eaab-46e9-b86f-89b038483191")
+	)
+	(text "Film Caps (wima)\n"
+		(exclude_from_sim no)
+		(at 236.728 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e731832e-f008-48e6-9cdc-0bdbef517ad4")
 	)
 	(junction
 		(at 78.74 31.75)

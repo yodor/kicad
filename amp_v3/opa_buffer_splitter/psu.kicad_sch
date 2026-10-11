@@ -2275,6 +2275,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "X7R Caps\n "
+		(exclude_from_sim no)
+		(at 95.25 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a6d3795-4538-4d8e-9018-1dcf7f654f92")
+	)
+	(text "X7R Caps / Tant\n "
+		(exclude_from_sim no)
+		(at 115.57 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b320d7e7-1ec2-449c-9a1a-a49460a861b0")
+	)
 	(junction
 		(at 111.76 59.69)
 		(diameter 0)
