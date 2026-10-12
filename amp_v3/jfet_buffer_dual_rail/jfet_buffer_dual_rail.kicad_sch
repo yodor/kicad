@@ -2032,7 +2032,7 @@
 		)
 		(uuid "2a1e5254-eb06-4956-8cc1-1e4a8c13eb9a")
 	)
-	(text "Film Caps (wima)\n"
+	(text "PP Cap - JFGC\n"
 		(exclude_from_sim no)
 		(at 46.736 149.606 0)
 		(effects
@@ -3275,7 +3275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "220"
 			(at 71.35 28.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF PP"
+		(property "Value" "1uF PP"
 			(at 52.3 139.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5389,7 +5389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100K"
 			(at 61.42 150.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5400,7 +5400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)

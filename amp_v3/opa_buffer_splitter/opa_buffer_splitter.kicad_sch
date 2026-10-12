@@ -1194,9 +1194,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Film Caps (wima)\n"
+	(text "PP Caps - JFGC\r\n"
 		(exclude_from_sim no)
-		(at 36.068 83.058 0)
+		(at 37.846 79.756 0)
 		(effects
 			(font
 				(size 1.27 1.27)

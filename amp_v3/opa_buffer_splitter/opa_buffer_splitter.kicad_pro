@@ -669,9 +669,14 @@
         "filename": "psu.kicad_sch",
         "name": "PSU",
         "uuid": "805d843d-7530-4ac4-bd03-80397a2ee43a"
+      },
+      {
+        "filename": "rca.kicad_sch",
+        "name": "RCA",
+        "uuid": "2390b1e1-bc83-4eb3-9b4a-e57f44fc4fc6"
       }
     ],
-    "used_designators": "C2_A1,L1-3,NT1,RN1,R1-9,D1-2,C1-26,#PWR1-4,FL1,J1-20,F1,U1-4",
+    "used_designators": "C2_A1,L1-3,NT1,RN1,R1-10,D1-2,C1-26,#PWR1-4,FL1,J1-20,F1,U1-4",
     "variants": []
   },
   "sheets": [
@@ -686,6 +691,10 @@
     [
       "0ffe5cec-fe0a-41d9-93e8-3d636c72e0e3",
       "Buffer"
+    ],
+    [
+      "2390b1e1-bc83-4eb3-9b4a-e57f44fc4fc6",
+      "RCA"
     ]
   ],
   "text_variables": {},
