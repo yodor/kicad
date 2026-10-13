@@ -2396,6 +2396,26 @@
 		)
 		(uuid "17604bca-eb60-4497-bef7-30ddcddad24b")
 	)
+	(label "gnd_analog"
+		(at 128.27 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "225d61b0-db1b-4db5-82fd-205c59f53c88")
+	)
+	(label "gnd_analog"
+		(at 125.73 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b70039e-a58e-42db-9156-a4b6c0fbebdf")
+	)
 	(label "GND_IRM"
 		(at 55.88 87.63 270)
 		(effects
@@ -2435,6 +2455,16 @@
 			(justify left bottom)
 		)
 		(uuid "631a62f3-3846-40bd-a070-cc82506a1c48")
+	)
+	(label "gnd_analog"
+		(at 97.79 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6548e013-8f45-47b2-bdd3-2f53878f6f63")
 	)
 	(label "5V_IRM"
 		(at 67.31 52.07 90)
@@ -2621,84 +2651,6 @@
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 125.73 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "076e6db0-6977-4f08-8d66-5ce3160cea15")
-		(property "Reference" "#PWR04"
-			(at 125.73 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 125.73 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 125.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04878671-6b19-410b-988d-d2d11f68bff3")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4090,84 +4042,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 128.27 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc57410c-144a-4484-a785-58c6165fa554")
-		(property "Reference" "#PWR05"
-			(at 128.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 128.27 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 128.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba513fbe-e759-4cde-a263-62e7396909ec")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 99.06 48.26 270)
 		(unit 1)
@@ -4488,84 +4362,6 @@
 			(project "ldr_volume"
 				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 97.79 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1cd8af9-3632-4043-9f3a-690bb18d23b4")
-		(property "Reference" "#PWR03"
-			(at 97.79 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 97.79 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 97.79 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7da9e99f-69ae-479a-8ef2-2fca2a6fa6fa")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4c316523-e3a9-424b-9fb2-25fa254a8a5b"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)

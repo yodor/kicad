@@ -408,7 +408,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -428,8 +428,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -460,7 +460,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -503,7 +503,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -551,17 +551,6 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -621,18 +610,6 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -725,24 +702,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3414,7 +3373,7 @@
 		(uuid "a68823c5-d06e-45fb-aa62-1d839352177b")
 	)
 	(junction
-		(at 82.55 64.77)
+		(at 82.55 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af5f2039-92ae-4a62-95c0-6e3eabf365d3")
@@ -3439,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 213.36 116.84)
+			(xy 210.82 114.3) (xy 210.82 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3529,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 91.44) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0944a4e5-aaff-4c0a-8394-8ab53ed58a54")
+	)
+	(wire
+		(pts
 			(xy 227.33 69.85) (xy 234.95 69.85)
 		)
 		(stroke
@@ -3546,16 +3515,6 @@
 			(type default)
 		)
 		(uuid "0a9b3325-c4e2-498e-b8c2-527de2ef4143")
-	)
-	(wire
-		(pts
-			(xy 82.55 64.77) (xy 82.55 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3dacd5-1d72-490d-9b27-b1adc3f666a6")
 	)
 	(wire
 		(pts
@@ -3619,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 69.85) (xy 72.39 69.85)
+			(xy 58.42 64.77) (xy 72.39 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3629,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 114.3) (xy 210.82 129.54)
+			(xy 213.36 114.3) (xy 213.36 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3766,16 +3725,6 @@
 			(type default)
 		)
 		(uuid "43ba6e7a-7d23-425a-a92d-6bdb663eccfd")
-	)
-	(wire
-		(pts
-			(xy 205.74 114.3) (xy 205.74 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45679137-335c-41a6-aba1-130bddd0ea99")
 	)
 	(wire
 		(pts
@@ -3919,7 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 64.77) (xy 82.55 64.77)
+			(xy 58.42 69.85) (xy 82.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4019,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 91.44) (xy 59.69 91.44)
+			(xy 57.15 96.52) (xy 59.69 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4066,16 +4015,6 @@
 			(type default)
 		)
 		(uuid "89f733dc-51d5-4713-86ba-b8e967bfecf1")
-	)
-	(wire
-		(pts
-			(xy 57.15 96.52) (xy 82.55 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d797800-5d91-4433-a52a-1d16db941cfc")
 	)
 	(wire
 		(pts
@@ -4179,7 +4118,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 49.53) (xy 72.39 69.85)
+			(xy 72.39 49.53) (xy 72.39 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4269,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 49.53) (xy 82.55 64.77)
+			(xy 82.55 49.53) (xy 82.55 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4379,6 +4318,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 114.3) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e822ef4a-443b-4862-956b-5e5fc2a37926")
+	)
+	(wire
+		(pts
 			(xy 106.68 102.87) (xy 109.22 102.87)
 		)
 		(stroke
@@ -4429,7 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 114.3) (xy 203.2 116.84)
+			(xy 195.58 116.84) (xy 195.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4518,7 +4467,7 @@
 		(uuid "fff9d7a5-0ff5-4cdd-996a-5de350332371")
 	)
 	(label "SERIAL_POS"
-		(at 215.9 116.84 270)
+		(at 210.82 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4528,7 +4477,7 @@
 		(uuid "07810eb6-c2e9-4762-9ca3-806124eec215")
 	)
 	(label "SHUNT_POS"
-		(at 203.2 116.84 270)
+		(at 215.9 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4608,7 +4557,7 @@
 		(uuid "27ef1df9-0184-4c4f-bddb-575041d17033")
 	)
 	(label "COIL_NEG"
-		(at 213.36 116.84 270)
+		(at 208.28 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4616,6 +4565,16 @@
 			(justify right bottom)
 		)
 		(uuid "2d85667b-e75e-4c18-9ae1-bc4958a12e37")
+	)
+	(label "gnd_analog"
+		(at 238.76 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33c2cac6-7cc2-4879-aba7-6412e50f05d9")
 	)
 	(label "A2"
 		(at 237.49 128.27 180)
@@ -4707,6 +4666,26 @@
 		)
 		(uuid "485232f2-c477-4b31-acdf-e6eda539fdd2")
 	)
+	(label "gnd_analog"
+		(at 254 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c2d6a68-212d-4ab2-bad0-cb7cf1858ea1")
+	)
+	(label "gnd_analog"
+		(at 99.06 105.41 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e93b79c-a95c-41d5-a4a9-82bfc5c116da")
+	)
 	(label "5v_analog"
 		(at 248.92 22.86 180)
 		(effects
@@ -4758,7 +4737,7 @@
 		(uuid "6e4c78a3-3ac6-4eec-8fb5-68b67b6a70cd")
 	)
 	(label "5v_local"
-		(at 208.28 116.84 270)
+		(at 205.74 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4796,6 +4775,16 @@
 			(justify left bottom)
 		)
 		(uuid "8c2f5acc-b232-40d5-8fd3-baf6e7d706f4")
+	)
+	(label "gnd_analog"
+		(at 231.14 85.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a542f14a-3360-4b62-aed1-75a69f6a30c1")
 	)
 	(label "A0"
 		(at 104.14 71.12 0)
@@ -4980,7 +4969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 139.3952 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5273,84 +5262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 231.14 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "199c9531-cdc7-4c52-95fe-e04472b264e2")
-		(property "Reference" "#PWR013"
-			(at 231.14 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 231.14 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 231.14 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee814dd8-edcc-48cd-bda6-5f7dac3453bd")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4097963a-7f94-48eb-a80a-b35b0381b1df"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 260.35 76.2 0)
 		(unit 1)
@@ -5511,98 +5422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 210.82 109.22 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26d1ff7c-e65f-4db0-9d91-af6be5e9e0c3")
-		(property "Reference" "J11"
-			(at 209.55 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CTRL"
-			(at 209.55 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 210.82 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 210.82 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "6661bee6-0fdd-4a68-9a35-4a356632605b")
-		)
-		(pin "2"
-			(uuid "db0f98f4-fe3f-4320-b51e-fc21839243f3")
-		)
-		(pin "1"
-			(uuid "8cc86e5b-7259-40ba-8901-1275a2a65969")
-		)
-		(pin "4"
-			(uuid "e49782fd-90b3-47c5-b34a-2ccdf261efa9")
-		)
-		(pin "6"
-			(uuid "fb3ede47-571b-46ef-88f5-bcad880431f6")
-		)
-		(pin "5"
-			(uuid "af628dbc-50d7-4375-a32b-30d4b7d2690e")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4097963a-7f94-48eb-a80a-b35b0381b1df"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 234.95 76.2 0)
 		(unit 1)
@@ -5685,85 +5504,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 238.76 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e19847b-c059-4a62-9e10-3fbb37987ca2")
-		(property "Reference" "#PWR08"
-			(at 238.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 238.76 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 238.76 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "899d5730-eca9-4f24-b6ef-0067f30572bc")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4097963a-7f94-48eb-a80a-b35b0381b1df"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 210.82 129.54 0)
+		(at 213.36 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5774,7 +5515,7 @@
 		(fields_autoplaced yes)
 		(uuid "3695f7ee-b8c4-4445-bfe8-5fc743047188")
 		(property "Reference" "#PWR030"
-			(at 210.82 135.89 0)
+			(at 213.36 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,7 +5526,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 210.82 133.35 0)
+			(at 213.36 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5795,7 +5536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 129.54 0)
+			(at 213.36 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 129.54 0)
+			(at 213.36 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5817,7 +5558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 210.82 129.54 0)
+			(at 213.36 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5954,7 +5695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_CathodeUp"
 			(at 50.8 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6026,85 +5767,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 254 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b1c92b0-4336-4188-8b4b-845b67600935")
-		(property "Reference" "#PWR09"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 254 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 254 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60a2c26e-0922-4261-b290-e47aad240bd7")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4097963a-7f94-48eb-a80a-b35b0381b1df"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 205.74 129.54 0)
+		(at 195.58 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6115,7 +5778,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6354fe-b97d-478a-9b1e-6417badf5c6d")
 		(property "Reference" "#PWR029"
-			(at 205.74 135.89 0)
+			(at 195.58 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6126,7 +5789,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 205.74 133.35 0)
+			(at 195.58 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6136,7 +5799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 129.54 0)
+			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6147,7 +5810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 129.54 0)
+			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,7 +5821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 205.74 129.54 0)
+			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6567,84 +6230,6 @@
 			(project "ldr_volume"
 				(path "/4097963a-7f94-48eb-a80a-b35b0381b1df"
 					(reference "NT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 99.06 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bca31bc-5789-45c4-ab80-225b66db8ef2")
-		(property "Reference" "#PWR023"
-			(at 99.06 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 99.06 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 99.06 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92cab1b6-922c-4069-8558-8d4d3345145e")
-		)
-		(instances
-			(project "ldr_volume"
-				(path "/4097963a-7f94-48eb-a80a-b35b0381b1df"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7137,6 +6722,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 210.82 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78afba78-ab56-45a3-984f-3c3e565332e1")
+		(property "Reference" "J44"
+			(at 210.82 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LDR_L"
+			(at 210.82 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 210.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 210.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "cf3f3b86-ee05-474a-a39c-372845708fd1")
+		)
+		(pin "4"
+			(uuid "c17f3cfe-1bb6-4f74-8ebc-2084bf9b0625")
+		)
+		(pin "3"
+			(uuid "c905b28c-ea0c-4736-b576-81d1080d93a2")
+		)
+		(pin "2"
+			(uuid "1e895bf5-1630-4526-bf67-759ae114c773")
+		)
+		(pin "1"
+			(uuid "334bdd33-71b8-4e0c-be64-cbe902db5914")
+		)
+		(instances
+			(project "ldr_volume"
+				(path "/4097963a-7f94-48eb-a80a-b35b0381b1df"
+					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 41.91 101.6 0)
 		(unit 1)
@@ -7590,7 +7264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 119.0752 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7960,7 +7634,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 59.69 91.44 90)
+		(at 59.69 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7971,7 +7645,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7155a23-bbb0-4f04-9f8f-b1d28ecbca6a")
 		(property "Reference" "#PWR019"
-			(at 66.04 91.44 0)
+			(at 66.04 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +7656,7 @@
 			)
 		)
 		(property "Value" "AUDIO_GND"
-			(at 63.5 91.4399 90)
+			(at 63.5 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7993,7 +7667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 91.44 0)
+			(at 59.69 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,7 +7678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 91.44 0)
+			(at 59.69 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8015,7 +7689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 59.69 91.44 0)
+			(at 59.69 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 96.2152 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8934,7 +8608,7 @@
 		(fields_autoplaced yes)
 		(uuid "f298894f-1239-4faf-a312-0a3a5a810d16")
 		(property "Reference" "NT1"
-			(at 104.14 99.06 0)
+			(at 104.14 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8943,8 +8617,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD_TO_GNDA"
-			(at 104.14 101.6 0)
+		(property "Value" "ATOGNDA"
+			(at 104.14 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
