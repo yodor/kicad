@@ -303,7 +303,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "output/",
+      "plot": "/storage/work/kicad/amp_v3/output/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
