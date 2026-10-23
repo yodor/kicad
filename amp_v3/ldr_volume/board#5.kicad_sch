@@ -6879,7 +6879,7 @@
 		)
 		(uuid "572bbac8-1a4e-47ec-8d9e-a4850255c24c")
 	)
-	(label "PWR_BTN"
+	(label "PWR_CTRL"
 		(at 25.4 29.21 270)
 		(effects
 			(font
@@ -6899,7 +6899,7 @@
 		)
 		(uuid "58f8584a-9211-4995-b180-aab98e7033b9")
 	)
-	(label "PWR_BTN"
+	(label "PWR_CTRL"
 		(at 40.64 95.25 180)
 		(effects
 			(font
@@ -10305,10 +10305,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a44fc78-8c5c-40d9-8b54-58b7126526fc")
 		(property "Reference" "J27"
-			(at 29.21 20.9549 90)
+			(at 24.13 16.764 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10318,8 +10317,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR_BTN"
-			(at 29.21 23.4949 90)
+		(property "Value" "PWR_CTRL"
+			(at 21.844 19.812 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11699,7 +11698,7 @@
 				)
 			)
 		)
-		(property "Value" "MUTE"
+		(property "Value" "IR"
 			(at -26.67 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13952,7 +13951,7 @@
 				)
 			)
 		)
-		(property "Value" "IR"
+		(property "Value" "MUTE"
 			(at -6.35 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)

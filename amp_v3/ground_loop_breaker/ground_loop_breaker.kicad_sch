@@ -1255,7 +1255,7 @@
 		(dnp no)
 		(uuid "247118e8-3bee-4f40-9914-55a4c3caff65")
 		(property "Reference" "R1"
-			(at 81.788 57.15 90)
+			(at 82.042 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1265,7 +1265,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 67.31 57.15 90)
+			(at 69.596 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

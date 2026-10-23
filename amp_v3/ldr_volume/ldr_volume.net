@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/storage/work/kicad/amp_v3/ldr_volume/ldr_volume.kicad_sch")
-		(date "2026-10-14T17:57:00")
+		(source "/home/yodor/kicad/ldr_volume/ldr_volume.kicad_sch")
+		(date "2026-10-14T23:29:41")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -1301,7 +1301,7 @@
 		)
 		(comp
 			(ref "C7")
-			(value "100uF")
+			(value "47uF")
 			(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields

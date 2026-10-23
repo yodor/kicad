@@ -5007,7 +5007,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J39"
-			(at 0 -2.38 90)
+			(at 0 6.985 90)
 			(layer "F.SilkS")
 			(uuid "f203e539-a897-4d64-9a26-c7dacf8a2856")
 			(effects
@@ -5017,8 +5017,8 @@
 				)
 			)
 		)
-		(property "Value" "MUTE"
-			(at 0 7.46 90)
+		(property "Value" "IR"
+			(at -1.905 2.54 180)
 			(layer "F.Fab")
 			(uuid "521ad191-ebb5-42e7-9d5b-783b4fa5809a")
 			(effects
@@ -5184,7 +5184,7 @@
 			(uuid "36d6ad8c-feb3-457e-bb88-fc95fa97d071")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 0)
+			(at 0 6.985 90)
 			(layer "F.Fab")
 			(uuid "4968329d-c61d-41ec-97eb-4183ff1aefc4")
 			(effects
@@ -11136,7 +11136,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R41"
-			(at 1.27 -2.37 0)
+			(at 3.175 1.27 0)
 			(layer "F.SilkS")
 			(uuid "7686d8b0-a661-4aea-8549-11a4d54fef73")
 			(effects
@@ -11147,7 +11147,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 1.27 2.37 0)
+			(at -2.54 0 0)
 			(layer "F.Fab")
 			(uuid "64f2a5c8-d2d3-4eb2-83cd-98159132905d")
 			(effects
@@ -11245,7 +11245,7 @@
 			(uuid "415a22f1-3098-4f3c-864a-52b7a9c00127")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.37 0)
+			(at 3.175 1.27 0)
 			(layer "F.Fab")
 			(uuid "a649d6c0-c1ec-4eb5-a48f-bc143090c628")
 			(effects
@@ -16272,8 +16272,8 @@
 				)
 			)
 		)
-		(property "Value" "IR"
-			(at 0 7.46 90)
+		(property "Value" "MUTE"
+			(at -1.905 2.54 180)
 			(layer "F.Fab")
 			(uuid "156d5e91-8b4f-4202-bd0f-1fb8a434a6b3")
 			(effects
@@ -22125,8 +22125,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_BTN"
-			(at 0 4.92 90)
+		(property "Value" "PWR_CTRL"
+			(at 1.905 1.27 180)
 			(layer "F.Fab")
 			(uuid "56a1034e-b6b0-4b19-b893-53462ad6fda8")
 			(effects
@@ -22292,7 +22292,7 @@
 			(uuid "99cec898-949b-4c76-aa9a-ea62c0eafae1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 0)
+			(at 0 4.445 90)
 			(layer "F.Fab")
 			(uuid "c608de5b-9860-4b51-b903-fe1158a6139f")
 			(effects
@@ -22319,7 +22319,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Main Board/PWR_BTN")
+			(net "/Main Board/PWR_CTRL")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "474db60b-341b-4511-8497-0645fb086e67")
@@ -26312,7 +26312,7 @@
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J33"
-			(at 0 -2.38 90)
+			(at -1.27 -3.175 180)
 			(layer "F.SilkS")
 			(uuid "c699d66f-e62b-4daf-a75b-08b226a735f9")
 			(effects
@@ -26323,7 +26323,7 @@
 			)
 		)
 		(property "Value" "ALPS"
-			(at 0 12.54 90)
+			(at 0.635 -3.175 180)
 			(layer "F.Fab")
 			(uuid "f7144b60-47d3-4cf5-9f32-5d780925615f")
 			(effects
@@ -26489,7 +26489,7 @@
 			(uuid "d6717136-286e-48e6-bc3e-83933c8600c2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 5.08 0)
+			(at -1.27 -3.175 0)
 			(layer "F.Fab")
 			(uuid "86f848bc-3623-422c-9e0e-40f19c1dfbc1")
 			(effects
@@ -33497,7 +33497,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J34"
-			(at -1.905 0.635 180)
+			(at 1.27 -2.54 180)
 			(layer "F.SilkS")
 			(uuid "1d2da80b-ccea-435d-b297-40b370f90dad")
 			(effects
@@ -33508,7 +33508,7 @@
 			)
 		)
 		(property "Value" "PWR_RLY"
-			(at 0 10 90)
+			(at 2.54 -1.27 180)
 			(layer "F.Fab")
 			(uuid "208027a9-51cb-43a1-a066-8f76bbfd1af4")
 			(effects
@@ -33674,7 +33674,7 @@
 			(uuid "701ef4ae-d528-4ed6-8c47-34b327fae915")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 0)
+			(at 1.27 -2.54 0)
 			(layer "F.Fab")
 			(uuid "f262c8ff-a174-4444-addd-99f8410a337a")
 			(effects
@@ -38361,7 +38361,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Main Board/PWR_BTN")
+			(net "/Main Board/PWR_CTRL")
 			(pinfunction "GPIO10_14")
 			(pintype "bidirectional")
 			(uuid "dd4ae5c6-2f1f-40d0-8460-5bf8fbd04bcc")
@@ -43643,7 +43643,7 @@
 			)
 		)
 		(property "Value" "PWR_BTN_LED"
-			(at 0 4.92 90)
+			(at 1.905 3.81 0)
 			(layer "F.Fab")
 			(uuid "5e8fa9f2-d4e2-4a65-8f48-18b6019af1e6")
 			(effects
@@ -49175,110 +49175,6 @@
 		(uuid "69e1b744-b19b-4d8d-a512-0af73c7cdf43")
 	)
 	(segment
-		(start 38.728028 -118.0744)
-		(end 36.748028 -120.0544)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/SERIAL_POS")
-		(uuid "15240508-06fc-4670-85aa-a6a665e51512")
-	)
-	(segment
-		(start 38.728028 -114.3394)
-		(end 38.728028 -118.0744)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/SERIAL_POS")
-		(uuid "5127691e-c9c3-4c8d-a9b0-824287e512e1")
-	)
-	(segment
-		(start 41.188028 -114.4194)
-		(end 41.108028 -114.3394)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/COIL_NEG")
-		(uuid "353746d6-b79b-4010-ba5b-ee11e8d68835")
-	)
-	(segment
-		(start 41.188028 -118.7844)
-		(end 41.188028 -121.9869)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/COIL_NEG")
-		(uuid "7ab0263a-b604-40a7-9173-b119b18b414e")
-	)
-	(segment
-		(start 41.188028 -118.7844)
-		(end 41.188028 -114.4194)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/COIL_NEG")
-		(uuid "baf2af49-ac52-42a2-a8f4-294a4539e31a")
-	)
-	(segment
-		(start 41.188028 -121.9869)
-		(end 41.140528 -122.0344)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/COIL_NEG")
-		(uuid "fb4496ea-90e8-4513-a5c4-f781bc2abf2c")
-	)
-	(segment
-		(start 43.608028 -114.3394)
-		(end 43.608028 -118.6644)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/5v_local")
-		(uuid "2e481b94-41e5-434d-b163-97da3e1f7b4d")
-	)
-	(segment
-		(start 46.978028 -122.0344)
-		(end 43.728028 -118.7844)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/5v_local")
-		(uuid "4a7bfb2d-c5f8-4a09-a581-fce0dabbec39")
-	)
-	(segment
-		(start 48.808028 -121.9869)
-		(end 48.760528 -122.0344)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/5v_local")
-		(uuid "50292b4a-4f78-4c34-bfa8-a9d2e1b49d4e")
-	)
-	(segment
-		(start 43.608028 -118.6644)
-		(end 43.728028 -118.7844)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/5v_local")
-		(uuid "5f40a437-b56e-4e8b-b885-c25de77d2c24")
-	)
-	(segment
-		(start 48.760528 -122.0344)
-		(end 46.978028 -122.0344)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/5v_local")
-		(uuid "934f302c-29ee-4675-ae5e-3084b2c30760")
-	)
-	(segment
-		(start 33.728028 -115.4544)
-		(end 29.128028 -120.0544)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/SHUNT_POS")
-		(uuid "753b1790-d2fb-43ce-b67f-84196e5d1eb3")
-	)
-	(segment
-		(start 33.728028 -114.3394)
-		(end 33.728028 -115.4544)
-		(width 1)
-		(layer "B.Cu")
-		(net "/LDR Board/SHUNT_POS")
-		(uuid "90b3e7c9-c2c3-4c87-8f11-a2a70846b939")
-	)
-	(segment
 		(start 190.24518 -142.1524)
 		(end 188.93858 -140.8458)
 		(width 1)
@@ -49325,6 +49221,78 @@
 		(layer "B.Cu")
 		(net "/LDR Driver/SDA_R")
 		(uuid "dee5fc28-921a-46ad-9a83-64a135b2966e")
+	)
+	(segment
+		(start 43.608028 -114.3394)
+		(end 43.608028 -118.6644)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/5v_local")
+		(uuid "2e481b94-41e5-434d-b163-97da3e1f7b4d")
+	)
+	(segment
+		(start 46.978028 -122.0344)
+		(end 43.728028 -118.7844)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/5v_local")
+		(uuid "4a7bfb2d-c5f8-4a09-a581-fce0dabbec39")
+	)
+	(segment
+		(start 48.808028 -121.9869)
+		(end 48.760528 -122.0344)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/5v_local")
+		(uuid "50292b4a-4f78-4c34-bfa8-a9d2e1b49d4e")
+	)
+	(segment
+		(start 43.608028 -118.6644)
+		(end 43.728028 -118.7844)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/5v_local")
+		(uuid "5f40a437-b56e-4e8b-b885-c25de77d2c24")
+	)
+	(segment
+		(start 48.760528 -122.0344)
+		(end 46.978028 -122.0344)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/5v_local")
+		(uuid "934f302c-29ee-4675-ae5e-3084b2c30760")
+	)
+	(segment
+		(start 41.188028 -114.4194)
+		(end 41.108028 -114.3394)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/COIL_NEG")
+		(uuid "353746d6-b79b-4010-ba5b-ee11e8d68835")
+	)
+	(segment
+		(start 41.188028 -118.7844)
+		(end 41.188028 -121.9869)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/COIL_NEG")
+		(uuid "7ab0263a-b604-40a7-9173-b119b18b414e")
+	)
+	(segment
+		(start 41.188028 -118.7844)
+		(end 41.188028 -114.4194)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/COIL_NEG")
+		(uuid "baf2af49-ac52-42a2-a8f4-294a4539e31a")
+	)
+	(segment
+		(start 41.188028 -121.9869)
+		(end 41.140528 -122.0344)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/COIL_NEG")
+		(uuid "fb4496ea-90e8-4513-a5c4-f781bc2abf2c")
 	)
 	(segment
 		(start 207.902428 -171.3258)
@@ -50045,14 +50013,6 @@
 		(layer "B.Cu")
 		(net "/Main Board/AUDIO_R")
 		(uuid "b3934813-7167-40e0-abb4-a42445e8a907")
-	)
-	(segment
-		(start 45.633028 -45.1244)
-		(end 41.188028 -45.1244)
-		(width 1)
-		(layer "B.Cu")
-		(net "/Main Board/PWR_BTN")
-		(uuid "9e5ce652-05b0-4784-af70-e715e58b8818")
 	)
 	(segment
 		(start 172.633028 -165.1394)
@@ -51503,6 +51463,22 @@
 		(uuid "a8d5af57-adc3-45ac-abcb-2edb246d1a1c")
 	)
 	(segment
+		(start 33.728028 -115.4544)
+		(end 29.128028 -120.0544)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/SHUNT_POS")
+		(uuid "753b1790-d2fb-43ce-b67f-84196e5d1eb3")
+	)
+	(segment
+		(start 33.728028 -114.3394)
+		(end 33.728028 -115.4544)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/SHUNT_POS")
+		(uuid "90b3e7c9-c2c3-4c87-8f11-a2a70846b939")
+	)
+	(segment
 		(start 180.57958 -161.1658)
 		(end 177.763028 -158.349248)
 		(width 1)
@@ -51639,6 +51615,22 @@
 		(uuid "99435eec-5677-4ac8-b268-28c987866c8f")
 	)
 	(segment
+		(start 38.728028 -118.0744)
+		(end 36.748028 -120.0544)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/SERIAL_POS")
+		(uuid "15240508-06fc-4670-85aa-a6a665e51512")
+	)
+	(segment
+		(start 38.728028 -114.3394)
+		(end 38.728028 -118.0744)
+		(width 1)
+		(layer "B.Cu")
+		(net "/LDR Board/SERIAL_POS")
+		(uuid "5127691e-c9c3-4c8d-a9b0-824287e512e1")
+	)
+	(segment
 		(start 39.283028 -62.9044)
 		(end 38.648028 -62.2694)
 		(width 1)
@@ -51693,6 +51685,14 @@
 		(layer "B.Cu")
 		(net "/Main Board/TFT_BLK")
 		(uuid "d9e525fd-f5ab-4906-93bc-cdd2847da0b7")
+	)
+	(segment
+		(start 45.633028 -45.1244)
+		(end 41.188028 -45.1244)
+		(width 1)
+		(layer "B.Cu")
+		(net "/Main Board/PWR_CTRL")
+		(uuid "9e5ce652-05b0-4784-af70-e715e58b8818")
 	)
 	(zone
 		(net "/LDR Board/ADS_VDD")
