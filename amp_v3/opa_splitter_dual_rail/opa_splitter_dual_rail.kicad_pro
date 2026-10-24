@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.8,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.8,
           "thermal_relief_spoke_width": 0.8
         }
@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -469,6 +472,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -488,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "dcstepdown.kicad_pro",
+    "filename": "opa_splitter_dual_rail.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -508,49 +512,23 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 1.6,
+        "via_drill": 0.8,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.8,
-        "name": "pwr",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
-        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "pwr",
-        "pattern": "/36V_PRE"
-      },
-      {
-        "netclass": "pwr",
-        "pattern": "/36V_DIFF"
-      },
-      {
-        "netclass": "pwr",
-        "pattern": "/36V+"
-      },
-      {
-        "netclass": "pwr",
-        "pattern": "/GND_IN"
-      }
-    ]
+    "net_colors": {},
+    "netclass_assignments": {},
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "output",
+      "plot": "/home/todor/kicad/amp_v3/output/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -561,7 +539,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -616,6 +594,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -625,42 +615,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -693,14 +653,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -708,18 +660,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "dcstepdown.kicad_sch",
-        "name": "Root",
-        "uuid": "e7be7dc7-4b55-4934-a942-609af4e15a3b"
+        "filename": "opa_splitter_dual_rail.kicad_sch",
+        "name": "opa_splitter_dual_rail",
+        "uuid": "805d843d-7530-4ac4-bd03-80397a2ee43a"
       }
     ],
-    "used_designators": "RV1,U1,Q1-2,J1-5,FL1,C1-20,D1-7,R1-8,L1",
+    "used_designators": "#PWR1-4,C1-26,C2_A1,D1-2,F1,FL1,J1-20,L1-3,NT1,R1-10,RN1,U1-4",
     "variants": []
   },
   "sheets": [
     [
-      "e7be7dc7-4b55-4934-a942-609af4e15a3b",
-      "Root"
+      "805d843d-7530-4ac4-bd03-80397a2ee43a",
+      "opa_splitter_dual_rail"
     ]
   ],
   "text_variables": {},

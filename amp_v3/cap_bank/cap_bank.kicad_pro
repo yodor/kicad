@@ -472,6 +472,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -652,7 +653,7 @@
         "uuid": "f17f0f6a-aa79-4f33-8502-21ae7788042f"
       }
     ],
-    "used_designators": "J1-6,#PWR1-6,C1-11",
+    "used_designators": "#PWR1-6,C1-11,J1-6",
     "variants": []
   },
   "sheets": [
