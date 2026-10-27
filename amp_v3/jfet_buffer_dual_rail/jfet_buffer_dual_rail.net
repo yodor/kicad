@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/home/todor/kicad/amp_v3/jfet_buffer_dual_rail/jfet_buffer_dual_rail.kicad_sch")
-		(date "2026-10-15T17:20:55")
+		(source "/home/yodor/kicad/jfet_buffer_dual_rail/jfet_buffer_dual_rail.kicad_sch")
+		(date "2026-10-25T02:39:25")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")

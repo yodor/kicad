@@ -2178,6 +2178,12 @@
 		(uuid "85c4199f-7baa-457a-b8b2-789741ea3f3f")
 	)
 	(junction
+		(at 62.23 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b8a202d-6133-4862-9a52-6ba73b4c7939")
+	)
+	(junction
 		(at 210.82 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2292,6 +2298,26 @@
 			(type default)
 		)
 		(uuid "263cdfee-0838-4249-a145-070ae9881f5a")
+	)
+	(wire
+		(pts
+			(xy 59.69 170.18) (xy 62.23 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27273990-d87d-4287-8bab-6cf60574b6db")
+	)
+	(wire
+		(pts
+			(xy 62.23 170.18) (xy 66.04 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284611f9-c620-4333-8c3e-8353c79ae834")
 	)
 	(wire
 		(pts
@@ -2432,6 +2458,16 @@
 			(type default)
 		)
 		(uuid "536be3b6-7bd6-43b7-99da-4428521fa695")
+	)
+	(wire
+		(pts
+			(xy 62.23 170.18) (xy 62.23 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fc1f62-1846-4571-b0a3-1ca25d4b91d6")
 	)
 	(wire
 		(pts
@@ -2645,6 +2681,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 180.34) (xy 62.23 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c99c71b-3ab2-405e-b601-5a9734ab8e2f")
+	)
+	(wire
+		(pts
 			(xy 78.74 71.12) (xy 78.74 78.74)
 		)
 		(stroke
@@ -2855,6 +2901,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 170.18) (xy 52.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57dda6a-2e3b-476a-bfd1-3fcaa852281b")
+	)
+	(wire
+		(pts
 			(xy 210.82 137.16) (xy 210.82 135.89)
 		)
 		(stroke
@@ -2993,6 +3049,16 @@
 		)
 		(uuid "0a696471-095d-45bc-8a97-60ea2edb4071")
 	)
+	(label "RCA_IN"
+		(at 41.91 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19fa52fa-f7f5-4ab1-8bdf-e30df581883a")
+	)
 	(label "OUT_B"
 		(at 257.81 119.38 270)
 		(effects
@@ -3012,6 +3078,26 @@
 			(justify left bottom)
 		)
 		(uuid "39907313-514c-4dc6-860b-7cf9b685a3cf")
+	)
+	(label "RCA_IN"
+		(at 43.18 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cd2c4c9-0027-445c-85c9-71bcb22f916a")
+	)
+	(label "RCA_JACK_IN"
+		(at 49.53 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43c881f6-9fc2-4c8f-9db7-83db3dd23f79")
 	)
 	(label "AUDIO_GND"
 		(at 220.98 151.13 0)
@@ -3103,16 +3189,6 @@
 		)
 		(uuid "79c2af75-199c-4073-abe2-0dee87152df0")
 	)
-	(label "IN_RCA"
-		(at 41.91 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f5b5851-9ffc-4399-beba-7bf854d9efa4")
-	)
 	(label "-12VA"
 		(at 231.14 161.29 0)
 		(effects
@@ -3142,6 +3218,16 @@
 			(justify left bottom)
 		)
 		(uuid "999a6f69-5735-4708-b6c4-5015924aedca")
+	)
+	(label "AUDIO_GND"
+		(at 62.23 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a08a0d75-28cf-4c2b-98c4-b96e4ac36c11")
 	)
 	(label "AUDIO_GND"
 		(at 222.25 116.84 0)
@@ -3223,6 +3309,16 @@
 		)
 		(uuid "eb371856-1bfb-4719-a212-fac3c8549f78")
 	)
+	(label "RCA_IN"
+		(at 66.04 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec5e9b60-2fa2-49c9-a086-24791d515444")
+	)
 	(label "OUT_A"
 		(at 231.14 57.15 0)
 		(effects
@@ -3242,16 +3338,6 @@
 			(justify left bottom)
 		)
 		(uuid "f62066cf-4ee8-4b00-9b26-a3934fbb0c67")
-	)
-	(label "IN_RCA"
-		(at 43.18 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f69d8a34-378d-42be-af28-011c0e8aedce")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3920,6 +4006,88 @@
 			(project "jfet_buffer_dual_rail"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 176.53 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3920ed2f-9bfa-492d-98cc-effa20567eb3")
+		(property "Reference" "C25"
+			(at 67.056 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1nF (COG/NP0)"
+			(at 60.452 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 63.1952 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60eabb0f-097b-4e36-b7e8-3c0a7fa06a92")
+		)
+		(pin "2"
+			(uuid "2b8b6afa-eebf-4976-badd-e10c94f8e2cc")
+		)
+		(instances
+			(project "jfet_buffer_dual_rail"
+				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5614,6 +5782,86 @@
 			(project "jfet_buffer_dual_rail"
 				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 170.18 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffdb8985-9b18-4b7b-9d05-d1464bd764f2")
+		(property "Reference" "R12"
+			(at 55.626 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 55.626 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 55.88 171.958 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0892839b-68e8-4b49-8f50-2319b379bed6")
+		)
+		(pin "2"
+			(uuid "24bb6d28-a5d6-45f6-a74c-914e1a41d843")
+		)
+		(instances
+			(project "jfet_buffer_dual_rail"
+				(path "/4a69c903-ca61-4bf4-abb9-de13d0f3d285"
+					(reference "R12")
 					(unit 1)
 				)
 			)

@@ -1194,17 +1194,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Film Caps (wima)\n"
-		(exclude_from_sim no)
-		(at 76.454 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "678ed03e-cc31-4e3b-b5a1-580575c47a14")
-	)
-	(text "Film Caps (wima)\n"
+	(text "X7R Caps\n"
 		(exclude_from_sim no)
 		(at 107.696 41.148 0)
 		(effects
@@ -1213,6 +1203,16 @@
 			)
 		)
 		(uuid "eca83a46-ed85-46ad-b98f-d2693ce7b1e5")
+	)
+	(text "X7R Caps\n"
+		(exclude_from_sim no)
+		(at 79.756 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7a58f06-3090-4ccf-8b26-af3e6d32148b")
 	)
 	(junction
 		(at 100.33 72.39)
@@ -2159,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 180.34 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -2436,7 +2436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 87.9348 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2524,7 +2524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 107.6452 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3088,7 +3088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 107.6452 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3608,7 +3608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 87.9348 48.26 0)
 			(hide yes)
 			(show_name no)
