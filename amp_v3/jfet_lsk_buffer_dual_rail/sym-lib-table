@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "LSK389B-dual-to71") (type "KiCad") (uri "${KIPRJMOD}/LSK389B-dual-to71.kicad_sym") (options "") (descr ""))
+)

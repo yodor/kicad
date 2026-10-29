@@ -136,7 +136,7 @@
 			(pin passive line
 				(at -3.81 5.08 270)
 				(length 2.54)
-				(name "D"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,7 +154,7 @@
 			(pin passive line
 				(at -3.81 -5.08 90)
 				(length 2.54)
-				(name "S"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -189,10 +189,10 @@
 			)
 		)
 		(symbol "LSK389B_2_1"
-			(pin input line
-				(at -11.43 0 0)
-				(length 5.334)
-				(name "G"
+			(pin passive line
+				(at -3.81 -5.08 90)
+				(length 2.54)
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,9 +208,9 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 90)
+				(at -3.81 5.08 270)
 				(length 2.54)
-				(name "S"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -225,10 +225,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -3.81 5.08 270)
-				(length 2.54)
-				(name "D"
+			(pin input line
+				(at -11.43 0 0)
+				(length 5.334)
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
