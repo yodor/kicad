@@ -3662,7 +3662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "150"
 			(at 210.82 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +3830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "150"
 			(at 212.09 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4248,7 +4248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "150"
 			(at 210.82 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4397,6 +4397,7 @@
 	(symbol
 		(lib_id "LSK389B-dual-to71:LSK389B")
 		(at 215.9 39.37 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4404,10 +4405,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a2c18d5-cf57-4143-92a5-58695cfbd18d")
 		(property "Reference" "Q1"
-			(at 214.63 39.3699 0)
+			(at 214.63 39.3701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4593,7 +4593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "150"
 			(at 212.09 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,22 +4973,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "f39ba5b8-d828-4dc5-8b6a-3d96a8a01a82")
+			(uuid "f39ba5b8-d828-4dc5-8b6a-3d96a8a01a83")
 		)
 		(pin "4"
-			(uuid "f56d4281-e40e-4b72-b088-c2782eaf00c4")
+			(uuid "f56d4281-e40e-4b72-b088-c2782eaf00c5")
 		)
 		(pin "5"
-			(uuid "03be146a-346f-4094-9f1d-73973ca9b5c1")
+			(uuid "03be146a-346f-4094-9f1d-73973ca9b5c2")
 		)
 		(pin "3"
-			(uuid "031feb02-e33e-4d07-88ea-f50e235fca7c")
+			(uuid "031feb02-e33e-4d07-88ea-f50e235fca7d")
 		)
 		(pin "1"
-			(uuid "cc12f222-3361-4ec4-85bc-24aefe71361a")
+			(uuid "cc12f222-3361-4ec4-85bc-24aefe71361b")
 		)
 		(pin "2"
-			(uuid "af935600-5b49-4715-bcc0-7a85318d976b")
+			(uuid "af935600-5b49-4715-bcc0-7a85318d976c")
 		)
 		(instances
 			(project "jfet_lsk_buffer_dual_rail"
@@ -5256,6 +5256,7 @@
 	(symbol
 		(lib_id "LSK389B-dual-to71:LSK389B")
 		(at 214.63 118.11 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5263,10 +5264,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0804171-37fe-42e9-ab77-cbecfb40ac1c")
 		(property "Reference" "Q2"
-			(at 213.36 118.1099 0)
+			(at 213.36 118.1101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5320,13 +5320,13 @@
 			)
 		)
 		(pin "6"
-			(uuid "f39ba5b8-d828-4dc5-8b6a-3d96a8a01a82")
+			(uuid "f39ba5b8-d828-4dc5-8b6a-3d96a8a01a84")
 		)
 		(pin "4"
-			(uuid "f56d4281-e40e-4b72-b088-c2782eaf00c4")
+			(uuid "f56d4281-e40e-4b72-b088-c2782eaf00c6")
 		)
 		(pin "5"
-			(uuid "03be146a-346f-4094-9f1d-73973ca9b5c1")
+			(uuid "03be146a-346f-4094-9f1d-73973ca9b5c3")
 		)
 		(pin "3"
 			(uuid "78834d3b-5d1d-4ac3-bceb-cd0af6be27ea")
@@ -5463,7 +5463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 220.98 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5589,13 +5589,13 @@
 			(uuid "deab1931-1825-49b6-88fe-8b46ab6666f6")
 		)
 		(pin "3"
-			(uuid "031feb02-e33e-4d07-88ea-f50e235fca7c")
+			(uuid "031feb02-e33e-4d07-88ea-f50e235fca7e")
 		)
 		(pin "1"
-			(uuid "cc12f222-3361-4ec4-85bc-24aefe71361a")
+			(uuid "cc12f222-3361-4ec4-85bc-24aefe71361c")
 		)
 		(pin "2"
-			(uuid "af935600-5b49-4715-bcc0-7a85318d976b")
+			(uuid "af935600-5b49-4715-bcc0-7a85318d976d")
 		)
 		(instances
 			(project "jfet_lsk_buffer_dual_rail"
@@ -5639,7 +5639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5723,7 +5723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 220.98 135.89 0)
 			(hide yes)
 			(show_name no)
