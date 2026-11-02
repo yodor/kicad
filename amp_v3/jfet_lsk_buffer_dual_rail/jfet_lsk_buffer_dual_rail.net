@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/home/yodor/kicad/jfet_lsk_buffer_dual_rail/jfet_lsk_buffer_dual_rail.kicad_sch")
-		(date "2026-10-30T02:35:05")
+		(source "/home/todor/kicad/amp_v3/jfet_lsk_buffer_dual_rail/jfet_lsk_buffer_dual_rail.kicad_sch")
+		(date "2026-11-02T19:37:36")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -1161,10 +1161,10 @@
 		(comp
 			(ref "R5")
 			(value "100K")
-			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1431,10 +1431,10 @@
 		(comp
 			(ref "R10")
 			(value "24")
-			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1485,10 +1485,10 @@
 		(comp
 			(ref "R11")
 			(value "24")
-			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)

@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/yodor/kicad/ldr_brd/ldr_brd.kicad_sch")
-		(date "2026-10-21T15:03:51")
+		(date "2026-10-30T21:02:18")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -57,11 +57,11 @@
 		(comp
 			(ref "C7")
 			(value "100uF")
-			(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2440,8 +2440,8 @@
 			(class "Default")
 			(node
 				(ref "J12")
-				(pin "3")
-				(pinfunction "Pin_3_3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 			(node
@@ -2457,8 +2457,8 @@
 			(class "Default")
 			(node
 				(ref "J12")
-				(pin "2")
-				(pinfunction "Pin_2_2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
 				(pintype "passive")
 			)
 			(node
